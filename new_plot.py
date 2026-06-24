@@ -44,7 +44,7 @@ def load_and_filter_entries(cache_file: str, chemical_system: str) -> List[Compu
         # Check if the structure's elements are a subset of our target system
         if structure_elements.issubset(target_elements):
             entry = ComputedEntry(
-                composition=structure.composition,
+                composition=structure.composition.element_composition,
                 # --- FIX: Use the correct key 'energy' instead of 'final_energy' ---
                 energy=result['final_energy'],
                 entry_id=entry_id
