@@ -126,8 +126,5 @@ Optionally set `CBORG_MODEL` or pass `--model` to choose a model other than the 
 
 ## Reading Material  
 
-```text
-Mattergen: https://www.nature.com/articles/s41586-025-08628-5  
-MatterSim: https://arxiv.org/abs/2405.04967
-```
-
+- [MatterGen](https://www.nature.com/articles/s41586-025-08628-5)
+- [MatterSim](https://arxiv.org/abs/2405.04967)
