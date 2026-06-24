@@ -123,3 +123,11 @@ Optionally set `CBORG_MODEL` or pass `--model` to choose a model other than the 
 - `analyze_2.py` skips rows where `parse_structure.py` reports `gen_id` as `N/A`.
 - `analyze_2.py` treats Si and Al as the same placeholder species when `MERGE_SI_AL = True`, making SOAP comparisons decoration-blind for those atoms.
 - `cluster_reference_agent.py` does not blindly trust the model response; it normalizes the table back to entries that are valid according to `cluster_assignments.csv` and `cluster_summary.csv`.
+
+## Reading Material  
+
+```text
+Mattergen: https://www.nature.com/articles/s41586-025-08628-5  
+MatterSim: https://arxiv.org/abs/2405.04967
+```
+
