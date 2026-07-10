@@ -20,3 +20,11 @@ CS_TEST/10/**/*.cif
 CS_TEST/similarity_score/gen_5853_vs_gen_1595_vs_gen_1871_similarity_scores.csv
 CS_TEST/similarity_score/gen_6302_vs_gen_435_similarity_scores.csv
 CS_TEST/similarity_score/similarity_scores.csv
+
+# oversized phonon band.yaml files (exceed GitHub's file size limits)
+CS_TEST/phonon_si_example/band.yaml
+CS_TEST/phonon_si_example/cluster_0/phonon_gen_5853_5M/band.yaml
+CS_TEST/phonon_si_example/phonon_EntryWithCollCode64962/band.yaml
+CS_TEST/phonon_si_example/phonon_POSCAR-prim-ref_5M/band.yaml
+CS_TEST/phonon_si_example/phonon_POSCAR-prim_5M/band.yaml
+CS_TEST/phonon_si_example/phonon_gen_1595_5M/band.yaml
