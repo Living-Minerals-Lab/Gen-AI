@@ -1,0 +1,22 @@
+# cifstoexplore folder
+CS_TEST/cifstoexplore/
+
+# all phonon folders, except phonon_si_example (and everything inside it)
+CS_TEST/phonon_*/
+!CS_TEST/phonon_si_example/
+
+# within phonon_si_example/cluster_0, ignore all folders except phonon_gen_5853_5M
+CS_TEST/phonon_si_example/cluster_0/*/
+!CS_TEST/phonon_si_example/cluster_0/phonon_gen_5853_5M/
+
+# ignore this specific folder within phonon_si_example
+CS_TEST/phonon_si_example/phonon_POSCAR-prim_ref_t/
+
+# .cif files inside numbered folders 1-10
+CS_TEST/[1-9]/**/*.cif
+CS_TEST/10/**/*.cif
+
+# specific similarity score CSVs
+CS_TEST/similarity_score/gen_5853_vs_gen_1595_vs_gen_1871_similarity_scores.csv
+CS_TEST/similarity_score/gen_6302_vs_gen_435_similarity_scores.csv
+CS_TEST/similarity_score/similarity_scores.csv
