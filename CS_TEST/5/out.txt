@@ -1,0 +1,3 @@
+Loading results from 'relaxation_results.json'...
+Error: Cache file not found at 'relaxation_results.json'
+No entries to analyze. Exiting.

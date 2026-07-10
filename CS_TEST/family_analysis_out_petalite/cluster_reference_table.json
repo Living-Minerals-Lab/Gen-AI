@@ -1,0 +1,1807 @@
+{
+  "references": [
+    "alpha",
+    "beta",
+    "P1a1",
+    "P12a1",
+    "ambient",
+    "560",
+    "890",
+    "1250"
+  ],
+  "rows": [
+    {
+      "cluster": -1,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 109
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 120
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 124
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 118
+          },
+          {
+            "mattergen_id": "mattergen-1171",
+            "gen_id": "gen_4525",
+            "rank": 130
+          },
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 146
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 91
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 93
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 119
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 96
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 108
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 125
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 95
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 107
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 123
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 120
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 128
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 136
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 133
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 135
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 152
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_1878",
+            "rank": 145
+          },
+          {
+            "mattergen_id": "mattergen-825",
+            "gen_id": "gen_8001",
+            "rank": 153
+          },
+          {
+            "mattergen_id": "mattergen-984",
+            "gen_id": "gen_1137",
+            "rank": 163
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 0,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 43
+          },
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 44
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 48
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-156",
+            "gen_id": "gen_3237",
+            "rank": 77
+          },
+          {
+            "mattergen_id": "mattergen-1126",
+            "gen_id": "gen_112",
+            "rank": 84
+          },
+          {
+            "mattergen_id": "mattergen-863",
+            "gen_id": "gen_8818",
+            "rank": 112
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 32
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 33
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 35
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 37
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 38
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 40
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 36
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 37
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 40
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 49
+          },
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 51
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 52
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 52
+          },
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 54
+          },
+          {
+            "mattergen_id": "mattergen-1001",
+            "gen_id": "gen_2160",
+            "rank": 58
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_2756",
+            "rank": 57
+          },
+          {
+            "mattergen_id": "mattergen-649",
+            "gen_id": "gen_4439",
+            "rank": 59
+          },
+          {
+            "mattergen_id": "mattergen-1126",
+            "gen_id": "gen_112",
+            "rank": 64
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 1,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 7
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 8
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 8
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 152
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 164
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 164
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 2
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 3
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 2
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 7
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 9
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 9
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 10
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 12
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 12
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-1273",
+            "gen_id": "gen_276",
+            "rank": 20
+          },
+          {
+            "mattergen_id": "mattergen-2116",
+            "gen_id": "gen_4779",
+            "rank": 22
+          },
+          {
+            "mattergen_id": "mattergen-766",
+            "gen_id": "gen_4779",
+            "rank": 22
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 2,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 337
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 340
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 345
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 349
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 354
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 369
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 331
+          },
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 332
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 337
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 334
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 337
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 340
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 334
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 336
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 338
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 339
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 346
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 348
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 343
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 347
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 348
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-578",
+            "gen_id": "gen_8729",
+            "rank": 345
+          },
+          {
+            "mattergen_id": "mattergen-1285",
+            "gen_id": "gen_8667",
+            "rank": 349
+          },
+          {
+            "mattergen_id": "mattergen-568",
+            "gen_id": "gen_9042",
+            "rank": 350
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 3,
+      "refs_inside": [
+        "alpha",
+        "beta",
+        "P1a1",
+        "P12a1",
+        "ambient",
+        "560",
+        "890",
+        "1250"
+      ],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-917",
+            "gen_id": "gen_1193",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 5
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-801",
+            "gen_id": "gen_3984",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-975",
+            "gen_id": "gen_1516",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-1131",
+            "gen_id": "gen_1068",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-977",
+            "gen_id": "gen_3437",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-1308",
+            "gen_id": "gen_8155",
+            "rank": 5
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-917",
+            "gen_id": "gen_1193",
+            "rank": 10
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 13
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 14
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 15
+          },
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 16
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-917",
+            "gen_id": "gen_1193",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 6
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 7
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 10
+          },
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 14
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-917",
+            "gen_id": "gen_1193",
+            "rank": 5
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 7
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 9
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 12
+          },
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 14
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-1308",
+            "gen_id": "gen_8155",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 5
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-1308",
+            "gen_id": "gen_8155",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-615",
+            "gen_id": "gen_7077",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-446",
+            "gen_id": "gen_85",
+            "rank": 5
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-1308",
+            "gen_id": "gen_8155",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_1871",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-1096",
+            "gen_id": "gen_1174",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-203",
+            "gen_id": "gen_1357",
+            "rank": 5
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 4,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 231
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 245
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 246
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 190
+          },
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 196
+          },
+          {
+            "mattergen_id": "mattergen-728",
+            "gen_id": "gen_2820",
+            "rank": 213
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 229
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 240
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 242
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 230
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 243
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 245
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 230
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 242
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 244
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 230
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 242
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 244
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 226
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 246
+          },
+          {
+            "mattergen_id": "mattergen-1004",
+            "gen_id": "gen_7296",
+            "rank": 247
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173",
+            "rank": 231
+          },
+          {
+            "mattergen_id": "mattergen-692",
+            "gen_id": "gen_1888",
+            "rank": 246
+          },
+          {
+            "mattergen_id": "mattergen-1166",
+            "gen_id": "gen_6410",
+            "rank": 248
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 5,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 395
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 398
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 401
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 374
+          },
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 378
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 379
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 397
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 402
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 403
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 396
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 401
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 403
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 396
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 401
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 403
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 393
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 397
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 398
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 393
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 396
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 397
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-104",
+            "gen_id": "gen_3006",
+            "rank": 392
+          },
+          {
+            "mattergen_id": "mattergen-548",
+            "gen_id": "gen_6700",
+            "rank": 394
+          },
+          {
+            "mattergen_id": "mattergen-1329",
+            "gen_id": "gen_755",
+            "rank": 395
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 6,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-788",
+            "gen_id": "gen_3819",
+            "rank": 462
+          },
+          {
+            "mattergen_id": "mattergen-2138",
+            "gen_id": "gen_3819",
+            "rank": 463
+          },
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908",
+            "rank": 464
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 7,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 126
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 160
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 169
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-1310",
+            "gen_id": "gen_7480",
+            "rank": 129
+          },
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 145
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 168
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 116
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 150
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 163
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 122
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 155
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 165
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 121
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 153
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 165
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 131
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 161
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 170
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 139
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 163
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 174
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-993",
+            "gen_id": "gen_8307",
+            "rank": 151
+          },
+          {
+            "mattergen_id": "mattergen-815",
+            "gen_id": "gen_8462",
+            "rank": 165
+          },
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851",
+            "rank": 179
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 8,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 129
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 177
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 184
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 191
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 209
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 225
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 109
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 164
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 175
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 115
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 172
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 180
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 114
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 169
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 179
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 145
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 182
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 189
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 159
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 187
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 192
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-659",
+            "gen_id": "gen_307",
+            "rank": 164
+          },
+          {
+            "mattergen_id": "mattergen-685",
+            "gen_id": "gen_4466",
+            "rank": 195
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802",
+            "rank": 201
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 9,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 212
+          },
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 215
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 216
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-215",
+            "gen_id": "gen_4144",
+            "rank": 219
+          },
+          {
+            "mattergen_id": "mattergen-906",
+            "gen_id": "gen_2434",
+            "rank": 239
+          },
+          {
+            "mattergen_id": "mattergen-1034",
+            "gen_id": "gen_90",
+            "rank": 250
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 193
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 195
+          },
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 199
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 205
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 206
+          },
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 207
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 205
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 206
+          },
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 207
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 218
+          },
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 220
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 223
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 222
+          },
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 224
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 225
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-433",
+            "gen_id": "gen_6646",
+            "rank": 229
+          },
+          {
+            "mattergen_id": "mattergen-532",
+            "gen_id": "gen_8729",
+            "rank": 236
+          },
+          {
+            "mattergen_id": "mattergen-420",
+            "gen_id": "gen_6792",
+            "rank": 240
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 10,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 135
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 157
+          },
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 158
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 174
+          },
+          {
+            "mattergen_id": "mattergen-1049",
+            "gen_id": "gen_3451",
+            "rank": 195
+          },
+          {
+            "mattergen_id": "mattergen-1025",
+            "gen_id": "gen_8383",
+            "rank": 216
+          }
+        ],
+        "P1a1": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 94
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 118
+          },
+          {
+            "mattergen_id": "mattergen-1223",
+            "gen_id": "gen_339",
+            "rank": 120
+          }
+        ],
+        "P12a1": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 113
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 133
+          },
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 134
+          }
+        ],
+        "ambient": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 111
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 133
+          },
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 134
+          }
+        ],
+        "560": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 158
+          },
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 163
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 164
+          }
+        ],
+        "890": [
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 167
+          },
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 168
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 171
+          }
+        ],
+        "1250": [
+          {
+            "mattergen_id": "mattergen-132",
+            "gen_id": "gen_2941",
+            "rank": 183
+          },
+          {
+            "mattergen_id": "mattergen-1132",
+            "gen_id": "gen_1068",
+            "rank": 186
+          },
+          {
+            "mattergen_id": "mattergen-274",
+            "gen_id": "gen_4766",
+            "rank": 187
+          }
+        ]
+      }
+    }
+  ]
+}

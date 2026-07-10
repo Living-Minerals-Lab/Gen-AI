@@ -1,0 +1,151 @@
+import collections
+import sys
+import networkx as nx
+from pymatgen.core import Structure
+from pymatgen.analysis.graphs import StructureGraph
+from pymatgen.analysis.local_env import CrystalNN, CutOffDictNN
+import itertools
+import matplotlib.pyplot as plt
+
+def visualize_graph(graph, filename="framework_graph.png"):
+    """
+    Uses matplotlib to draw and save a visualization of a networkx graph.
+
+    Args:
+        graph (nx.Graph): The networkx graph to visualize.
+        filename (str): The path to save the output image file.
+    """
+    plt.figure(figsize=(12, 12))
+    # Use a spring layout for a more aesthetically pleasing arrangement
+    pos = nx.spring_layout(graph, iterations=100, seed=42)
+    nx.draw(graph, pos, 
+            with_labels=True, 
+            node_color='skyblue', 
+            node_size=400, 
+            font_size=8,
+            width=0.5)
+    plt.title("Framework-Only Graph Visualization")
+    plt.savefig(filename, dpi=300)
+    plt.close()
+    print(f"Graph visualization saved to {filename}")
+
+
+def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 8, visualize: bool = False):
+    """
+    Analyzes the aluminosilicate framework of a crystal structure to find and
+    count closed polyhedral rings using an optimized graph representation.
+
+    This function works by:
+    1. Loading a crystal structure from a file (e.g., CIF).
+    2. Building a bond graph of all atoms (Al, Si, O) using the chemically-
+       aware CrystalNN algorithm.
+    3. Creating a new, abstract 'framework-only' graph where only Al and Si
+       atoms are nodes. An edge is created between two framework atoms if and
+       only if they share an oxygen atom in the full structure.
+    4. (Optional) Visualizing this framework-only graph.
+    5. Finding all simple cycles in this highly efficient framework-only graph.
+       The length of a cycle found here directly corresponds to the size of the
+       polyhedral ring.
+    6. Counting the rings by their size.
+
+    Args:
+        structure_file (str): Path to the crystal structure file (e.g., 'beta_spodumene.cif').
+        max_framework_ring_size (int): The maximum size of Al/Si rings to search for.
+        visualize (bool): If True, save a PNG image of the framework graph.
+
+    Returns:
+        collections.Counter: A dictionary-like object with ring sizes as keys
+                             and their frequencies as values.
+    """
+    print(f"--- Analyzing {structure_file} ---")
+    
+    # 1. Load the structure from the provided file path
+    try:
+        structure = Structure.from_file(structure_file)
+    except Exception as e:
+        print(f"Error loading structure file: {e}")
+        return collections.Counter()
+
+    # 2. Create the full bond graph to understand connectivity.
+    # We are now using the chemically-aware CrystalNN, which is more robust.
+    crystal_nn = CrystalNN()
+
+    # --- Alternative for later: CutoffDictNN ---
+    # If you wanted to use explicit bond distances, you could use CutoffDictNN
+    # like this. It requires knowing reasonable bond lengths beforehand.
+    # cutoffs = {('Si', 'O'): 2.0, ('Al', 'O'): 2.0}
+    # cutoff_nn = CutOffDictNN(cutoffs)
+    # full_structure_graph = StructureGraph.with_local_env_strategy(structure, cutoff_nn)
+    
+    full_structure_graph = StructureGraph.with_local_env_strategy(structure, crystal_nn)
+
+    # 3. Build the optimized, framework-only graph.
+    framework_graph = nx.Graph()
+    
+    # Identify indices of framework (Al, Si) and bridging (O) atoms.
+    framework_indices = {i for i, site in enumerate(structure) if site.species_string in {'Al', 'Si'}}
+    oxygen_indices = [i for i, site in enumerate(structure) if site.species_string == 'O']
+    
+    # Add only framework atoms as nodes to the new graph.
+    framework_graph.add_nodes_from(framework_indices)
+    
+    # For each oxygen, find its framework neighbors. Add edges between these
+    # neighbors in our new framework_graph.
+    for o_idx in oxygen_indices:
+        neighbors = full_structure_graph.get_connected_sites(o_idx)
+        
+        # Filter neighbors to keep only Al/Si atoms
+        framework_neighbors = [n.index for n in neighbors if n.index in framework_indices]
+        
+        # Since CrystalNN is chemically intelligent, it should correctly identify
+        # bridging oxygens as having only 2 framework neighbors. We can still
+        # enforce this for maximum robustness.
+        if len(framework_neighbors) == 2:
+            atom1, atom2 = framework_neighbors
+            framework_graph.add_edge(atom1, atom2)
+
+    # 4. (Optional) Visualize the graph before finding cycles.
+    if visualize:
+        output_filename = f"{structure_file.rsplit('.', 1)[0]}_graph.png"
+        visualize_graph(framework_graph, filename=output_filename)
+
+    # 5. Find all simple cycles in the much smaller, optimized graph.
+    # The length_bound now corresponds directly to the framework ring size.
+    all_rings = list(nx.simple_cycles(framework_graph, length_bound=max_framework_ring_size))
+
+    # 6. Count the rings found. No complex filtering is needed anymore.
+    framework_ring_counts = collections.Counter()
+    for ring_path in all_rings:
+        # The length of the path in this graph IS the ring size.
+        framework_ring_counts[len(ring_path)] += 1
+            
+    if not framework_ring_counts:
+        print("No valid framework rings found.")
+    else:
+        print("Found framework ring counts:")
+        for size, count in sorted(framework_ring_counts.items()):
+            print(f"  - {size}-membered rings: {count}")
+            
+    return framework_ring_counts
+
+
+if __name__ == '__main__':
+    # --- Main execution block ---
+    
+    # Check for the --visualize flag
+    visualize_output = "--visualize" in sys.argv
+    
+    # Get the list of cif files, excluding the flag
+    cif_files = [f for f in sys.argv[1:] if f != "--visualize"]
+    
+    if not cif_files:
+        print("Usage: python ring_analyzer.py [--visualize] <file1.cif> <file2.cif> ...")
+        sys.exit(1)
+        
+    # Loop through all files provided as command line arguments
+    for i, cif_file in enumerate(cif_files):
+        # We can increase the max ring size now that the algorithm is faster
+        analyze_framework_rings(cif_file, max_framework_ring_size=6, visualize=visualize_output)
+        if i < len(cif_files) - 1:
+             print("\n" + "="*40 + "\n")
+

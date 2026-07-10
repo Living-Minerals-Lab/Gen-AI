@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"mattersim\\\\|relax_and_phonon\\\\|conda activate\\\\|module load\\\\|venv\" /global/homes/a/apetluri/.bash_history 2>/dev/null | tail -60)",
+      "Read(//global/u1/a/apetluri/**)"
+    ]
+  }
+}

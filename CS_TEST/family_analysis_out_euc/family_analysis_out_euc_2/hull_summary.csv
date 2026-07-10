@@ -1,0 +1,4 @@
+cluster,size,mean_e_hull,std_e_hull,min_e_hull,min_e_hull_gen_id,min_e_hull_mattergen_id,min_e_hull_directory
+0,31,0.09551612903225805,0.09565660052356705,0.03,gen_1803,mattergen-64,2-0
+1,178,0.10286516853932585,0.05996912895164299,0.017,gen_4653,mattergen-294,2-0
+2,30,0.16196666666666668,0.04892544214300867,0.066,gen_8519,mattergen-829,2-0

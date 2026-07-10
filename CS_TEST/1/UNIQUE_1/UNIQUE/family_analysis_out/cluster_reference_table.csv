@@ -1,0 +1,4 @@
+cluster,refs_inside,alpha,beta
+-1,alpha,mattergen-680 | gen_100.cif (rank 3); mattergen-975 | gen_1516.cif (rank 6); mattergen-1223 | gen_339.cif (rank 8); mattergen-320 | gen_4402.cif (rank 11); mattergen-658 | gen_3560.cif (rank 13),
+0,beta,,mattergen-774 | gen_3.cif (rank 2); mattergen-802 | gen_2698.cif (rank 3); mattergen-503 | gen_6077.cif (rank 4); mattergen-948 | gen_9359.cif (rank 5); mattergen-1087 | gen_7598.cif (rank 6)
+1,,mattergen-918 | gen_173.cif (rank 12); mattergen-787 | gen_3137.cif (rank 14); mattergen-440 | gen_5086.cif (rank 15),mattergen-918 | gen_173.cif (rank 9); mattergen-787 | gen_3137.cif (rank 12); mattergen-440 | gen_5086.cif (rank 15)

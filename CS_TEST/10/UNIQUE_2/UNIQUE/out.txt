@@ -1,0 +1,3399 @@
+Loading results from 'relaxation_results.json'...
+Filtering for chemical system: Li-Al-Si-O
+Found 3389 entries matching the 'Li-Al-Si-O' system.
+
+Constructing phase diagram and analyzing stability...
+
+--- Stability Analysis (Energy Above Hull) ---
+  mp-731836-GGA   (Al(Si2O5)2): 0.098 eV/atom
+  mp-1228240-GGA  (AlSi3O8 ): 0.118 eV/atom
+  mp-1228295-GGA  (AlSi3O8 ): 0.145 eV/atom
+  mp-1344662-GGA  (AlSi3O8 ): 0.516 eV/atom
+  mp-1228255-GGA  (AlSi3O8 ): 0.134 eV/atom
+  mp-1229057-GGA  (AlSi3O8 ): 0.113 eV/atom
+  mp-1229207-GGA  (Al(SiO3)2): 0.154 eV/atom
+  mp-1229033-GGA  (Al(SiO3)2): 0.155 eV/atom
+  mp-732264-GGA   (Al(SiO3)2): 0.080 eV/atom
+  mp-726107-GGA   (Al(SiO3)2): 0.161 eV/atom
+  mp-1229099-GGA  (Al(SiO3)2): 0.157 eV/atom
+  mp-726892-GGA   (Al(SiO3)2): 0.079 eV/atom
+  mp-707135-GGA   (Al2Si4O11): 0.029 eV/atom
+  mattergen-1305  (Al2Si4O11): 0.235 eV/atom
+  mattergen-2655  (Al2Si4O11): 0.235 eV/atom
+  mp-1103571-GGA  (Al2Si2O11): 0.466 eV/atom
+  mp-1182905-GGA  (Al2Si2O11): 0.651 eV/atom
+  mp-1183020-GGA  (Al2Si2O11): 0.387 eV/atom
+  mattergen-161   (Al2(SiO3)3): 0.078 eV/atom
+  mattergen-586   (Al2(SiO3)3): 0.150 eV/atom
+  mattergen-627   (Al2(SiO3)3): 0.093 eV/atom
+  mattergen-629   (Al2(SiO3)3): 0.156 eV/atom
+  mattergen-630   (Al2(SiO3)3): 0.336 eV/atom
+  mattergen-649   (Al2(SiO3)3): 0.151 eV/atom
+  mattergen-856   (Al2(SiO3)3): 0.144 eV/atom
+  mattergen-882   (Al2(SiO3)3): 0.084 eV/atom
+  mattergen-908   (Al2(SiO3)3): 0.098 eV/atom
+  mattergen-921   (Al2(SiO3)3): 0.099 eV/atom
+  mattergen-994   (Al2(SiO3)3): 0.196 eV/atom
+  mattergen-1155  (Al2(SiO3)3): 0.157 eV/atom
+  mattergen-1220  (Al2(SiO3)3): 0.124 eV/atom
+  mattergen-1511  (Al2(SiO3)3): 0.078 eV/atom
+  mattergen-1936  (Al2(SiO3)3): 0.150 eV/atom
+  mattergen-1977  (Al2(SiO3)3): 0.093 eV/atom
+  mattergen-1979  (Al2(SiO3)3): 0.156 eV/atom
+  mattergen-1980  (Al2(SiO3)3): 0.336 eV/atom
+  mattergen-1999  (Al2(SiO3)3): 0.151 eV/atom
+  mattergen-2206  (Al2(SiO3)3): 0.144 eV/atom
+  mattergen-2232  (Al2(SiO3)3): 0.084 eV/atom
+  mattergen-2258  (Al2(SiO3)3): 0.098 eV/atom
+  mattergen-2271  (Al2(SiO3)3): 0.099 eV/atom
+  mattergen-2344  (Al2(SiO3)3): 0.196 eV/atom
+  mattergen-2505  (Al2(SiO3)3): 0.157 eV/atom
+  mattergen-2570  (Al2(SiO3)3): 0.124 eV/atom
+  mp-1192646-GGA  (Al2Si2O9): 0.339 eV/atom
+  mp-1192629-GGA  (Al2Si2O9): 0.338 eV/atom
+  mp-1103547-GGA  (Al2Si2O9): 0.341 eV/atom
+  mp-1192644-GGA  (Al2Si2O9): 0.341 eV/atom
+  mp-1201477-GGA  (Al2Si2O9): 0.433 eV/atom
+  mp-1194176-GGA  (Al2Si2O9): 0.304 eV/atom
+  mp-1203554-GGA  (Al4Si19 ): 0.114 eV/atom
+  mp-731939-GGA   (Al2Si2O7): 0.261 eV/atom
+  mp-755043-GGA   (Al2Si2O7): 0.020 eV/atom
+  mattergen-109   (Al2Si2O7): 0.089 eV/atom
+  mattergen-112   (Al2Si2O7): 0.112 eV/atom
+  mattergen-165   (Al2Si2O7): 0.077 eV/atom
+  mattergen-179   (Al2Si2O7): 0.157 eV/atom
+  mattergen-195   (Al2Si2O7): 0.092 eV/atom
+  mattergen-255   (Al2Si2O7): 0.165 eV/atom
+  mattergen-293   (Al2Si2O7): 0.061 eV/atom
+  mattergen-330   (Al2Si2O7): 0.045 eV/atom
+  mattergen-378   (Al2Si2O7): 0.100 eV/atom
+  mattergen-379   (Al2Si2O7): 0.106 eV/atom
+  mattergen-417   (Al2Si2O7): 0.098 eV/atom
+  mattergen-499   (Al2Si2O7): 0.143 eV/atom
+  mattergen-527   (Al2Si2O7): 0.043 eV/atom
+  mattergen-542   (Al2Si2O7): 0.105 eV/atom
+  mattergen-563   (Al2Si2O7): 0.159 eV/atom
+  mattergen-631   (Al2Si2O7): 0.141 eV/atom
+  mattergen-646   (Al2Si2O7): 0.061 eV/atom
+  mattergen-751   (Al2Si2O7): 0.175 eV/atom
+  mattergen-845   (Al2Si2O7): 0.221 eV/atom
+  mattergen-853   (Al2Si2O7): 0.040 eV/atom
+  mattergen-877   (Al2Si2O7): 0.120 eV/atom
+  mattergen-983   (Al2Si2O7): 0.073 eV/atom
+  mattergen-998   (Al2Si2O7): 0.134 eV/atom
+  mattergen-1113  (Al2Si2O7): 0.059 eV/atom
+  mattergen-1130  (Al2Si2O7): 0.169 eV/atom
+  mattergen-1233  (Al2Si2O7): 0.085 eV/atom
+  mattergen-1459  (Al2Si2O7): 0.089 eV/atom
+  mattergen-1462  (Al2Si2O7): 0.112 eV/atom
+  mattergen-1515  (Al2Si2O7): 0.077 eV/atom
+  mattergen-1529  (Al2Si2O7): 0.157 eV/atom
+  mattergen-1545  (Al2Si2O7): 0.092 eV/atom
+  mattergen-1605  (Al2Si2O7): 0.165 eV/atom
+  mattergen-1643  (Al2Si2O7): 0.061 eV/atom
+  mattergen-1680  (Al2Si2O7): 0.045 eV/atom
+  mattergen-1728  (Al2Si2O7): 0.100 eV/atom
+  mattergen-1729  (Al2Si2O7): 0.106 eV/atom
+  mattergen-1767  (Al2Si2O7): 0.098 eV/atom
+  mattergen-1849  (Al2Si2O7): 0.143 eV/atom
+  mattergen-1877  (Al2Si2O7): 0.043 eV/atom
+  mattergen-1892  (Al2Si2O7): 0.105 eV/atom
+  mattergen-1913  (Al2Si2O7): 0.159 eV/atom
+  mattergen-1981  (Al2Si2O7): 0.141 eV/atom
+  mattergen-1996  (Al2Si2O7): 0.061 eV/atom
+  mattergen-2101  (Al2Si2O7): 0.175 eV/atom
+  mattergen-2195  (Al2Si2O7): 0.221 eV/atom
+  mattergen-2203  (Al2Si2O7): 0.040 eV/atom
+  mattergen-2227  (Al2Si2O7): 0.120 eV/atom
+  mattergen-2333  (Al2Si2O7): 0.073 eV/atom
+  mattergen-2348  (Al2Si2O7): 0.134 eV/atom
+  mattergen-2463  (Al2Si2O7): 0.059 eV/atom
+  mattergen-2480  (Al2Si2O7): 0.169 eV/atom
+  mattergen-2583  (Al2Si2O7): 0.085 eV/atom
+  mattergen-66    (Al2Si5O13): 0.186 eV/atom
+  mattergen-135   (Al2Si5O13): 0.193 eV/atom
+  mattergen-139   (Al2Si5O13): 0.164 eV/atom
+  mattergen-217   (Al2Si5O13): 0.134 eV/atom
+  mattergen-220   (Al2Si5O13): 0.137 eV/atom
+  mattergen-336   (Al2Si5O13): 0.162 eV/atom
+  mattergen-338   (Al2Si5O13): 0.148 eV/atom
+  mattergen-397   (Al2Si5O13): 0.188 eV/atom
+  mattergen-425   (Al2Si5O13): 0.070 eV/atom
+  mattergen-439   (Al2Si5O13): 0.050 eV/atom
+  mattergen-448   (Al2Si5O13): 0.161 eV/atom
+  mattergen-532   (Al2Si5O13): 0.176 eV/atom
+  mattergen-605   (Al2Si5O13): 0.091 eV/atom
+  mattergen-784   (Al2Si5O13): 0.366 eV/atom
+  mattergen-796   (Al2Si5O13): 0.152 eV/atom
+  mattergen-799   (Al2Si5O13): 0.095 eV/atom
+  mattergen-821   (Al2Si5O13): 0.097 eV/atom
+  mattergen-926   (Al2Si5O13): 0.207 eV/atom
+  mattergen-984   (Al2Si5O13): 0.112 eV/atom
+  mattergen-987   (Al2Si5O13): 0.204 eV/atom
+  mattergen-1047  (Al2Si5O13): 0.097 eV/atom
+  mattergen-1067  (Al2Si5O13): 0.212 eV/atom
+  mattergen-1133  (Al2Si5O13): 0.167 eV/atom
+  mattergen-1245  (Al2Si5O13): 0.128 eV/atom
+  mattergen-1254  (Al2Si5O13): 0.171 eV/atom
+  mattergen-1313  (Al2Si5O13): 0.149 eV/atom
+  mattergen-1334  (Al2Si5O13): 0.156 eV/atom
+  mattergen-1416  (Al2Si5O13): 0.186 eV/atom
+  mattergen-1485  (Al2Si5O13): 0.193 eV/atom
+  mattergen-1489  (Al2Si5O13): 0.164 eV/atom
+  mattergen-1567  (Al2Si5O13): 0.134 eV/atom
+  mattergen-1570  (Al2Si5O13): 0.137 eV/atom
+  mattergen-1686  (Al2Si5O13): 0.162 eV/atom
+  mattergen-1688  (Al2Si5O13): 0.148 eV/atom
+  mattergen-1747  (Al2Si5O13): 0.188 eV/atom
+  mattergen-1775  (Al2Si5O13): 0.070 eV/atom
+  mattergen-1789  (Al2Si5O13): 0.050 eV/atom
+  mattergen-1798  (Al2Si5O13): 0.161 eV/atom
+  mattergen-1882  (Al2Si5O13): 0.176 eV/atom
+  mattergen-1955  (Al2Si5O13): 0.091 eV/atom
+  mattergen-2134  (Al2Si5O13): 0.366 eV/atom
+  mattergen-2146  (Al2Si5O13): 0.152 eV/atom
+  mattergen-2149  (Al2Si5O13): 0.095 eV/atom
+  mattergen-2171  (Al2Si5O13): 0.097 eV/atom
+  mattergen-2276  (Al2Si5O13): 0.207 eV/atom
+  mattergen-2334  (Al2Si5O13): 0.112 eV/atom
+  mattergen-2337  (Al2Si5O13): 0.204 eV/atom
+  mattergen-2397  (Al2Si5O13): 0.097 eV/atom
+  mattergen-2417  (Al2Si5O13): 0.212 eV/atom
+  mattergen-2483  (Al2Si5O13): 0.167 eV/atom
+  mattergen-2595  (Al2Si5O13): 0.128 eV/atom
+  mattergen-2604  (Al2Si5O13): 0.171 eV/atom
+  mattergen-2663  (Al2Si5O13): 0.149 eV/atom
+  mattergen-2684  (Al2Si5O13): 0.156 eV/atom
+  mattergen-334   (Al4(SiO4)3): 0.115 eV/atom
+  mattergen-1684  (Al4(SiO4)3): 0.115 eV/atom
+  mp-1196880-GGA  (Al2SiO6 ): 0.264 eV/atom
+  mp-1253219-GGA  (AlO3    ): 0.839 eV/atom
+  mp-35200-GGA    (AlO3    ): 0.838 eV/atom
+  mp-1182911-GGA  (AlO3    ): 0.515 eV/atom
+  mp-1182877-GGA  (AlO3    ): 0.560 eV/atom
+  mp-1182887-GGA  (AlO3    ): 0.556 eV/atom
+  mp-2646975-GGA  (AlO3    ): 0.310 eV/atom
+  mp-1182868-GGA  (AlO3    ): 0.656 eV/atom
+  mp-1182915-GGA  (AlO3    ): 0.544 eV/atom
+  mp-1205393-GGA  (AlO3    ): 0.641 eV/atom
+  mp-1182886-GGA  (AlO3    ): 0.577 eV/atom
+  mp-1247890-GGA  (Al2SiO5 ): 0.049 eV/atom
+  mp-1183015-GGA  (Al2SiO5 ): 0.716 eV/atom
+  mp-640357-GGA   (Al2SiO5 ): 0.255 eV/atom
+  mp-4753-GGA     (Al2SiO5 ): 0.000 eV/atom
+  mp-9515-GGA     (Al2SiO5 ): 0.101 eV/atom
+  mp-5065-GGA     (Al2SiO5 ): 0.018 eV/atom
+  mp-9516-GGA     (Al2SiO5 ): 0.111 eV/atom
+  mp-4934-GGA     (Al2SiO5 ): 0.005 eV/atom
+  mattergen-69    (Al2SiO5 ): 0.165 eV/atom
+  mattergen-100   (Al2SiO5 ): 0.238 eV/atom
+  mattergen-133   (Al2SiO5 ): 0.306 eV/atom
+  mattergen-143   (Al2SiO5 ): 0.068 eV/atom
+  mattergen-447   (Al2SiO5 ): 0.177 eV/atom
+  mattergen-471   (Al2SiO5 ): 0.055 eV/atom
+  mattergen-510   (Al2SiO5 ): 0.065 eV/atom
+  mattergen-537   (Al2SiO5 ): 0.162 eV/atom
+  mattergen-544   (Al2SiO5 ): 0.157 eV/atom
+  mattergen-564   (Al2SiO5 ): 0.158 eV/atom
+  mattergen-634   (Al2SiO5 ): 0.114 eV/atom
+  mattergen-637   (Al2SiO5 ): 0.207 eV/atom
+  mattergen-715   (Al2SiO5 ): 0.126 eV/atom
+  mattergen-735   (Al2SiO5 ): 0.275 eV/atom
+  mattergen-851   (Al2SiO5 ): 0.094 eV/atom
+  mattergen-909   (Al2SiO5 ): 0.183 eV/atom
+  mattergen-943   (Al2SiO5 ): 0.310 eV/atom
+  mattergen-1054  (Al2SiO5 ): 0.221 eV/atom
+  mattergen-1084  (Al2SiO5 ): 0.107 eV/atom
+  mattergen-1150  (Al2SiO5 ): 0.071 eV/atom
+  mattergen-1291  (Al2SiO5 ): 0.146 eV/atom
+  mattergen-1419  (Al2SiO5 ): 0.165 eV/atom
+  mattergen-1450  (Al2SiO5 ): 0.238 eV/atom
+  mattergen-1483  (Al2SiO5 ): 0.306 eV/atom
+  mattergen-1493  (Al2SiO5 ): 0.068 eV/atom
+  mattergen-1797  (Al2SiO5 ): 0.177 eV/atom
+  mattergen-1821  (Al2SiO5 ): 0.055 eV/atom
+  mattergen-1860  (Al2SiO5 ): 0.065 eV/atom
+  mattergen-1887  (Al2SiO5 ): 0.162 eV/atom
+  mattergen-1894  (Al2SiO5 ): 0.157 eV/atom
+  mattergen-1914  (Al2SiO5 ): 0.158 eV/atom
+  mattergen-1984  (Al2SiO5 ): 0.114 eV/atom
+  mattergen-1987  (Al2SiO5 ): 0.207 eV/atom
+  mattergen-2065  (Al2SiO5 ): 0.126 eV/atom
+  mattergen-2085  (Al2SiO5 ): 0.275 eV/atom
+  mattergen-2201  (Al2SiO5 ): 0.094 eV/atom
+  mattergen-2259  (Al2SiO5 ): 0.183 eV/atom
+  mattergen-2293  (Al2SiO5 ): 0.310 eV/atom
+  mattergen-2404  (Al2SiO5 ): 0.221 eV/atom
+  mattergen-2434  (Al2SiO5 ): 0.107 eV/atom
+  mattergen-2500  (Al2SiO5 ): 0.071 eV/atom
+  mattergen-2641  (Al2SiO5 ): 0.146 eV/atom
+  mp-1247920-GGA  (Al8(SiO6)3): 0.209 eV/atom
+  mp-1193561-GGA  (Al3(SiO5)2): 0.277 eV/atom
+  mp-1183132-GGA  (AlSiO3  ): 1.020 eV/atom
+  mattergen-868   (Al2Si3O5): 0.542 eV/atom
+  mattergen-2218  (Al2Si3O5): 0.542 eV/atom
+  mattergen-1080  (Al4SiO8 ): 0.217 eV/atom
+  mattergen-2430  (Al4SiO8 ): 0.217 eV/atom
+  mp-1247887-GGA  (Al10Si2O19): 0.057 eV/atom
+  mp-28503-GGA    (Al10Si2O19): 0.064 eV/atom
+  mp-1247851-GGA  (Al10Si2O19): 0.069 eV/atom
+  mp-734251-GGA   (AlO2    ): 0.586 eV/atom
+  mp-1182869-GGA  (AlO2    ): 0.327 eV/atom
+  mp-1182858-GGA  (AlO2    ): 0.359 eV/atom
+  mp-1182900-GGA  (AlO2    ): 0.504 eV/atom
+  mp-1096799-GGA  (AlO2    ): 0.442 eV/atom
+  mattergen-614   (Al2Si3O ): 0.431 eV/atom
+  mattergen-1052  (Al2Si3O ): 0.401 eV/atom
+  mattergen-1182  (Al2Si3O ): 0.313 eV/atom
+  mattergen-1290  (Al2Si3O ): 0.388 eV/atom
+  mattergen-1964  (Al2Si3O ): 0.431 eV/atom
+  mattergen-2402  (Al2Si3O ): 0.401 eV/atom
+  mattergen-2532  (Al2Si3O ): 0.313 eV/atom
+  mattergen-2640  (Al2Si3O ): 0.406 eV/atom
+  mp-772413-GGA   (Al8SiO14): 0.056 eV/atom
+  mp-1247816-GGA  (Al8SiO14): 1.120 eV/atom
+  mp-1228858-GGA  (Al8SiO14): 0.078 eV/atom
+  mp-1229215-GGA  (Al11O18 ): 0.144 eV/atom
+  mp-1228138-GGA  (Al5O8   ): 0.145 eV/atom
+  mp-1182893-GGA  (Al5O8   ): 0.077 eV/atom
+  mattergen-443   (Al4SiO4 ): 0.257 eV/atom
+  mattergen-1793  (Al4SiO4 ): 0.257 eV/atom
+  mp-1245008-GGA  (Al2O3   ): 0.181 eV/atom
+  mp-1245183-GGA  (Al2O3   ): 0.196 eV/atom
+  mp-642363-GGA   (Al2O3   ): 0.283 eV/atom
+  mp-1245055-GGA  (Al2O3   ): 0.195 eV/atom
+  mp-782035-GGA   (Al2O3   ): 0.087 eV/atom
+  mp-684713-GGA   (Al2O3   ): 0.192 eV/atom
+  mp-32591-GGA    (Al2O3   ): 0.053 eV/atom
+  mp-1245023-GGA  (Al2O3   ): 0.226 eV/atom
+  mp-1245265-GGA  (Al2O3   ): 0.227 eV/atom
+  mp-1245251-GGA  (Al2O3   ): 0.189 eV/atom
+  mp-1244928-GGA  (Al2O3   ): 0.231 eV/atom
+  mp-685036-GGA   (Al2O3   ): 0.105 eV/atom
+  mp-1938-GGA     (Al2O3   ): 0.096 eV/atom
+  mp-755483-GGA   (Al2O3   ): 0.091 eV/atom
+  mp-1244940-GGA  (Al2O3   ): 0.179 eV/atom
+  mp-1244970-GGA  (Al2O3   ): 0.210 eV/atom
+  mp-1244909-GGA  (Al2O3   ): 0.160 eV/atom
+  mp-1247839-GGA  (Al2O3   ): 0.333 eV/atom
+  mp-1247896-GGA  (Al2O3   ): 0.190 eV/atom
+  mp-1245037-GGA  (Al2O3   ): 0.187 eV/atom
+  mp-1245065-GGA  (Al2O3   ): 0.173 eV/atom
+  mp-1247899-GGA  (Al2O3   ): 0.084 eV/atom
+  mp-1245080-GGA  (Al2O3   ): 0.173 eV/atom
+  mp-1244887-GGA  (Al2O3   ): 0.210 eV/atom
+  mp-1359927-GGA  (Al2O3   ): 0.202 eV/atom
+  mp-1244930-GGA  (Al2O3   ): 0.181 eV/atom
+  mp-2352722-GGA  (Al2O3   ): 0.212 eV/atom
+  mp-1245262-GGA  (Al2O3   ): 0.160 eV/atom
+  mp-1244874-GGA  (Al2O3   ): 0.196 eV/atom
+  mp-1245234-GGA  (Al2O3   ): 0.181 eV/atom
+  mp-2637304-GGA  (Al2O3   ): 0.687 eV/atom
+  mp-776475-GGA   (Al2O3   ): 0.032 eV/atom
+  mp-1245043-GGA  (Al2O3   ): 0.209 eV/atom
+  mp-1244892-GGA  (Al2O3   ): 0.218 eV/atom
+  mp-2254-GGA     (Al2O3   ): 0.019 eV/atom
+  mp-1244898-GGA  (Al2O3   ): 0.204 eV/atom
+  mp-754531-GGA   (Al2O3   ): 0.078 eV/atom
+  mp-684591-GGA   (Al2O3   ): 0.110 eV/atom
+  mp-1247880-GGA  (Al2O3   ): 0.082 eV/atom
+  mp-1245323-GGA  (Al2O3   ): 0.290 eV/atom
+  mp-1245279-GGA  (Al2O3   ): 0.188 eV/atom
+  mp-1245104-GGA  (Al2O3   ): 0.252 eV/atom
+  mp-32570-GGA    (Al2O3   ): 0.030 eV/atom
+  mp-985587-GGA   (Al2O3   ): 0.212 eV/atom
+  mp-1244994-GGA  (Al2O3   ): 0.223 eV/atom
+  mp-755175-GGA   (Al2O3   ): 0.064 eV/atom
+  mp-1245063-GGA  (Al2O3   ): 0.183 eV/atom
+  mp-1245191-GGA  (Al2O3   ): 0.178 eV/atom
+  mp-1245056-GGA  (Al2O3   ): 0.166 eV/atom
+  mp-723985-GGA   (Al2O3   ): 0.255 eV/atom
+  mp-755066-GGA   (Al2O3   ): 0.086 eV/atom
+  mp-1245173-GGA  (Al2O3   ): 0.153 eV/atom
+  mp-1245254-GGA  (Al2O3   ): 0.222 eV/atom
+  mp-684990-GGA   (Al2O3   ): 0.321 eV/atom
+  mp-1247846-GGA  (Al2O3   ): 0.140 eV/atom
+  mp-1228448-GGA  (Al2O3   ): 0.245 eV/atom
+  mp-1244982-GGA  (Al2O3   ): 0.176 eV/atom
+  mp-754812-GGA   (Al2O3   ): 0.057 eV/atom
+  mp-1244992-GGA  (Al2O3   ): 0.188 eV/atom
+  mp-1245211-GGA  (Al2O3   ): 0.038 eV/atom
+  mp-1105018-GGA  (Al2O3   ): 0.849 eV/atom
+  mp-1247914-GGA  (Al2O3   ): 0.074 eV/atom
+  mp-1244937-GGA  (Al2O3   ): 0.181 eV/atom
+  mp-1245111-GGA  (Al2O3   ): 0.157 eV/atom
+  mp-1245036-GGA  (Al2O3   ): 0.196 eV/atom
+  mp-752826-GGA   (Al2O3   ): 0.081 eV/atom
+  mp-1244947-GGA  (Al2O3   ): 0.166 eV/atom
+  mp-1245052-GGA  (Al2O3   ): 0.190 eV/atom
+  mp-1182923-GGA  (Al2O3   ): 0.095 eV/atom
+  mp-1244878-GGA  (Al2O3   ): 0.205 eV/atom
+  mp-1245024-GGA  (Al2O3   ): 0.199 eV/atom
+  mp-684677-GGA   (Al2O3   ): 0.155 eV/atom
+  mp-754401-GGA   (Al2O3   ): 0.046 eV/atom
+  mp-1244967-GGA  (Al2O3   ): 0.168 eV/atom
+  mp-1245081-GGA  (Al2O3   ): 0.196 eV/atom
+  mp-1244918-GGA  (Al2O3   ): 0.201 eV/atom
+  mp-1244954-GGA  (Al2O3   ): 0.194 eV/atom
+  mp-1244997-GGA  (Al2O3   ): 0.194 eV/atom
+  mp-638765-GGA   (Al2O3   ): 0.705 eV/atom
+  mp-1245196-GGA  (Al2O3   ): 0.204 eV/atom
+  mp-759943-GGA   (Al2O3   ): 0.030 eV/atom
+  mp-1245237-GGA  (Al2O3   ): 0.205 eV/atom
+  mp-1244868-GGA  (Al2O3   ): 0.189 eV/atom
+  mp-7048-GGA     (Al2O3   ): 0.010 eV/atom
+  mp-776490-GGA   (Al2O3   ): 0.048 eV/atom
+  mp-1247845-GGA  (Al2O3   ): 1.049 eV/atom
+  mp-1244981-GGA  (Al2O3   ): 0.267 eV/atom
+  mp-1143-GGA     (Al2O3   ): 0.000 eV/atom
+  mp-754624-GGA   (Al2O3   ): 0.061 eV/atom
+  mattergen-46    (Al2O3   ): 0.111 eV/atom
+  mattergen-56    (Al2O3   ): 0.246 eV/atom
+  mattergen-94    (Al2O3   ): 0.000 eV/atom
+  mattergen-110   (Al2O3   ): 0.125 eV/atom
+  mattergen-127   (Al2O3   ): 0.077 eV/atom
+  mattergen-174   (Al2O3   ): 0.059 eV/atom
+  mattergen-215   (Al2O3   ): 0.033 eV/atom
+  mattergen-268   (Al2O3   ): 0.102 eV/atom
+  mattergen-297   (Al2O3   ): 0.206 eV/atom
+  mattergen-344   (Al2O3   ): 0.062 eV/atom
+  mattergen-354   (Al2O3   ): 0.697 eV/atom
+  mattergen-357   (Al2O3   ): 0.070 eV/atom
+  mattergen-383   (Al2O3   ): 0.085 eV/atom
+  mattergen-392   (Al2O3   ): 0.412 eV/atom
+  mattergen-435   (Al2O3   ): 0.028 eV/atom
+  mattergen-478   (Al2O3   ): 0.076 eV/atom
+  mattergen-490   (Al2O3   ): 0.057 eV/atom
+  mattergen-525   (Al2O3   ): 0.079 eV/atom
+  mattergen-584   (Al2O3   ): 0.046 eV/atom
+  mattergen-621   (Al2O3   ): 0.088 eV/atom
+  mattergen-635   (Al2O3   ): 0.149 eV/atom
+  mattergen-760   (Al2O3   ): 0.053 eV/atom
+  mattergen-805   (Al2O3   ): 0.070 eV/atom
+  mattergen-849   (Al2O3   ): 0.043 eV/atom
+  mattergen-899   (Al2O3   ): 0.686 eV/atom
+  mattergen-939   (Al2O3   ): 0.152 eV/atom
+  mattergen-940   (Al2O3   ): 0.196 eV/atom
+  mattergen-959   (Al2O3   ): 0.092 eV/atom
+  mattergen-967   (Al2O3   ): 0.438 eV/atom
+  mattergen-1021  (Al2O3   ): 0.057 eV/atom
+  mattergen-1062  (Al2O3   ): 0.094 eV/atom
+  mattergen-1063  (Al2O3   ): 0.409 eV/atom
+  mattergen-1099  (Al2O3   ): 0.182 eV/atom
+  mattergen-1115  (Al2O3   ): 0.021 eV/atom
+  mattergen-1131  (Al2O3   ): 0.190 eV/atom
+  mattergen-1241  (Al2O3   ): 0.114 eV/atom
+  mattergen-1346  (Al2O3   ): 0.011 eV/atom
+  mattergen-1396  (Al2O3   ): 0.111 eV/atom
+  mattergen-1406  (Al2O3   ): 0.246 eV/atom
+  mattergen-1444  (Al2O3   ): 0.000 eV/atom
+  mattergen-1460  (Al2O3   ): 0.125 eV/atom
+  mattergen-1477  (Al2O3   ): 0.077 eV/atom
+  mattergen-1524  (Al2O3   ): 0.059 eV/atom
+  mattergen-1565  (Al2O3   ): 0.033 eV/atom
+  mattergen-1618  (Al2O3   ): 0.102 eV/atom
+  mattergen-1647  (Al2O3   ): 0.206 eV/atom
+  mattergen-1694  (Al2O3   ): 0.062 eV/atom
+  mattergen-1704  (Al2O3   ): 0.696 eV/atom
+  mattergen-1707  (Al2O3   ): 0.070 eV/atom
+  mattergen-1733  (Al2O3   ): 0.085 eV/atom
+  mattergen-1742  (Al2O3   ): 0.152 eV/atom
+  mattergen-1785  (Al2O3   ): 0.028 eV/atom
+  mattergen-1828  (Al2O3   ): 0.076 eV/atom
+  mattergen-1840  (Al2O3   ): 0.057 eV/atom
+  mattergen-1875  (Al2O3   ): 0.079 eV/atom
+  mattergen-1934  (Al2O3   ): 0.046 eV/atom
+  mattergen-1971  (Al2O3   ): 0.088 eV/atom
+  mattergen-1985  (Al2O3   ): 0.149 eV/atom
+  mattergen-2110  (Al2O3   ): 0.053 eV/atom
+  mattergen-2155  (Al2O3   ): 0.070 eV/atom
+  mattergen-2199  (Al2O3   ): 0.043 eV/atom
+  mattergen-2249  (Al2O3   ): 0.686 eV/atom
+  mattergen-2289  (Al2O3   ): 0.152 eV/atom
+  mattergen-2290  (Al2O3   ): 0.196 eV/atom
+  mattergen-2309  (Al2O3   ): 0.092 eV/atom
+  mattergen-2317  (Al2O3   ): 0.438 eV/atom
+  mattergen-2371  (Al2O3   ): 0.057 eV/atom
+  mattergen-2412  (Al2O3   ): 0.094 eV/atom
+  mattergen-2413  (Al2O3   ): 0.409 eV/atom
+  mattergen-2449  (Al2O3   ): 0.182 eV/atom
+  mattergen-2465  (Al2O3   ): 0.021 eV/atom
+  mattergen-2481  (Al2O3   ): 0.190 eV/atom
+  mattergen-2591  (Al2O3   ): 0.114 eV/atom
+  mattergen-2696  (Al2O3   ): 0.011 eV/atom
+  mp-8023-GGA     (AlO     ): 1.299 eV/atom
+  mattergen-8     (Al2SiO  ): 0.377 eV/atom
+  mattergen-22    (Al2SiO  ): 0.475 eV/atom
+  mattergen-67    (Al2SiO  ): 0.410 eV/atom
+  mattergen-166   (Al2SiO  ): 0.573 eV/atom
+  mattergen-170   (Al2SiO  ): 0.625 eV/atom
+  mattergen-178   (Al2SiO  ): 0.344 eV/atom
+  mattergen-240   (Al2SiO  ): 0.376 eV/atom
+  mattergen-273   (Al2SiO  ): 0.565 eV/atom
+  mattergen-366   (Al2SiO  ): 0.452 eV/atom
+  mattergen-368   (Al2SiO  ): 0.529 eV/atom
+  mattergen-369   (Al2SiO  ): 0.381 eV/atom
+  mattergen-592   (Al2SiO  ): 0.490 eV/atom
+  mattergen-597   (Al2SiO  ): 0.313 eV/atom
+  mattergen-804   (Al2SiO  ): 0.351 eV/atom
+  mattergen-1044  (Al2SiO  ): 0.451 eV/atom
+  mattergen-1149  (Al2SiO  ): 0.382 eV/atom
+  mattergen-1358  (Al2SiO  ): 0.377 eV/atom
+  mattergen-1372  (Al2SiO  ): 0.475 eV/atom
+  mattergen-1417  (Al2SiO  ): 0.410 eV/atom
+  mattergen-1516  (Al2SiO  ): 0.573 eV/atom
+  mattergen-1520  (Al2SiO  ): 0.625 eV/atom
+  mattergen-1528  (Al2SiO  ): 0.344 eV/atom
+  mattergen-1590  (Al2SiO  ): 0.376 eV/atom
+  mattergen-1623  (Al2SiO  ): 0.417 eV/atom
+  mattergen-1716  (Al2SiO  ): 0.452 eV/atom
+  mattergen-1718  (Al2SiO  ): 0.529 eV/atom
+  mattergen-1719  (Al2SiO  ): 0.381 eV/atom
+  mattergen-1942  (Al2SiO  ): 0.490 eV/atom
+  mattergen-1947  (Al2SiO  ): 0.313 eV/atom
+  mattergen-2154  (Al2SiO  ): 0.351 eV/atom
+  mattergen-2394  (Al2SiO  ): 0.451 eV/atom
+  mattergen-2499  (Al2SiO  ): 0.382 eV/atom
+  mp-1021666-GGA  (AlSi    ): 0.260 eV/atom
+  mp-1245250-GGA  (Al38O21 ): 0.186 eV/atom
+  mp-1245113-GGA  (Al38O21 ): 0.175 eV/atom
+  mp-1245110-GGA  (Al2O    ): 0.175 eV/atom
+  mp-1245215-GGA  (Al2O    ): 0.168 eV/atom
+  mp-8022-GGA     (Al2O    ): 1.714 eV/atom
+  mp-1244893-GGA  (Al8O3   ): 0.164 eV/atom
+  mp-1228120-GGA  (Al4Si   ): 0.089 eV/atom
+  mp-1245307-GGA  (Al      ): 0.081 eV/atom
+  mp-1245152-GGA  (Al      ): 0.075 eV/atom
+  mp-1245129-GGA  (Al      ): 0.074 eV/atom
+  mp-134-GGA      (Al      ): 0.000 eV/atom
+  mp-998860-GGA   (Al      ): 0.070 eV/atom
+  mp-2647008-GGA  (Al      ): 0.010 eV/atom
+  mp-1244953-GGA  (Al      ): 0.075 eV/atom
+  mp-1183144-GGA  (Al      ): 0.002 eV/atom
+  mp-1239196-GGA  (Al      ): 0.380 eV/atom
+  mp-1245067-GGA  (Al      ): 0.083 eV/atom
+  mattergen-51    (LiAlSi5O12): 0.038 eV/atom
+  mattergen-184   (LiAlSi5O12): 0.017 eV/atom
+  mattergen-292   (LiAlSi5O12): 0.237 eV/atom
+  mattergen-482   (LiAlSi5O12): 0.139 eV/atom
+  mattergen-604   (LiAlSi5O12): 0.112 eV/atom
+  mattergen-759   (LiAlSi5O12): 0.064 eV/atom
+  mattergen-928   (LiAlSi5O12): 0.118 eV/atom
+  mattergen-1401  (LiAlSi5O12): 0.038 eV/atom
+  mattergen-1534  (LiAlSi5O12): 0.017 eV/atom
+  mattergen-1642  (LiAlSi5O12): 0.237 eV/atom
+  mattergen-1832  (LiAlSi5O12): 0.139 eV/atom
+  mattergen-1954  (LiAlSi5O12): 0.112 eV/atom
+  mattergen-2109  (LiAlSi5O12): 0.064 eV/atom
+  mattergen-2278  (LiAlSi5O12): 0.118 eV/atom
+  mp-1235061-GGA  (Li(SiO2)6): 0.124 eV/atom
+  mp-1235283-GGA  (Li(SiO2)6): 0.113 eV/atom
+  mp-1235382-GGA  (Li(SiO2)6): 0.111 eV/atom
+  mp-1235054-GGA  (Li(SiO2)6): 0.102 eV/atom
+  mattergen-289   (LiAl3Si3O11): 0.062 eV/atom
+  mattergen-376   (LiAl3Si3O11): 0.147 eV/atom
+  mattergen-381   (LiAl3Si3O11): 0.178 eV/atom
+  mattergen-393   (LiAl3Si3O11): 0.115 eV/atom
+  mattergen-400   (LiAl3Si3O11): 0.069 eV/atom
+  mattergen-451   (LiAl3Si3O11): 0.140 eV/atom
+  mattergen-466   (LiAl3Si3O11): 0.093 eV/atom
+  mattergen-716   (LiAl3Si3O11): 0.152 eV/atom
+  mattergen-762   (LiAl3Si3O11): 0.103 eV/atom
+  mattergen-808   (LiAl3Si3O11): 0.161 eV/atom
+  mattergen-965   (LiAl3Si3O11): 0.111 eV/atom
+  mattergen-1056  (LiAl3Si3O11): 0.265 eV/atom
+  mattergen-1139  (LiAl3Si3O11): 0.088 eV/atom
+  mattergen-1227  (LiAl3Si3O11): 0.097 eV/atom
+  mattergen-1326  (LiAl3Si3O11): 0.149 eV/atom
+  mattergen-1639  (LiAl3Si3O11): 0.062 eV/atom
+  mattergen-1726  (LiAl3Si3O11): 0.147 eV/atom
+  mattergen-1731  (LiAl3Si3O11): 0.178 eV/atom
+  mattergen-1743  (LiAl3Si3O11): 0.115 eV/atom
+  mattergen-1750  (LiAl3Si3O11): 0.069 eV/atom
+  mattergen-1801  (LiAl3Si3O11): 0.140 eV/atom
+  mattergen-1816  (LiAl3Si3O11): 0.093 eV/atom
+  mattergen-2066  (LiAl3Si3O11): 0.152 eV/atom
+  mattergen-2112  (LiAl3Si3O11): 0.103 eV/atom
+  mattergen-2158  (LiAl3Si3O11): 0.161 eV/atom
+  mattergen-2315  (LiAl3Si3O11): 0.111 eV/atom
+  mattergen-2406  (LiAl3Si3O11): 0.265 eV/atom
+  mattergen-2489  (LiAl3Si3O11): 0.088 eV/atom
+  mattergen-2577  (LiAl3Si3O11): 0.097 eV/atom
+  mattergen-2676  (LiAl3Si3O11): 0.149 eV/atom
+  mattergen-326   (LiAl5(SiO6)2): 0.427 eV/atom
+  mattergen-415   (LiAl5(SiO6)2): 0.109 eV/atom
+  mattergen-660   (LiAl5(SiO6)2): 0.151 eV/atom
+  mattergen-669   (LiAl5(SiO6)2): 0.129 eV/atom
+  mattergen-709   (LiAl5(SiO6)2): 0.143 eV/atom
+  mattergen-764   (LiAl5(SiO6)2): 0.069 eV/atom
+  mattergen-970   (LiAl5(SiO6)2): 0.159 eV/atom
+  mattergen-1102  (LiAl5(SiO6)2): 0.136 eV/atom
+  mattergen-1212  (LiAl5(SiO6)2): 0.108 eV/atom
+  mattergen-1676  (LiAl5(SiO6)2): 0.427 eV/atom
+  mattergen-1765  (LiAl5(SiO6)2): 0.109 eV/atom
+  mattergen-2010  (LiAl5(SiO6)2): 0.151 eV/atom
+  mattergen-2019  (LiAl5(SiO6)2): 0.129 eV/atom
+  mattergen-2059  (LiAl5(SiO6)2): 0.143 eV/atom
+  mattergen-2114  (LiAl5(SiO6)2): 0.069 eV/atom
+  mattergen-2320  (LiAl5(SiO6)2): 0.159 eV/atom
+  mattergen-2452  (LiAl5(SiO6)2): 0.136 eV/atom
+  mattergen-2562  (LiAl5(SiO6)2): 0.108 eV/atom
+  mp-1202325-GGA  (LiAl(Si2O5)2): 0.000 eV/atom
+  mp-6442-GGA     (LiAl(Si2O5)2): 0.000 eV/atom
+  mattergen-574   (LiAl(Si2O5)2): 0.055 eV/atom
+  mattergen-587   (LiAl(Si2O5)2): 0.158 eV/atom
+  mattergen-667   (LiAl(Si2O5)2): 0.139 eV/atom
+  mattergen-766   (LiAl(Si2O5)2): 0.004 eV/atom
+  mattergen-788   (LiAl(Si2O5)2): 0.068 eV/atom
+  mattergen-815   (LiAl(Si2O5)2): 0.122 eV/atom
+  mattergen-944   (LiAl(Si2O5)2): 0.146 eV/atom
+  mattergen-1034  (LiAl(Si2O5)2): 0.126 eV/atom
+  mattergen-1082  (LiAl(Si2O5)2): 0.042 eV/atom
+  mattergen-1092  (LiAl(Si2O5)2): 0.055 eV/atom
+  mattergen-1232  (LiAl(Si2O5)2): 0.156 eV/atom
+  mattergen-1286  (LiAl(Si2O5)2): 0.197 eV/atom
+  mattergen-1924  (LiAl(Si2O5)2): 0.055 eV/atom
+  mattergen-1937  (LiAl(Si2O5)2): 0.158 eV/atom
+  mattergen-2017  (LiAl(Si2O5)2): 0.094 eV/atom
+  mattergen-2116  (LiAl(Si2O5)2): 0.004 eV/atom
+  mattergen-2138  (LiAl(Si2O5)2): 0.068 eV/atom
+  mattergen-2165  (LiAl(Si2O5)2): 0.153 eV/atom
+  mattergen-2294  (LiAl(Si2O5)2): 0.146 eV/atom
+  mattergen-2384  (LiAl(Si2O5)2): 0.126 eV/atom
+  mattergen-2432  (LiAl(Si2O5)2): 0.042 eV/atom
+  mattergen-2442  (LiAl(Si2O5)2): 0.055 eV/atom
+  mattergen-2582  (LiAl(Si2O5)2): 0.156 eV/atom
+  mattergen-2636  (LiAl(Si2O5)2): 0.197 eV/atom
+  mp-1236342-GGA  (Li(SiO2)5): 0.334 eV/atom
+  mp-1235571-GGA  (Li(SiO2)5): 0.160 eV/atom
+  mattergen-79    (LiAl3Si2O9): 0.065 eV/atom
+  mattergen-349   (LiAl3Si2O9): 0.247 eV/atom
+  mattergen-502   (LiAl3Si2O9): 0.187 eV/atom
+  mattergen-615   (LiAl3Si2O9): 0.116 eV/atom
+  mattergen-687   (LiAl3Si2O9): 0.090 eV/atom
+  mattergen-847   (LiAl3Si2O9): 0.105 eV/atom
+  mattergen-892   (LiAl3Si2O9): 0.067 eV/atom
+  mattergen-989   (LiAl3Si2O9): 0.195 eV/atom
+  mattergen-1096  (LiAl3Si2O9): 0.175 eV/atom
+  mattergen-1192  (LiAl3Si2O9): 0.123 eV/atom
+  mattergen-1221  (LiAl3Si2O9): 0.198 eV/atom
+  mattergen-1226  (LiAl3Si2O9): 0.158 eV/atom
+  mattergen-1252  (LiAl3Si2O9): 0.064 eV/atom
+  mattergen-1271  (LiAl3Si2O9): 0.088 eV/atom
+  mattergen-1302  (LiAl3Si2O9): 0.160 eV/atom
+  mattergen-1429  (LiAl3Si2O9): 0.065 eV/atom
+  mattergen-1699  (LiAl3Si2O9): 0.247 eV/atom
+  mattergen-1852  (LiAl3Si2O9): 0.187 eV/atom
+  mattergen-1965  (LiAl3Si2O9): 0.116 eV/atom
+  mattergen-2037  (LiAl3Si2O9): 0.090 eV/atom
+  mattergen-2197  (LiAl3Si2O9): 0.105 eV/atom
+  mattergen-2242  (LiAl3Si2O9): 0.067 eV/atom
+  mattergen-2339  (LiAl3Si2O9): 0.195 eV/atom
+  mattergen-2446  (LiAl3Si2O9): 0.175 eV/atom
+  mattergen-2542  (LiAl3Si2O9): 0.123 eV/atom
+  mattergen-2571  (LiAl3Si2O9): 0.198 eV/atom
+  mattergen-2576  (LiAl3Si2O9): 0.158 eV/atom
+  mattergen-2602  (LiAl3Si2O9): 0.064 eV/atom
+  mattergen-2621  (LiAl3Si2O9): 0.088 eV/atom
+  mattergen-2652  (LiAl3Si2O9): 0.160 eV/atom
+  mp-530399-GGA   (LiAl5O8 ): 0.000 eV/atom
+  mattergen-241   (LiAl5O8 ): 0.174 eV/atom
+  mattergen-353   (LiAl5O8 ): 0.032 eV/atom
+  mattergen-401   (LiAl5O8 ): 0.150 eV/atom
+  mattergen-438   (LiAl5O8 ): 0.146 eV/atom
+  mattergen-554   (LiAl5O8 ): 0.051 eV/atom
+  mattergen-566   (LiAl5O8 ): 0.023 eV/atom
+  mattergen-823   (LiAl5O8 ): 0.135 eV/atom
+  mattergen-1337  (LiAl5O8 ): 0.127 eV/atom
+  mattergen-1591  (LiAl5O8 ): 0.174 eV/atom
+  mattergen-1703  (LiAl5O8 ): 0.032 eV/atom
+  mattergen-1751  (LiAl5O8 ): 0.150 eV/atom
+  mattergen-1788  (LiAl5O8 ): 0.146 eV/atom
+  mattergen-1904  (LiAl5O8 ): 0.051 eV/atom
+  mattergen-1916  (LiAl5O8 ): 0.023 eV/atom
+  mattergen-2173  (LiAl5O8 ): 0.135 eV/atom
+  mattergen-2687  (LiAl5O8 ): 0.127 eV/atom
+  mp-1344789-GGA  (LiAlSi3O8): 0.212 eV/atom
+  mp-1222571-GGA  (LiAlSi3O8): 0.024 eV/atom
+  mattergen-187   (LiAlSi3O8): 0.023 eV/atom
+  mattergen-200   (LiAlSi3O8): 0.043 eV/atom
+  mattergen-205   (LiAlSi3O8): 0.025 eV/atom
+  mattergen-209   (LiAlSi3O8): 0.021 eV/atom
+  mattergen-239   (LiAlSi3O8): 0.051 eV/atom
+  mattergen-609   (LiAlSi3O8): 0.023 eV/atom
+  mattergen-745   (LiAlSi3O8): 0.156 eV/atom
+  mattergen-857   (LiAlSi3O8): 0.057 eV/atom
+  mattergen-911   (LiAlSi3O8): 0.081 eV/atom
+  mattergen-974   (LiAlSi3O8): 0.209 eV/atom
+  mattergen-1046  (LiAlSi3O8): 0.119 eV/atom
+  mattergen-1135  (LiAlSi3O8): 0.104 eV/atom
+  mattergen-1242  (LiAlSi3O8): 0.253 eV/atom
+  mattergen-1289  (LiAlSi3O8): 0.213 eV/atom
+  mattergen-1537  (LiAlSi3O8): 0.023 eV/atom
+  mattergen-1550  (LiAlSi3O8): 0.043 eV/atom
+  mattergen-1555  (LiAlSi3O8): 0.025 eV/atom
+  mattergen-1559  (LiAlSi3O8): 0.021 eV/atom
+  mattergen-1589  (LiAlSi3O8): 0.051 eV/atom
+  mattergen-1959  (LiAlSi3O8): 0.023 eV/atom
+  mattergen-2095  (LiAlSi3O8): 0.024 eV/atom
+  mattergen-2207  (LiAlSi3O8): 0.057 eV/atom
+  mattergen-2261  (LiAlSi3O8): 0.081 eV/atom
+  mattergen-2324  (LiAlSi3O8): 0.209 eV/atom
+  mattergen-2396  (LiAlSi3O8): 0.119 eV/atom
+  mattergen-2485  (LiAlSi3O8): 0.104 eV/atom
+  mattergen-2592  (LiAlSi3O8): 0.253 eV/atom
+  mattergen-2639  (LiAlSi3O8): 0.213 eV/atom
+  mattergen-803   (LiAl(Si2O3)2): 0.641 eV/atom
+  mattergen-2153  (LiAl(Si2O3)2): 0.641 eV/atom
+  mattergen-13    (LiAl3SiO7): 0.082 eV/atom
+  mattergen-84    (LiAl3SiO7): 0.206 eV/atom
+  mattergen-113   (LiAl3SiO7): 0.118 eV/atom
+  mattergen-122   (LiAl3SiO7): 0.078 eV/atom
+  mattergen-142   (LiAl3SiO7): 0.079 eV/atom
+  mattergen-211   (LiAl3SiO7): 0.132 eV/atom
+  mattergen-223   (LiAl3SiO7): 0.211 eV/atom
+  mattergen-228   (LiAl3SiO7): 0.094 eV/atom
+  mattergen-229   (LiAl3SiO7): 0.247 eV/atom
+  mattergen-243   (LiAl3SiO7): 0.077 eV/atom
+  mattergen-269   (LiAl3SiO7): 0.132 eV/atom
+  mattergen-295   (LiAl3SiO7): 0.071 eV/atom
+  mattergen-302   (LiAl3SiO7): 0.087 eV/atom
+  mattergen-337   (LiAl3SiO7): 0.106 eV/atom
+  mattergen-358   (LiAl3SiO7): 0.159 eV/atom
+  mattergen-403   (LiAl3SiO7): 0.098 eV/atom
+  mattergen-411   (LiAl3SiO7): 0.080 eV/atom
+  mattergen-419   (LiAl3SiO7): 0.168 eV/atom
+  mattergen-424   (LiAl3SiO7): 0.095 eV/atom
+  mattergen-429   (LiAl3SiO7): 0.136 eV/atom
+  mattergen-512   (LiAl3SiO7): 0.302 eV/atom
+  mattergen-540   (LiAl3SiO7): 0.078 eV/atom
+  mattergen-553   (LiAl3SiO7): 0.195 eV/atom
+  mattergen-567   (LiAl3SiO7): 0.152 eV/atom
+  mattergen-576   (LiAl3SiO7): 0.097 eV/atom
+  mattergen-603   (LiAl3SiO7): 0.218 eV/atom
+  mattergen-695   (LiAl3SiO7): 0.135 eV/atom
+  mattergen-714   (LiAl3SiO7): 0.081 eV/atom
+  mattergen-729   (LiAl3SiO7): 0.136 eV/atom
+  mattergen-756   (LiAl3SiO7): 0.148 eV/atom
+  mattergen-844   (LiAl3SiO7): 0.126 eV/atom
+  mattergen-854   (LiAl3SiO7): 0.247 eV/atom
+  mattergen-859   (LiAl3SiO7): 0.099 eV/atom
+  mattergen-866   (LiAl3SiO7): 0.148 eV/atom
+  mattergen-871   (LiAl3SiO7): 0.067 eV/atom
+  mattergen-872   (LiAl3SiO7): 0.120 eV/atom
+  mattergen-902   (LiAl3SiO7): 0.236 eV/atom
+  mattergen-961   (LiAl3SiO7): 0.146 eV/atom
+  mattergen-963   (LiAl3SiO7): 0.131 eV/atom
+  mattergen-964   (LiAl3SiO7): 0.123 eV/atom
+  mattergen-1025  (LiAl3SiO7): 0.095 eV/atom
+  mattergen-1066  (LiAl3SiO7): 0.133 eV/atom
+  mattergen-1068  (LiAl3SiO7): 0.221 eV/atom
+  mattergen-1074  (LiAl3SiO7): 0.141 eV/atom
+  mattergen-1095  (LiAl3SiO7): 0.127 eV/atom
+  mattergen-1141  (LiAl3SiO7): 0.093 eV/atom
+  mattergen-1144  (LiAl3SiO7): 0.082 eV/atom
+  mattergen-1152  (LiAl3SiO7): 0.179 eV/atom
+  mattergen-1183  (LiAl3SiO7): 0.178 eV/atom
+  mattergen-1184  (LiAl3SiO7): 0.172 eV/atom
+  mattergen-1213  (LiAl3SiO7): 0.159 eV/atom
+  mattergen-1239  (LiAl3SiO7): 0.095 eV/atom
+  mattergen-1247  (LiAl3SiO7): 0.140 eV/atom
+  mattergen-1253  (LiAl3SiO7): 0.079 eV/atom
+  mattergen-1257  (LiAl3SiO7): 0.175 eV/atom
+  mattergen-1292  (LiAl3SiO7): 0.150 eV/atom
+  mattergen-1363  (LiAl3SiO7): 0.082 eV/atom
+  mattergen-1434  (LiAl3SiO7): 0.178 eV/atom
+  mattergen-1463  (LiAl3SiO7): 0.118 eV/atom
+  mattergen-1472  (LiAl3SiO7): 0.078 eV/atom
+  mattergen-1492  (LiAl3SiO7): 0.079 eV/atom
+  mattergen-1561  (LiAl3SiO7): 0.132 eV/atom
+  mattergen-1573  (LiAl3SiO7): 0.211 eV/atom
+  mattergen-1578  (LiAl3SiO7): 0.094 eV/atom
+  mattergen-1579  (LiAl3SiO7): 0.167 eV/atom
+  mattergen-1593  (LiAl3SiO7): 0.077 eV/atom
+  mattergen-1619  (LiAl3SiO7): 0.156 eV/atom
+  mattergen-1645  (LiAl3SiO7): 0.071 eV/atom
+  mattergen-1652  (LiAl3SiO7): 0.087 eV/atom
+  mattergen-1687  (LiAl3SiO7): 0.106 eV/atom
+  mattergen-1708  (LiAl3SiO7): 0.159 eV/atom
+  mattergen-1753  (LiAl3SiO7): 0.098 eV/atom
+  mattergen-1761  (LiAl3SiO7): 0.080 eV/atom
+  mattergen-1769  (LiAl3SiO7): 0.168 eV/atom
+  mattergen-1774  (LiAl3SiO7): 0.095 eV/atom
+  mattergen-1779  (LiAl3SiO7): 0.136 eV/atom
+  mattergen-1862  (LiAl3SiO7): 0.297 eV/atom
+  mattergen-1890  (LiAl3SiO7): 0.078 eV/atom
+  mattergen-1903  (LiAl3SiO7): 0.195 eV/atom
+  mattergen-1917  (LiAl3SiO7): 0.152 eV/atom
+  mattergen-1926  (LiAl3SiO7): 0.097 eV/atom
+  mattergen-1953  (LiAl3SiO7): 0.218 eV/atom
+  mattergen-2045  (LiAl3SiO7): 0.135 eV/atom
+  mattergen-2064  (LiAl3SiO7): 0.081 eV/atom
+  mattergen-2079  (LiAl3SiO7): 0.124 eV/atom
+  mattergen-2106  (LiAl3SiO7): 0.148 eV/atom
+  mattergen-2194  (LiAl3SiO7): 0.126 eV/atom
+  mattergen-2204  (LiAl3SiO7): 0.247 eV/atom
+  mattergen-2209  (LiAl3SiO7): 0.099 eV/atom
+  mattergen-2216  (LiAl3SiO7): 0.148 eV/atom
+  mattergen-2221  (LiAl3SiO7): 0.067 eV/atom
+  mattergen-2222  (LiAl3SiO7): 0.120 eV/atom
+  mattergen-2252  (LiAl3SiO7): 0.236 eV/atom
+  mattergen-2311  (LiAl3SiO7): 0.146 eV/atom
+  mattergen-2313  (LiAl3SiO7): 0.131 eV/atom
+  mattergen-2314  (LiAl3SiO7): 0.123 eV/atom
+  mattergen-2375  (LiAl3SiO7): 0.095 eV/atom
+  mattergen-2416  (LiAl3SiO7): 0.133 eV/atom
+  mattergen-2418  (LiAl3SiO7): 0.221 eV/atom
+  mattergen-2424  (LiAl3SiO7): 0.141 eV/atom
+  mattergen-2445  (LiAl3SiO7): 0.127 eV/atom
+  mattergen-2491  (LiAl3SiO7): 0.093 eV/atom
+  mattergen-2494  (LiAl3SiO7): 0.082 eV/atom
+  mattergen-2502  (LiAl3SiO7): 0.179 eV/atom
+  mattergen-2533  (LiAl3SiO7): 0.178 eV/atom
+  mattergen-2534  (LiAl3SiO7): 0.172 eV/atom
+  mattergen-2563  (LiAl3SiO7): 0.159 eV/atom
+  mattergen-2589  (LiAl3SiO7): 0.095 eV/atom
+  mattergen-2597  (LiAl3SiO7): 0.140 eV/atom
+  mattergen-2603  (LiAl3SiO7): 0.079 eV/atom
+  mattergen-2607  (LiAl3SiO7): 0.175 eV/atom
+  mattergen-2642  (LiAl3SiO7): 0.149 eV/atom
+  mp-1191091-GGA  (LiAlSi2O7): 0.031 eV/atom
+  mp-1190355-GGA  (LiAlSi2O7): 0.033 eV/atom
+  mp-1222886-GGA  (Li2Al2Si4O13): 0.158 eV/atom
+  mp-1196415-GGA  (Li2Al2(SiO4)3): 0.325 eV/atom
+  mattergen-969   (Li2Al4Si2O11): 0.186 eV/atom
+  mattergen-1217  (Li2Al4Si2O11): 0.131 eV/atom
+  mattergen-2319  (Li2Al4Si2O11): 0.186 eV/atom
+  mattergen-2567  (Li2Al4Si2O11): 0.131 eV/atom
+  mattergen-25    (LiAl3O5 ): 0.158 eV/atom
+  mattergen-189   (LiAl3O5 ): 0.088 eV/atom
+  mattergen-231   (LiAl3O5 ): 0.236 eV/atom
+  mattergen-303   (LiAl3O5 ): 0.272 eV/atom
+  mattergen-530   (LiAl3O5 ): 0.121 eV/atom
+  mattergen-694   (LiAl3O5 ): 0.157 eV/atom
+  mattergen-775   (LiAl3O5 ): 0.236 eV/atom
+  mattergen-785   (LiAl3O5 ): 0.161 eV/atom
+  mattergen-819   (LiAl3O5 ): 0.089 eV/atom
+  mattergen-962   (LiAl3O5 ): 0.108 eV/atom
+  mattergen-1003  (LiAl3O5 ): 0.133 eV/atom
+  mattergen-1039  (LiAl3O5 ): 0.142 eV/atom
+  mattergen-1121  (LiAl3O5 ): 0.267 eV/atom
+  mattergen-1322  (LiAl3O5 ): 0.259 eV/atom
+  mattergen-1328  (LiAl3O5 ): 0.162 eV/atom
+  mattergen-1329  (LiAl3O5 ): 0.096 eV/atom
+  mattergen-1331  (LiAl3O5 ): 0.173 eV/atom
+  mattergen-1375  (LiAl3O5 ): 0.158 eV/atom
+  mattergen-1539  (LiAl3O5 ): 0.088 eV/atom
+  mattergen-1581  (LiAl3O5 ): 0.236 eV/atom
+  mattergen-1653  (LiAl3O5 ): 0.272 eV/atom
+  mattergen-1880  (LiAl3O5 ): 0.121 eV/atom
+  mattergen-2044  (LiAl3O5 ): 0.157 eV/atom
+  mattergen-2125  (LiAl3O5 ): 0.236 eV/atom
+  mattergen-2135  (LiAl3O5 ): 0.161 eV/atom
+  mattergen-2169  (LiAl3O5 ): 0.089 eV/atom
+  mattergen-2312  (LiAl3O5 ): 0.108 eV/atom
+  mattergen-2353  (LiAl3O5 ): 0.133 eV/atom
+  mattergen-2389  (LiAl3O5 ): 0.142 eV/atom
+  mattergen-2471  (LiAl3O5 ): 0.267 eV/atom
+  mattergen-2672  (LiAl3O5 ): 0.259 eV/atom
+  mattergen-2678  (LiAl3O5 ): 0.162 eV/atom
+  mattergen-2679  (LiAl3O5 ): 0.096 eV/atom
+  mattergen-2681  (LiAl3O5 ): 0.173 eV/atom
+  mp-1236522-GGA  (LiO8    ): 0.165 eV/atom
+  mp-1235059-GGA  (LiO8    ): 0.096 eV/atom
+  mp-1236127-GGA  (LiO8    ): 0.093 eV/atom
+  mp-1232999-GGA  (LiO8    ): 0.101 eV/atom
+  mp-1235698-GGA  (LiO8    ): 0.101 eV/atom
+  mp-1235252-GGA  (LiO8    ): 0.103 eV/atom
+  mp-1235185-GGA  (LiO8    ): 0.101 eV/atom
+  mattergen-5     (Li2Si5O11): 0.169 eV/atom
+  mattergen-19    (Li2Si5O11): 0.331 eV/atom
+  mattergen-188   (Li2Si5O11): 0.239 eV/atom
+  mattergen-286   (Li2Si5O11): 0.074 eV/atom
+  mattergen-363   (Li2Si5O11): 0.151 eV/atom
+  mattergen-509   (Li2Si5O11): 0.241 eV/atom
+  mattergen-652   (Li2Si5O11): 0.060 eV/atom
+  mattergen-708   (Li2Si5O11): 0.089 eV/atom
+  mattergen-1355  (Li2Si5O11): 0.169 eV/atom
+  mattergen-1369  (Li2Si5O11): 0.331 eV/atom
+  mattergen-1538  (Li2Si5O11): 0.239 eV/atom
+  mattergen-1636  (Li2Si5O11): 0.074 eV/atom
+  mattergen-1713  (Li2Si5O11): 0.151 eV/atom
+  mattergen-1859  (Li2Si5O11): 0.241 eV/atom
+  mattergen-2002  (Li2Si5O11): 0.060 eV/atom
+  mattergen-2058  (Li2Si5O11): 0.089 eV/atom
+  mattergen-147   (Li2Al2Si3O10): 0.054 eV/atom
+  mattergen-213   (Li2Al2Si3O10): 0.085 eV/atom
+  mattergen-1497  (Li2Al2Si3O10): 0.054 eV/atom
+  mattergen-1563  (Li2Al2Si3O10): 0.085 eV/atom
+  mp-1198062-GGA  (LiAlSiO5): 0.036 eV/atom
+  mattergen-459   (Li2Al4SiO9): 0.158 eV/atom
+  mattergen-552   (Li2Al4SiO9): 0.183 eV/atom
+  mattergen-572   (Li2Al4SiO9): 0.144 eV/atom
+  mattergen-632   (Li2Al4SiO9): 0.150 eV/atom
+  mattergen-655   (Li2Al4SiO9): 0.131 eV/atom
+  mattergen-673   (Li2Al4SiO9): 0.198 eV/atom
+  mattergen-789   (Li2Al4SiO9): 0.142 eV/atom
+  mattergen-885   (Li2Al4SiO9): 0.180 eV/atom
+  mattergen-971   (Li2Al4SiO9): 0.192 eV/atom
+  mattergen-1009  (Li2Al4SiO9): 0.190 eV/atom
+  mattergen-1101  (Li2Al4SiO9): 0.242 eV/atom
+  mattergen-1122  (Li2Al4SiO9): 0.098 eV/atom
+  mattergen-1167  (Li2Al4SiO9): 0.123 eV/atom
+  mattergen-1255  (Li2Al4SiO9): 0.145 eV/atom
+  mattergen-1293  (Li2Al4SiO9): 0.118 eV/atom
+  mattergen-1320  (Li2Al4SiO9): 0.146 eV/atom
+  mattergen-1809  (Li2Al4SiO9): 0.158 eV/atom
+  mattergen-1902  (Li2Al4SiO9): 0.183 eV/atom
+  mattergen-1922  (Li2Al4SiO9): 0.144 eV/atom
+  mattergen-1982  (Li2Al4SiO9): 0.150 eV/atom
+  mattergen-2005  (Li2Al4SiO9): 0.131 eV/atom
+  mattergen-2023  (Li2Al4SiO9): 0.198 eV/atom
+  mattergen-2139  (Li2Al4SiO9): 0.142 eV/atom
+  mattergen-2235  (Li2Al4SiO9): 0.180 eV/atom
+  mattergen-2321  (Li2Al4SiO9): 0.192 eV/atom
+  mattergen-2359  (Li2Al4SiO9): 0.190 eV/atom
+  mattergen-2451  (Li2Al4SiO9): 0.242 eV/atom
+  mattergen-2472  (Li2Al4SiO9): 0.098 eV/atom
+  mattergen-2517  (Li2Al4SiO9): 0.123 eV/atom
+  mattergen-2605  (Li2Al4SiO9): 0.145 eV/atom
+  mattergen-2643  (Li2Al4SiO9): 0.118 eV/atom
+  mattergen-2670  (Li2Al4SiO9): 0.146 eV/atom
+  mattergen-267   (LiAl3SiO3): 0.393 eV/atom
+  mattergen-1617  (LiAl3SiO3): 0.393 eV/atom
+  mattergen-410   (Li2Si4O9): 0.080 eV/atom
+  mattergen-650   (Li2Si4O9): 0.179 eV/atom
+  mattergen-663   (Li2Si4O9): 0.182 eV/atom
+  mattergen-683   (Li2Si4O9): 0.085 eV/atom
+  mattergen-781   (Li2Si4O9): 0.054 eV/atom
+  mattergen-883   (Li2Si4O9): 0.116 eV/atom
+  mattergen-991   (Li2Si4O9): 0.076 eV/atom
+  mattergen-1064  (Li2Si4O9): 0.085 eV/atom
+  mattergen-1105  (Li2Si4O9): 0.057 eV/atom
+  mattergen-1285  (Li2Si4O9): 0.122 eV/atom
+  mattergen-1760  (Li2Si4O9): 0.080 eV/atom
+  mattergen-2000  (Li2Si4O9): 0.179 eV/atom
+  mattergen-2013  (Li2Si4O9): 0.182 eV/atom
+  mattergen-2033  (Li2Si4O9): 0.085 eV/atom
+  mattergen-2131  (Li2Si4O9): 0.054 eV/atom
+  mattergen-2233  (Li2Si4O9): 0.116 eV/atom
+  mattergen-2341  (Li2Si4O9): 0.076 eV/atom
+  mattergen-2414  (Li2Si4O9): 0.085 eV/atom
+  mattergen-2455  (Li2Si4O9): 0.057 eV/atom
+  mattergen-2635  (Li2Si4O9): 0.122 eV/atom
+  mp-1222553-GGA  (LiAlSiO4): 0.030 eV/atom
+  mp-558713-GGA   (LiAlSiO4): 0.020 eV/atom
+  mp-6326-GGA     (LiAlSiO4): 0.008 eV/atom
+  mp-6327-GGA     (LiAlSiO4): 0.009 eV/atom
+  mp-14399-GGA    (LiAlSiO4): 0.007 eV/atom
+  mp-556544-GGA   (LiAlSiO4): 0.020 eV/atom
+  mp-559689-GGA   (LiAlSiO4): 0.023 eV/atom
+  mp-18220-GGA    (LiAlSiO4): 0.000 eV/atom
+  mp-1222444-GGA  (LiAlSiO4): 0.009 eV/atom
+  mattergen-15    (LiAlSiO4): 0.069 eV/atom
+  mattergen-23    (LiAlSiO4): 0.037 eV/atom
+  mattergen-28    (LiAlSiO4): 0.113 eV/atom
+  mattergen-47    (LiAlSiO4): 0.052 eV/atom
+  mattergen-78    (LiAlSiO4): 0.030 eV/atom
+  mattergen-101   (LiAlSiO4): 0.130 eV/atom
+  mattergen-106   (LiAlSiO4): 0.059 eV/atom
+  mattergen-206   (LiAlSiO4): 0.042 eV/atom
+  mattergen-210   (LiAlSiO4): 0.114 eV/atom
+  mattergen-250   (LiAlSiO4): 0.151 eV/atom
+  mattergen-259   (LiAlSiO4): 0.038 eV/atom
+  mattergen-272   (LiAlSiO4): 0.100 eV/atom
+  mattergen-282   (LiAlSiO4): 0.176 eV/atom
+  mattergen-283   (LiAlSiO4): 0.186 eV/atom
+  mattergen-314   (LiAlSiO4): 0.075 eV/atom
+  mattergen-328   (LiAlSiO4): 0.154 eV/atom
+  mattergen-364   (LiAlSiO4): 0.031 eV/atom
+  mattergen-387   (LiAlSiO4): 0.119 eV/atom
+  mattergen-399   (LiAlSiO4): 0.028 eV/atom
+  mattergen-405   (LiAlSiO4): 0.053 eV/atom
+  mattergen-407   (LiAlSiO4): 0.118 eV/atom
+  mattergen-413   (LiAlSiO4): 0.158 eV/atom
+  mattergen-420   (LiAlSiO4): 0.178 eV/atom
+  mattergen-449   (LiAlSiO4): 0.035 eV/atom
+  mattergen-472   (LiAlSiO4): 0.051 eV/atom
+  mattergen-476   (LiAlSiO4): 0.196 eV/atom
+  mattergen-486   (LiAlSiO4): 0.080 eV/atom
+  mattergen-507   (LiAlSiO4): 0.020 eV/atom
+  mattergen-524   (LiAlSiO4): 0.133 eV/atom
+  mattergen-531   (LiAlSiO4): 0.169 eV/atom
+  mattergen-538   (LiAlSiO4): 0.031 eV/atom
+  mattergen-541   (LiAlSiO4): 0.178 eV/atom
+  mattergen-550   (LiAlSiO4): 0.047 eV/atom
+  mattergen-606   (LiAlSiO4): 0.065 eV/atom
+  mattergen-619   (LiAlSiO4): 0.140 eV/atom
+  mattergen-628   (LiAlSiO4): 0.146 eV/atom
+  mattergen-638   (LiAlSiO4): 0.121 eV/atom
+  mattergen-653   (LiAlSiO4): 0.241 eV/atom
+  mattergen-670   (LiAlSiO4): 0.077 eV/atom
+  mattergen-677   (LiAlSiO4): 0.032 eV/atom
+  mattergen-685   (LiAlSiO4): 0.083 eV/atom
+  mattergen-710   (LiAlSiO4): 0.129 eV/atom
+  mattergen-727   (LiAlSiO4): 0.076 eV/atom
+  mattergen-744   (LiAlSiO4): 0.205 eV/atom
+  mattergen-746   (LiAlSiO4): 0.107 eV/atom
+  mattergen-770   (LiAlSiO4): 0.073 eV/atom
+  mattergen-771   (LiAlSiO4): 0.053 eV/atom
+  mattergen-780   (LiAlSiO4): 0.077 eV/atom
+  mattergen-802   (LiAlSiO4): 0.346 eV/atom
+  mattergen-807   (LiAlSiO4): 0.066 eV/atom
+  mattergen-822   (LiAlSiO4): 0.062 eV/atom
+  mattergen-824   (LiAlSiO4): 0.134 eV/atom
+  mattergen-861   (LiAlSiO4): 0.195 eV/atom
+  mattergen-891   (LiAlSiO4): 0.111 eV/atom
+  mattergen-912   (LiAlSiO4): 0.126 eV/atom
+  mattergen-917   (LiAlSiO4): 0.130 eV/atom
+  mattergen-920   (LiAlSiO4): 0.135 eV/atom
+  mattergen-925   (LiAlSiO4): 0.149 eV/atom
+  mattergen-947   (LiAlSiO4): 0.093 eV/atom
+  mattergen-948   (LiAlSiO4): 0.164 eV/atom
+  mattergen-966   (LiAlSiO4): 0.036 eV/atom
+  mattergen-978   (LiAlSiO4): 0.276 eV/atom
+  mattergen-981   (LiAlSiO4): 0.036 eV/atom
+  mattergen-1065  (LiAlSiO4): 0.020 eV/atom
+  mattergen-1093  (LiAlSiO4): 0.074 eV/atom
+  mattergen-1117  (LiAlSiO4): 0.266 eV/atom
+  mattergen-1125  (LiAlSiO4): 0.119 eV/atom
+  mattergen-1179  (LiAlSiO4): 0.080 eV/atom
+  mattergen-1190  (LiAlSiO4): 0.168 eV/atom
+  mattergen-1193  (LiAlSiO4): 0.323 eV/atom
+  mattergen-1200  (LiAlSiO4): 0.135 eV/atom
+  mattergen-1238  (LiAlSiO4): 0.076 eV/atom
+  mattergen-1280  (LiAlSiO4): 0.087 eV/atom
+  mattergen-1300  (LiAlSiO4): 0.167 eV/atom
+  mattergen-1314  (LiAlSiO4): 0.063 eV/atom
+  mattergen-1317  (LiAlSiO4): 0.119 eV/atom
+  mattergen-1318  (LiAlSiO4): 0.090 eV/atom
+  mattergen-1338  (LiAlSiO4): 0.089 eV/atom
+  mattergen-1349  (LiAlSiO4): 0.259 eV/atom
+  mattergen-1365  (LiAlSiO4): 0.069 eV/atom
+  mattergen-1373  (LiAlSiO4): 0.037 eV/atom
+  mattergen-1378  (LiAlSiO4): 0.113 eV/atom
+  mattergen-1397  (LiAlSiO4): 0.052 eV/atom
+  mattergen-1428  (LiAlSiO4): 0.030 eV/atom
+  mattergen-1451  (LiAlSiO4): 0.130 eV/atom
+  mattergen-1456  (LiAlSiO4): 0.059 eV/atom
+  mattergen-1556  (LiAlSiO4): 0.042 eV/atom
+  mattergen-1560  (LiAlSiO4): 0.114 eV/atom
+  mattergen-1600  (LiAlSiO4): 0.151 eV/atom
+  mattergen-1609  (LiAlSiO4): 0.038 eV/atom
+  mattergen-1622  (LiAlSiO4): 0.100 eV/atom
+  mattergen-1632  (LiAlSiO4): 0.176 eV/atom
+  mattergen-1633  (LiAlSiO4): 0.186 eV/atom
+  mattergen-1664  (LiAlSiO4): 0.075 eV/atom
+  mattergen-1678  (LiAlSiO4): 0.154 eV/atom
+  mattergen-1714  (LiAlSiO4): 0.031 eV/atom
+  mattergen-1737  (LiAlSiO4): 0.119 eV/atom
+  mattergen-1749  (LiAlSiO4): 0.028 eV/atom
+  mattergen-1755  (LiAlSiO4): 0.053 eV/atom
+  mattergen-1757  (LiAlSiO4): 0.118 eV/atom
+  mattergen-1763  (LiAlSiO4): 0.158 eV/atom
+  mattergen-1770  (LiAlSiO4): 0.178 eV/atom
+  mattergen-1799  (LiAlSiO4): 0.035 eV/atom
+  mattergen-1822  (LiAlSiO4): 0.051 eV/atom
+  mattergen-1826  (LiAlSiO4): 0.196 eV/atom
+  mattergen-1836  (LiAlSiO4): 0.080 eV/atom
+  mattergen-1857  (LiAlSiO4): 0.020 eV/atom
+  mattergen-1874  (LiAlSiO4): 0.133 eV/atom
+  mattergen-1881  (LiAlSiO4): 0.169 eV/atom
+  mattergen-1888  (LiAlSiO4): 0.031 eV/atom
+  mattergen-1891  (LiAlSiO4): 0.178 eV/atom
+  mattergen-1900  (LiAlSiO4): 0.047 eV/atom
+  mattergen-1956  (LiAlSiO4): 0.065 eV/atom
+  mattergen-1969  (LiAlSiO4): 0.140 eV/atom
+  mattergen-1978  (LiAlSiO4): 0.146 eV/atom
+  mattergen-1988  (LiAlSiO4): 0.121 eV/atom
+  mattergen-2003  (LiAlSiO4): 0.241 eV/atom
+  mattergen-2020  (LiAlSiO4): 0.077 eV/atom
+  mattergen-2027  (LiAlSiO4): 0.032 eV/atom
+  mattergen-2035  (LiAlSiO4): 0.083 eV/atom
+  mattergen-2060  (LiAlSiO4): 0.129 eV/atom
+  mattergen-2077  (LiAlSiO4): 0.076 eV/atom
+  mattergen-2094  (LiAlSiO4): 0.205 eV/atom
+  mattergen-2096  (LiAlSiO4): 0.107 eV/atom
+  mattergen-2120  (LiAlSiO4): 0.073 eV/atom
+  mattergen-2121  (LiAlSiO4): 0.053 eV/atom
+  mattergen-2130  (LiAlSiO4): 0.077 eV/atom
+  mattergen-2152  (LiAlSiO4): 0.346 eV/atom
+  mattergen-2157  (LiAlSiO4): 0.066 eV/atom
+  mattergen-2172  (LiAlSiO4): 0.062 eV/atom
+  mattergen-2174  (LiAlSiO4): 0.134 eV/atom
+  mattergen-2211  (LiAlSiO4): 0.195 eV/atom
+  mattergen-2241  (LiAlSiO4): 0.111 eV/atom
+  mattergen-2262  (LiAlSiO4): 0.126 eV/atom
+  mattergen-2267  (LiAlSiO4): 0.130 eV/atom
+  mattergen-2270  (LiAlSiO4): 0.135 eV/atom
+  mattergen-2275  (LiAlSiO4): 0.149 eV/atom
+  mattergen-2297  (LiAlSiO4): 0.093 eV/atom
+  mattergen-2298  (LiAlSiO4): 0.164 eV/atom
+  mattergen-2316  (LiAlSiO4): 0.036 eV/atom
+  mattergen-2328  (LiAlSiO4): 0.276 eV/atom
+  mattergen-2331  (LiAlSiO4): 0.036 eV/atom
+  mattergen-2415  (LiAlSiO4): 0.020 eV/atom
+  mattergen-2443  (LiAlSiO4): 0.074 eV/atom
+  mattergen-2467  (LiAlSiO4): 0.266 eV/atom
+  mattergen-2475  (LiAlSiO4): 0.119 eV/atom
+  mattergen-2529  (LiAlSiO4): 0.080 eV/atom
+  mattergen-2540  (LiAlSiO4): 0.168 eV/atom
+  mattergen-2543  (LiAlSiO4): 0.323 eV/atom
+  mattergen-2550  (LiAlSiO4): 0.135 eV/atom
+  mattergen-2588  (LiAlSiO4): 0.076 eV/atom
+  mattergen-2630  (LiAlSiO4): 0.087 eV/atom
+  mattergen-2650  (LiAlSiO4): 0.167 eV/atom
+  mattergen-2664  (LiAlSiO4): 0.063 eV/atom
+  mattergen-2667  (LiAlSiO4): 0.119 eV/atom
+  mattergen-2668  (LiAlSiO4): 0.090 eV/atom
+  mattergen-2688  (LiAlSiO4): 0.089 eV/atom
+  mattergen-2699  (LiAlSiO4): 0.259 eV/atom
+  mattergen-724   (LiAl3Si2O): 0.237 eV/atom
+  mattergen-863   (LiAl3Si2O): 0.215 eV/atom
+  mattergen-2074  (LiAl3Si2O): 0.237 eV/atom
+  mattergen-2213  (LiAl3Si2O): 0.215 eV/atom
+  mattergen-158   (Li2Al4O7): 0.116 eV/atom
+  mattergen-1508  (Li2Al4O7): 0.116 eV/atom
+  mp-985637-GGA   (Li2Si4O7): 0.263 eV/atom
+  mattergen-138   (Li3AlSi4O11): 0.193 eV/atom
+  mattergen-194   (Li3AlSi4O11): 0.052 eV/atom
+  mattergen-347   (Li3AlSi4O11): 0.113 eV/atom
+  mattergen-485   (Li3AlSi4O11): 0.068 eV/atom
+  mattergen-679   (Li3AlSi4O11): 0.102 eV/atom
+  mattergen-895   (Li3AlSi4O11): 0.048 eV/atom
+  mattergen-1038  (Li3AlSi4O11): 0.080 eV/atom
+  mattergen-1194  (Li3AlSi4O11): 0.061 eV/atom
+  mattergen-1230  (Li3AlSi4O11): 0.188 eV/atom
+  mattergen-1333  (Li3AlSi4O11): 0.208 eV/atom
+  mattergen-1488  (Li3AlSi4O11): 0.193 eV/atom
+  mattergen-1544  (Li3AlSi4O11): 0.052 eV/atom
+  mattergen-1697  (Li3AlSi4O11): 0.113 eV/atom
+  mattergen-1835  (Li3AlSi4O11): 0.068 eV/atom
+  mattergen-2029  (Li3AlSi4O11): 0.102 eV/atom
+  mattergen-2245  (Li3AlSi4O11): 0.048 eV/atom
+  mattergen-2388  (Li3AlSi4O11): 0.080 eV/atom
+  mattergen-2544  (Li3AlSi4O11): 0.061 eV/atom
+  mattergen-2580  (Li3AlSi4O11): 0.188 eV/atom
+  mattergen-2683  (Li3AlSi4O11): 0.208 eV/atom
+  mattergen-44    (Li3Al5SiO11): 0.131 eV/atom
+  mattergen-288   (Li3Al5SiO11): 0.106 eV/atom
+  mattergen-913   (Li3Al5SiO11): 0.157 eV/atom
+  mattergen-942   (Li3Al5SiO11): 0.148 eV/atom
+  mattergen-1394  (Li3Al5SiO11): 0.131 eV/atom
+  mattergen-1638  (Li3Al5SiO11): 0.106 eV/atom
+  mattergen-2263  (Li3Al5SiO11): 0.157 eV/atom
+  mattergen-2292  (Li3Al5SiO11): 0.157 eV/atom
+  mattergen-61    (Li3Al3(SiO5)2): 0.103 eV/atom
+  mattergen-154   (Li3Al3(SiO5)2): 0.205 eV/atom
+  mattergen-248   (Li3Al3(SiO5)2): 0.162 eV/atom
+  mattergen-324   (Li3Al3(SiO5)2): 0.089 eV/atom
+  mattergen-327   (Li3Al3(SiO5)2): 0.126 eV/atom
+  mattergen-365   (Li3Al3(SiO5)2): 0.107 eV/atom
+  mattergen-372   (Li3Al3(SiO5)2): 0.093 eV/atom
+  mattergen-380   (Li3Al3(SiO5)2): 0.124 eV/atom
+  mattergen-445   (Li3Al3(SiO5)2): 0.100 eV/atom
+  mattergen-565   (Li3Al3(SiO5)2): 0.101 eV/atom
+  mattergen-613   (Li3Al3(SiO5)2): 0.123 eV/atom
+  mattergen-659   (Li3Al3(SiO5)2): 0.105 eV/atom
+  mattergen-664   (Li3Al3(SiO5)2): 0.145 eV/atom
+  mattergen-712   (Li3Al3(SiO5)2): 0.226 eV/atom
+  mattergen-726   (Li3Al3(SiO5)2): 0.074 eV/atom
+  mattergen-800   (Li3Al3(SiO5)2): 0.106 eV/atom
+  mattergen-842   (Li3Al3(SiO5)2): 0.148 eV/atom
+  mattergen-848   (Li3Al3(SiO5)2): 0.062 eV/atom
+  mattergen-918   (Li3Al3(SiO5)2): 0.140 eV/atom
+  mattergen-930   (Li3Al3(SiO5)2): 0.160 eV/atom
+  mattergen-1014  (Li3Al3(SiO5)2): 0.105 eV/atom
+  mattergen-1073  (Li3Al3(SiO5)2): 0.091 eV/atom
+  mattergen-1142  (Li3Al3(SiO5)2): 0.099 eV/atom
+  mattergen-1169  (Li3Al3(SiO5)2): 0.138 eV/atom
+  mattergen-1276  (Li3Al3(SiO5)2): 0.054 eV/atom
+  mattergen-1342  (Li3Al3(SiO5)2): 0.088 eV/atom
+  mattergen-1411  (Li3Al3(SiO5)2): 0.103 eV/atom
+  mattergen-1504  (Li3Al3(SiO5)2): 0.205 eV/atom
+  mattergen-1598  (Li3Al3(SiO5)2): 0.162 eV/atom
+  mattergen-1674  (Li3Al3(SiO5)2): 0.089 eV/atom
+  mattergen-1677  (Li3Al3(SiO5)2): 0.126 eV/atom
+  mattergen-1715  (Li3Al3(SiO5)2): 0.107 eV/atom
+  mattergen-1722  (Li3Al3(SiO5)2): 0.093 eV/atom
+  mattergen-1730  (Li3Al3(SiO5)2): 0.124 eV/atom
+  mattergen-1795  (Li3Al3(SiO5)2): 0.100 eV/atom
+  mattergen-1915  (Li3Al3(SiO5)2): 0.101 eV/atom
+  mattergen-1963  (Li3Al3(SiO5)2): 0.123 eV/atom
+  mattergen-2009  (Li3Al3(SiO5)2): 0.105 eV/atom
+  mattergen-2014  (Li3Al3(SiO5)2): 0.145 eV/atom
+  mattergen-2062  (Li3Al3(SiO5)2): 0.226 eV/atom
+  mattergen-2076  (Li3Al3(SiO5)2): 0.074 eV/atom
+  mattergen-2150  (Li3Al3(SiO5)2): 0.106 eV/atom
+  mattergen-2192  (Li3Al3(SiO5)2): 0.148 eV/atom
+  mattergen-2198  (Li3Al3(SiO5)2): 0.062 eV/atom
+  mattergen-2268  (Li3Al3(SiO5)2): 0.140 eV/atom
+  mattergen-2280  (Li3Al3(SiO5)2): 0.160 eV/atom
+  mattergen-2364  (Li3Al3(SiO5)2): 0.105 eV/atom
+  mattergen-2423  (Li3Al3(SiO5)2): 0.091 eV/atom
+  mattergen-2492  (Li3Al3(SiO5)2): 0.099 eV/atom
+  mattergen-2519  (Li3Al3(SiO5)2): 0.138 eV/atom
+  mattergen-2626  (Li3Al3(SiO5)2): 0.054 eV/atom
+  mattergen-2692  (Li3Al3(SiO5)2): 0.088 eV/atom
+  mp-555899-GGA   (Li2Si3O7): 0.000 eV/atom
+  mattergen-29    (Li2Si3O7): 0.260 eV/atom
+  mattergen-71    (Li2Si3O7): 0.053 eV/atom
+  mattergen-75    (Li2Si3O7): 0.071 eV/atom
+  mattergen-85    (Li2Si3O7): 0.118 eV/atom
+  mattergen-108   (Li2Si3O7): 0.156 eV/atom
+  mattergen-125   (Li2Si3O7): 0.084 eV/atom
+  mattergen-129   (Li2Si3O7): 0.106 eV/atom
+  mattergen-132   (Li2Si3O7): 0.112 eV/atom
+  mattergen-160   (Li2Si3O7): 0.190 eV/atom
+  mattergen-252   (Li2Si3O7): 0.078 eV/atom
+  mattergen-307   (Li2Si3O7): 0.067 eV/atom
+  mattergen-316   (Li2Si3O7): 0.055 eV/atom
+  mattergen-329   (Li2Si3O7): 0.192 eV/atom
+  mattergen-340   (Li2Si3O7): 0.061 eV/atom
+  mattergen-346   (Li2Si3O7): 0.130 eV/atom
+  mattergen-396   (Li2Si3O7): 0.105 eV/atom
+  mattergen-470   (Li2Si3O7): 0.269 eV/atom
+  mattergen-483   (Li2Si3O7): 0.080 eV/atom
+  mattergen-528   (Li2Si3O7): 0.111 eV/atom
+  mattergen-557   (Li2Si3O7): 0.167 eV/atom
+  mattergen-612   (Li2Si3O7): 0.098 eV/atom
+  mattergen-657   (Li2Si3O7): 0.238 eV/atom
+  mattergen-666   (Li2Si3O7): 0.204 eV/atom
+  mattergen-705   (Li2Si3O7): 0.156 eV/atom
+  mattergen-722   (Li2Si3O7): 0.085 eV/atom
+  mattergen-736   (Li2Si3O7): 0.155 eV/atom
+  mattergen-738   (Li2Si3O7): 0.110 eV/atom
+  mattergen-757   (Li2Si3O7): 0.146 eV/atom
+  mattergen-765   (Li2Si3O7): 0.134 eV/atom
+  mattergen-772   (Li2Si3O7): 0.121 eV/atom
+  mattergen-798   (Li2Si3O7): 0.059 eV/atom
+  mattergen-910   (Li2Si3O7): 0.138 eV/atom
+  mattergen-933   (Li2Si3O7): 0.122 eV/atom
+  mattergen-954   (Li2Si3O7): 0.120 eV/atom
+  mattergen-956   (Li2Si3O7): 0.088 eV/atom
+  mattergen-1030  (Li2Si3O7): 0.103 eV/atom
+  mattergen-1048  (Li2Si3O7): 0.055 eV/atom
+  mattergen-1049  (Li2Si3O7): 0.163 eV/atom
+  mattergen-1075  (Li2Si3O7): 0.109 eV/atom
+  mattergen-1145  (Li2Si3O7): 0.250 eV/atom
+  mattergen-1172  (Li2Si3O7): 0.144 eV/atom
+  mattergen-1219  (Li2Si3O7): 0.112 eV/atom
+  mattergen-1235  (Li2Si3O7): 0.169 eV/atom
+  mattergen-1296  (Li2Si3O7): 0.093 eV/atom
+  mattergen-1343  (Li2Si3O7): 0.185 eV/atom
+  mattergen-1379  (Li2Si3O7): 0.260 eV/atom
+  mattergen-1421  (Li2Si3O7): 0.053 eV/atom
+  mattergen-1425  (Li2Si3O7): 0.071 eV/atom
+  mattergen-1435  (Li2Si3O7): 0.118 eV/atom
+  mattergen-1458  (Li2Si3O7): 0.156 eV/atom
+  mattergen-1475  (Li2Si3O7): 0.084 eV/atom
+  mattergen-1479  (Li2Si3O7): 0.106 eV/atom
+  mattergen-1482  (Li2Si3O7): 0.112 eV/atom
+  mattergen-1510  (Li2Si3O7): 0.190 eV/atom
+  mattergen-1602  (Li2Si3O7): 0.078 eV/atom
+  mattergen-1657  (Li2Si3O7): 0.067 eV/atom
+  mattergen-1666  (Li2Si3O7): 0.055 eV/atom
+  mattergen-1679  (Li2Si3O7): 0.192 eV/atom
+  mattergen-1690  (Li2Si3O7): 0.061 eV/atom
+  mattergen-1696  (Li2Si3O7): 0.130 eV/atom
+  mattergen-1746  (Li2Si3O7): 0.105 eV/atom
+  mattergen-1820  (Li2Si3O7): 0.269 eV/atom
+  mattergen-1833  (Li2Si3O7): 0.080 eV/atom
+  mattergen-1878  (Li2Si3O7): 0.111 eV/atom
+  mattergen-1907  (Li2Si3O7): 0.167 eV/atom
+  mattergen-1962  (Li2Si3O7): 0.098 eV/atom
+  mattergen-2007  (Li2Si3O7): 0.238 eV/atom
+  mattergen-2016  (Li2Si3O7): 0.195 eV/atom
+  mattergen-2055  (Li2Si3O7): 0.156 eV/atom
+  mattergen-2072  (Li2Si3O7): 0.085 eV/atom
+  mattergen-2086  (Li2Si3O7): 0.155 eV/atom
+  mattergen-2088  (Li2Si3O7): 0.110 eV/atom
+  mattergen-2107  (Li2Si3O7): 0.146 eV/atom
+  mattergen-2115  (Li2Si3O7): 0.134 eV/atom
+  mattergen-2122  (Li2Si3O7): 0.121 eV/atom
+  mattergen-2148  (Li2Si3O7): 0.059 eV/atom
+  mattergen-2260  (Li2Si3O7): 0.138 eV/atom
+  mattergen-2283  (Li2Si3O7): 0.122 eV/atom
+  mattergen-2304  (Li2Si3O7): 0.120 eV/atom
+  mattergen-2306  (Li2Si3O7): 0.088 eV/atom
+  mattergen-2380  (Li2Si3O7): 0.103 eV/atom
+  mattergen-2398  (Li2Si3O7): 0.055 eV/atom
+  mattergen-2399  (Li2Si3O7): 0.163 eV/atom
+  mattergen-2425  (Li2Si3O7): 0.109 eV/atom
+  mattergen-2495  (Li2Si3O7): 0.250 eV/atom
+  mattergen-2522  (Li2Si3O7): 0.144 eV/atom
+  mattergen-2569  (Li2Si3O7): 0.112 eV/atom
+  mattergen-2585  (Li2Si3O7): 0.169 eV/atom
+  mattergen-2646  (Li2Si3O7): 0.093 eV/atom
+  mattergen-2693  (Li2Si3O7): 0.185 eV/atom
+  mp-1222720-GGA  (Li2Al2SiO6): 0.027 eV/atom
+  mattergen-17    (Li2Al2SiO6): 0.466 eV/atom
+  mattergen-34    (Li2Al2SiO6): 0.140 eV/atom
+  mattergen-55    (Li2Al2SiO6): 0.111 eV/atom
+  mattergen-102   (Li2Al2SiO6): 0.028 eV/atom
+  mattergen-203   (Li2Al2SiO6): 0.115 eV/atom
+  mattergen-214   (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-235   (Li2Al2SiO6): 0.189 eV/atom
+  mattergen-242   (Li2Al2SiO6): 0.053 eV/atom
+  mattergen-345   (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-355   (Li2Al2SiO6): 0.118 eV/atom
+  mattergen-406   (Li2Al2SiO6): 0.046 eV/atom
+  mattergen-601   (Li2Al2SiO6): 0.180 eV/atom
+  mattergen-639   (Li2Al2SiO6): 0.119 eV/atom
+  mattergen-731   (Li2Al2SiO6): 0.048 eV/atom
+  mattergen-737   (Li2Al2SiO6): 0.565 eV/atom
+  mattergen-825   (Li2Al2SiO6): 0.062 eV/atom
+  mattergen-936   (Li2Al2SiO6): 0.124 eV/atom
+  mattergen-992   (Li2Al2SiO6): 0.079 eV/atom
+  mattergen-1020  (Li2Al2SiO6): 0.170 eV/atom
+  mattergen-1031  (Li2Al2SiO6): 0.080 eV/atom
+  mattergen-1126  (Li2Al2SiO6): 0.531 eV/atom
+  mattergen-1177  (Li2Al2SiO6): 0.173 eV/atom
+  mattergen-1208  (Li2Al2SiO6): 0.163 eV/atom
+  mattergen-1234  (Li2Al2SiO6): 0.081 eV/atom
+  mattergen-1260  (Li2Al2SiO6): 0.070 eV/atom
+  mattergen-1266  (Li2Al2SiO6): 0.147 eV/atom
+  mattergen-1297  (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-1304  (Li2Al2SiO6): 0.150 eV/atom
+  mattergen-1335  (Li2Al2SiO6): 0.173 eV/atom
+  mattergen-1367  (Li2Al2SiO6): 0.466 eV/atom
+  mattergen-1384  (Li2Al2SiO6): 0.140 eV/atom
+  mattergen-1405  (Li2Al2SiO6): 0.111 eV/atom
+  mattergen-1452  (Li2Al2SiO6): 0.028 eV/atom
+  mattergen-1553  (Li2Al2SiO6): 0.115 eV/atom
+  mattergen-1564  (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-1585  (Li2Al2SiO6): 0.189 eV/atom
+  mattergen-1592  (Li2Al2SiO6): 0.053 eV/atom
+  mattergen-1695  (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-1705  (Li2Al2SiO6): 0.118 eV/atom
+  mattergen-1756  (Li2Al2SiO6): 0.046 eV/atom
+  mattergen-1951  (Li2Al2SiO6): 0.180 eV/atom
+  mattergen-1989  (Li2Al2SiO6): 0.119 eV/atom
+  mattergen-2081  (Li2Al2SiO6): 0.048 eV/atom
+  mattergen-2087  (Li2Al2SiO6): 0.565 eV/atom
+  mattergen-2175  (Li2Al2SiO6): 0.062 eV/atom
+  mattergen-2286  (Li2Al2SiO6): 0.124 eV/atom
+  mattergen-2342  (Li2Al2SiO6): 0.079 eV/atom
+  mattergen-2370  (Li2Al2SiO6): 0.170 eV/atom
+  mattergen-2381  (Li2Al2SiO6): 0.080 eV/atom
+  mattergen-2476  (Li2Al2SiO6): 0.531 eV/atom
+  mattergen-2527  (Li2Al2SiO6): 0.173 eV/atom
+  mattergen-2558  (Li2Al2SiO6): 0.163 eV/atom
+  mattergen-2584  (Li2Al2SiO6): 0.081 eV/atom
+  mattergen-2610  (Li2Al2SiO6): 0.070 eV/atom
+  mattergen-2616  (Li2Al2SiO6): 0.147 eV/atom
+  mattergen-2647  (Li2Al2SiO6): 0.108 eV/atom
+  mattergen-2654  (Li2Al2SiO6): 0.150 eV/atom
+  mattergen-2685  (Li2Al2SiO6): 0.173 eV/atom
+  mattergen-70    (Li3Al(SiO3)3): 0.092 eV/atom
+  mattergen-74    (Li3Al(SiO3)3): 0.120 eV/atom
+  mattergen-196   (Li3Al(SiO3)3): 0.100 eV/atom
+  mattergen-236   (Li3Al(SiO3)3): 0.083 eV/atom
+  mattergen-277   (Li3Al(SiO3)3): 0.229 eV/atom
+  mattergen-291   (Li3Al(SiO3)3): 0.105 eV/atom
+  mattergen-322   (Li3Al(SiO3)3): 0.150 eV/atom
+  mattergen-361   (Li3Al(SiO3)3): 0.108 eV/atom
+  mattergen-412   (Li3Al(SiO3)3): 0.152 eV/atom
+  mattergen-416   (Li3Al(SiO3)3): 0.079 eV/atom
+  mattergen-418   (Li3Al(SiO3)3): 0.107 eV/atom
+  mattergen-437   (Li3Al(SiO3)3): 0.143 eV/atom
+  mattergen-441   (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-518   (Li3Al(SiO3)3): 0.076 eV/atom
+  mattergen-558   (Li3Al(SiO3)3): 0.123 eV/atom
+  mattergen-575   (Li3Al(SiO3)3): 0.147 eV/atom
+  mattergen-577   (Li3Al(SiO3)3): 0.117 eV/atom
+  mattergen-610   (Li3Al(SiO3)3): 0.065 eV/atom
+  mattergen-647   (Li3Al(SiO3)3): 0.170 eV/atom
+  mattergen-699   (Li3Al(SiO3)3): 0.079 eV/atom
+  mattergen-700   (Li3Al(SiO3)3): 0.071 eV/atom
+  mattergen-718   (Li3Al(SiO3)3): 0.118 eV/atom
+  mattergen-719   (Li3Al(SiO3)3): 0.106 eV/atom
+  mattergen-720   (Li3Al(SiO3)3): 0.119 eV/atom
+  mattergen-733   (Li3Al(SiO3)3): 0.055 eV/atom
+  mattergen-739   (Li3Al(SiO3)3): 0.057 eV/atom
+  mattergen-741   (Li3Al(SiO3)3): 0.136 eV/atom
+  mattergen-742   (Li3Al(SiO3)3): 0.075 eV/atom
+  mattergen-752   (Li3Al(SiO3)3): 0.111 eV/atom
+  mattergen-773   (Li3Al(SiO3)3): 0.198 eV/atom
+  mattergen-779   (Li3Al(SiO3)3): 0.209 eV/atom
+  mattergen-790   (Li3Al(SiO3)3): 0.060 eV/atom
+  mattergen-809   (Li3Al(SiO3)3): 0.189 eV/atom
+  mattergen-828   (Li3Al(SiO3)3): 0.085 eV/atom
+  mattergen-884   (Li3Al(SiO3)3): 0.084 eV/atom
+  mattergen-890   (Li3Al(SiO3)3): 0.797 eV/atom
+  mattergen-898   (Li3Al(SiO3)3): 0.181 eV/atom
+  mattergen-903   (Li3Al(SiO3)3): 0.097 eV/atom
+  mattergen-937   (Li3Al(SiO3)3): 0.102 eV/atom
+  mattergen-972   (Li3Al(SiO3)3): 0.060 eV/atom
+  mattergen-1007  (Li3Al(SiO3)3): 0.140 eV/atom
+  mattergen-1011  (Li3Al(SiO3)3): 0.086 eV/atom
+  mattergen-1024  (Li3Al(SiO3)3): 0.078 eV/atom
+  mattergen-1028  (Li3Al(SiO3)3): 0.166 eV/atom
+  mattergen-1040  (Li3Al(SiO3)3): 0.114 eV/atom
+  mattergen-1051  (Li3Al(SiO3)3): 0.090 eV/atom
+  mattergen-1071  (Li3Al(SiO3)3): 0.039 eV/atom
+  mattergen-1110  (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-1119  (Li3Al(SiO3)3): 0.172 eV/atom
+  mattergen-1153  (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-1158  (Li3Al(SiO3)3): 0.161 eV/atom
+  mattergen-1201  (Li3Al(SiO3)3): 0.071 eV/atom
+  mattergen-1240  (Li3Al(SiO3)3): 0.092 eV/atom
+  mattergen-1256  (Li3Al(SiO3)3): 0.107 eV/atom
+  mattergen-1284  (Li3Al(SiO3)3): 0.061 eV/atom
+  mattergen-1315  (Li3Al(SiO3)3): 0.058 eV/atom
+  mattergen-1420  (Li3Al(SiO3)3): 0.092 eV/atom
+  mattergen-1424  (Li3Al(SiO3)3): 0.120 eV/atom
+  mattergen-1546  (Li3Al(SiO3)3): 0.100 eV/atom
+  mattergen-1586  (Li3Al(SiO3)3): 0.083 eV/atom
+  mattergen-1627  (Li3Al(SiO3)3): 0.229 eV/atom
+  mattergen-1641  (Li3Al(SiO3)3): 0.105 eV/atom
+  mattergen-1672  (Li3Al(SiO3)3): 0.150 eV/atom
+  mattergen-1711  (Li3Al(SiO3)3): 0.108 eV/atom
+  mattergen-1762  (Li3Al(SiO3)3): 0.152 eV/atom
+  mattergen-1766  (Li3Al(SiO3)3): 0.079 eV/atom
+  mattergen-1768  (Li3Al(SiO3)3): 0.107 eV/atom
+  mattergen-1787  (Li3Al(SiO3)3): 0.143 eV/atom
+  mattergen-1791  (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-1868  (Li3Al(SiO3)3): 0.076 eV/atom
+  mattergen-1908  (Li3Al(SiO3)3): 0.123 eV/atom
+  mattergen-1925  (Li3Al(SiO3)3): 0.147 eV/atom
+  mattergen-1927  (Li3Al(SiO3)3): 0.117 eV/atom
+  mattergen-1960  (Li3Al(SiO3)3): 0.065 eV/atom
+  mattergen-1997  (Li3Al(SiO3)3): 0.170 eV/atom
+  mattergen-2049  (Li3Al(SiO3)3): 0.079 eV/atom
+  mattergen-2050  (Li3Al(SiO3)3): 0.071 eV/atom
+  mattergen-2068  (Li3Al(SiO3)3): 0.119 eV/atom
+  mattergen-2069  (Li3Al(SiO3)3): 0.106 eV/atom
+  mattergen-2070  (Li3Al(SiO3)3): 0.119 eV/atom
+  mattergen-2083  (Li3Al(SiO3)3): 0.055 eV/atom
+  mattergen-2089  (Li3Al(SiO3)3): 0.057 eV/atom
+  mattergen-2091  (Li3Al(SiO3)3): 0.136 eV/atom
+  mattergen-2092  (Li3Al(SiO3)3): 0.075 eV/atom
+  mattergen-2102  (Li3Al(SiO3)3): 0.111 eV/atom
+  mattergen-2123  (Li3Al(SiO3)3): 0.198 eV/atom
+  mattergen-2129  (Li3Al(SiO3)3): 0.209 eV/atom
+  mattergen-2140  (Li3Al(SiO3)3): 0.060 eV/atom
+  mattergen-2159  (Li3Al(SiO3)3): 0.189 eV/atom
+  mattergen-2178  (Li3Al(SiO3)3): 0.085 eV/atom
+  mattergen-2234  (Li3Al(SiO3)3): 0.084 eV/atom
+  mattergen-2240  (Li3Al(SiO3)3): 0.797 eV/atom
+  mattergen-2248  (Li3Al(SiO3)3): 0.181 eV/atom
+  mattergen-2253  (Li3Al(SiO3)3): 0.097 eV/atom
+  mattergen-2287  (Li3Al(SiO3)3): 0.102 eV/atom
+  mattergen-2322  (Li3Al(SiO3)3): 0.060 eV/atom
+  mattergen-2357  (Li3Al(SiO3)3): 0.140 eV/atom
+  mattergen-2361  (Li3Al(SiO3)3): 0.086 eV/atom
+  mattergen-2374  (Li3Al(SiO3)3): 0.078 eV/atom
+  mattergen-2378  (Li3Al(SiO3)3): 0.166 eV/atom
+  mattergen-2390  (Li3Al(SiO3)3): 0.114 eV/atom
+  mattergen-2401  (Li3Al(SiO3)3): 0.090 eV/atom
+  mattergen-2421  (Li3Al(SiO3)3): 0.039 eV/atom
+  mattergen-2460  (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-2469  (Li3Al(SiO3)3): 0.172 eV/atom
+  mattergen-2503  (Li3Al(SiO3)3): 0.087 eV/atom
+  mattergen-2508  (Li3Al(SiO3)3): 0.161 eV/atom
+  mattergen-2551  (Li3Al(SiO3)3): 0.071 eV/atom
+  mattergen-2590  (Li3Al(SiO3)3): 0.092 eV/atom
+  mattergen-2606  (Li3Al(SiO3)3): 0.107 eV/atom
+  mattergen-2634  (Li3Al(SiO3)3): 0.061 eV/atom
+  mattergen-2665  (Li3Al(SiO3)3): 0.058 eV/atom
+  mp-542874-GGA   (LiAl(SiO3)2): 0.040 eV/atom
+  mp-558808-GGA   (LiAl(SiO3)2): 0.025 eV/atom
+  mp-6340-GGA     (LiAl(SiO3)2): 0.038 eV/atom
+  mp-1222469-GGA  (LiAl(SiO3)2): 0.003 eV/atom
+  mattergen-10    (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-27    (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-31    (LiAl(SiO3)2): 0.003 eV/atom
+  mattergen-32    (LiAl(SiO3)2): 0.135 eV/atom
+  mattergen-38    (LiAl(SiO3)2): 0.170 eV/atom
+  mattergen-43    (LiAl(SiO3)2): 0.032 eV/atom
+  mattergen-60    (LiAl(SiO3)2): 0.229 eV/atom
+  mattergen-62    (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-64    (LiAl(SiO3)2): 0.177 eV/atom
+  mattergen-81    (LiAl(SiO3)2): 0.166 eV/atom
+  mattergen-82    (LiAl(SiO3)2): 0.228 eV/atom
+  mattergen-90    (LiAl(SiO3)2): 0.357 eV/atom
+  mattergen-96    (LiAl(SiO3)2): 0.017 eV/atom
+  mattergen-116   (LiAl(SiO3)2): 0.058 eV/atom
+  mattergen-118   (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-134   (LiAl(SiO3)2): 0.253 eV/atom
+  mattergen-144   (LiAl(SiO3)2): 0.151 eV/atom
+  mattergen-145   (LiAl(SiO3)2): 0.139 eV/atom
+  mattergen-148   (LiAl(SiO3)2): 0.064 eV/atom
+  mattergen-150   (LiAl(SiO3)2): 0.057 eV/atom
+  mattergen-151   (LiAl(SiO3)2): 0.248 eV/atom
+  mattergen-162   (LiAl(SiO3)2): 0.043 eV/atom
+  mattergen-163   (LiAl(SiO3)2): 0.185 eV/atom
+  mattergen-182   (LiAl(SiO3)2): 0.390 eV/atom
+  mattergen-192   (LiAl(SiO3)2): 0.026 eV/atom
+  mattergen-197   (LiAl(SiO3)2): 0.173 eV/atom
+  mattergen-202   (LiAl(SiO3)2): 0.181 eV/atom
+  mattergen-219   (LiAl(SiO3)2): 0.101 eV/atom
+  mattergen-222   (LiAl(SiO3)2): 0.178 eV/atom
+  mattergen-230   (LiAl(SiO3)2): 0.158 eV/atom
+  mattergen-233   (LiAl(SiO3)2): 0.130 eV/atom
+  mattergen-237   (LiAl(SiO3)2): 0.108 eV/atom
+  mattergen-246   (LiAl(SiO3)2): 0.088 eV/atom
+  mattergen-249   (LiAl(SiO3)2): 0.265 eV/atom
+  mattergen-253   (LiAl(SiO3)2): 0.320 eV/atom
+  mattergen-262   (LiAl(SiO3)2): 0.000 eV/atom
+  mattergen-265   (LiAl(SiO3)2): 0.067 eV/atom
+  mattergen-266   (LiAl(SiO3)2): 0.135 eV/atom
+  mattergen-270   (LiAl(SiO3)2): 0.171 eV/atom
+  mattergen-274   (LiAl(SiO3)2): 0.084 eV/atom
+  mattergen-276   (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-298   (LiAl(SiO3)2): 0.134 eV/atom
+  mattergen-301   (LiAl(SiO3)2): 0.161 eV/atom
+  mattergen-311   (LiAl(SiO3)2): 0.201 eV/atom
+  mattergen-315   (LiAl(SiO3)2): 0.197 eV/atom
+  mattergen-317   (LiAl(SiO3)2): 0.115 eV/atom
+  mattergen-318   (LiAl(SiO3)2): 0.109 eV/atom
+  mattergen-333   (LiAl(SiO3)2): 0.141 eV/atom
+  mattergen-339   (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-356   (LiAl(SiO3)2): 0.185 eV/atom
+  mattergen-384   (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-386   (LiAl(SiO3)2): 0.149 eV/atom
+  mattergen-389   (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-391   (LiAl(SiO3)2): 0.181 eV/atom
+  mattergen-398   (LiAl(SiO3)2): 0.039 eV/atom
+  mattergen-428   (LiAl(SiO3)2): 0.189 eV/atom
+  mattergen-432   (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-436   (LiAl(SiO3)2): 0.061 eV/atom
+  mattergen-452   (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-464   (LiAl(SiO3)2): 0.060 eV/atom
+  mattergen-469   (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-474   (LiAl(SiO3)2): 0.329 eV/atom
+  mattergen-484   (LiAl(SiO3)2): 0.110 eV/atom
+  mattergen-487   (LiAl(SiO3)2): 0.155 eV/atom
+  mattergen-492   (LiAl(SiO3)2): 0.154 eV/atom
+  mattergen-498   (LiAl(SiO3)2): 0.128 eV/atom
+  mattergen-508   (LiAl(SiO3)2): 0.038 eV/atom
+  mattergen-517   (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-522   (LiAl(SiO3)2): 0.200 eV/atom
+  mattergen-545   (LiAl(SiO3)2): 0.038 eV/atom
+  mattergen-548   (LiAl(SiO3)2): 0.114 eV/atom
+  mattergen-556   (LiAl(SiO3)2): 0.225 eV/atom
+  mattergen-573   (LiAl(SiO3)2): 0.172 eV/atom
+  mattergen-579   (LiAl(SiO3)2): 0.103 eV/atom
+  mattergen-589   (LiAl(SiO3)2): 0.094 eV/atom
+  mattergen-594   (LiAl(SiO3)2): 0.120 eV/atom
+  mattergen-607   (LiAl(SiO3)2): 0.112 eV/atom
+  mattergen-622   (LiAl(SiO3)2): 0.179 eV/atom
+  mattergen-626   (LiAl(SiO3)2): 0.107 eV/atom
+  mattergen-636   (LiAl(SiO3)2): 0.202 eV/atom
+  mattergen-643   (LiAl(SiO3)2): 0.223 eV/atom
+  mattergen-661   (LiAl(SiO3)2): 0.247 eV/atom
+  mattergen-668   (LiAl(SiO3)2): 0.040 eV/atom
+  mattergen-672   (LiAl(SiO3)2): 0.142 eV/atom
+  mattergen-680   (LiAl(SiO3)2): 0.152 eV/atom
+  mattergen-689   (LiAl(SiO3)2): 0.072 eV/atom
+  mattergen-707   (LiAl(SiO3)2): 0.191 eV/atom
+  mattergen-761   (LiAl(SiO3)2): 0.027 eV/atom
+  mattergen-763   (LiAl(SiO3)2): 0.124 eV/atom
+  mattergen-767   (LiAl(SiO3)2): 0.057 eV/atom
+  mattergen-776   (LiAl(SiO3)2): 0.194 eV/atom
+  mattergen-797   (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-810   (LiAl(SiO3)2): 0.040 eV/atom
+  mattergen-812   (LiAl(SiO3)2): 0.019 eV/atom
+  mattergen-820   (LiAl(SiO3)2): 0.113 eV/atom
+  mattergen-829   (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-833   (LiAl(SiO3)2): 0.307 eV/atom
+  mattergen-834   (LiAl(SiO3)2): 0.148 eV/atom
+  mattergen-837   (LiAl(SiO3)2): 0.093 eV/atom
+  mattergen-838   (LiAl(SiO3)2): 0.131 eV/atom
+  mattergen-840   (LiAl(SiO3)2): 0.079 eV/atom
+  mattergen-843   (LiAl(SiO3)2): 0.083 eV/atom
+  mattergen-864   (LiAl(SiO3)2): 0.214 eV/atom
+  mattergen-865   (LiAl(SiO3)2): 0.031 eV/atom
+  mattergen-873   (LiAl(SiO3)2): 0.099 eV/atom
+  mattergen-874   (LiAl(SiO3)2): 0.114 eV/atom
+  mattergen-915   (LiAl(SiO3)2): 0.072 eV/atom
+  mattergen-919   (LiAl(SiO3)2): 0.167 eV/atom
+  mattergen-923   (LiAl(SiO3)2): 0.118 eV/atom
+  mattergen-924   (LiAl(SiO3)2): 0.050 eV/atom
+  mattergen-950   (LiAl(SiO3)2): 0.033 eV/atom
+  mattergen-973   (LiAl(SiO3)2): 0.034 eV/atom
+  mattergen-977   (LiAl(SiO3)2): 0.276 eV/atom
+  mattergen-985   (LiAl(SiO3)2): 0.129 eV/atom
+  mattergen-996   (LiAl(SiO3)2): 0.123 eV/atom
+  mattergen-999   (LiAl(SiO3)2): 0.209 eV/atom
+  mattergen-1017  (LiAl(SiO3)2): 0.157 eV/atom
+  mattergen-1018  (LiAl(SiO3)2): 0.138 eV/atom
+  mattergen-1029  (LiAl(SiO3)2): 0.244 eV/atom
+  mattergen-1032  (LiAl(SiO3)2): 0.118 eV/atom
+  mattergen-1036  (LiAl(SiO3)2): 0.244 eV/atom
+  mattergen-1055  (LiAl(SiO3)2): 0.256 eV/atom
+  mattergen-1072  (LiAl(SiO3)2): 0.129 eV/atom
+  mattergen-1076  (LiAl(SiO3)2): 0.056 eV/atom
+  mattergen-1081  (LiAl(SiO3)2): 0.122 eV/atom
+  mattergen-1083  (LiAl(SiO3)2): 0.070 eV/atom
+  mattergen-1086  (LiAl(SiO3)2): 0.194 eV/atom
+  mattergen-1088  (LiAl(SiO3)2): 0.565 eV/atom
+  mattergen-1098  (LiAl(SiO3)2): 0.251 eV/atom
+  mattergen-1107  (LiAl(SiO3)2): 0.145 eV/atom
+  mattergen-1111  (LiAl(SiO3)2): 0.200 eV/atom
+  mattergen-1112  (LiAl(SiO3)2): 0.152 eV/atom
+  mattergen-1136  (LiAl(SiO3)2): 0.198 eV/atom
+  mattergen-1143  (LiAl(SiO3)2): 0.142 eV/atom
+  mattergen-1151  (LiAl(SiO3)2): 0.059 eV/atom
+  mattergen-1154  (LiAl(SiO3)2): 0.110 eV/atom
+  mattergen-1162  (LiAl(SiO3)2): 0.195 eV/atom
+  mattergen-1168  (LiAl(SiO3)2): 0.117 eV/atom
+  mattergen-1176  (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-1185  (LiAl(SiO3)2): 0.195 eV/atom
+  mattergen-1187  (LiAl(SiO3)2): 0.157 eV/atom
+  mattergen-1207  (LiAl(SiO3)2): 0.123 eV/atom
+  mattergen-1224  (LiAl(SiO3)2): 0.090 eV/atom
+  mattergen-1243  (LiAl(SiO3)2): 0.176 eV/atom
+  mattergen-1258  (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-1270  (LiAl(SiO3)2): 0.574 eV/atom
+  mattergen-1272  (LiAl(SiO3)2): 0.283 eV/atom
+  mattergen-1274  (LiAl(SiO3)2): 0.091 eV/atom
+  mattergen-1283  (LiAl(SiO3)2): 0.354 eV/atom
+  mattergen-1303  (LiAl(SiO3)2): 0.212 eV/atom
+  mattergen-1306  (LiAl(SiO3)2): 0.379 eV/atom
+  mattergen-1311  (LiAl(SiO3)2): 0.134 eV/atom
+  mattergen-1323  (LiAl(SiO3)2): 0.127 eV/atom
+  mattergen-1325  (LiAl(SiO3)2): 0.086 eV/atom
+  mattergen-1332  (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-1360  (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-1377  (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-1381  (LiAl(SiO3)2): 0.003 eV/atom
+  mattergen-1382  (LiAl(SiO3)2): 0.135 eV/atom
+  mattergen-1388  (LiAl(SiO3)2): 0.170 eV/atom
+  mattergen-1393  (LiAl(SiO3)2): 0.032 eV/atom
+  mattergen-1410  (LiAl(SiO3)2): 0.229 eV/atom
+  mattergen-1412  (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-1414  (LiAl(SiO3)2): 0.177 eV/atom
+  mattergen-1431  (LiAl(SiO3)2): 0.166 eV/atom
+  mattergen-1432  (LiAl(SiO3)2): 0.228 eV/atom
+  mattergen-1440  (LiAl(SiO3)2): 0.357 eV/atom
+  mattergen-1446  (LiAl(SiO3)2): 0.017 eV/atom
+  mattergen-1466  (LiAl(SiO3)2): 0.058 eV/atom
+  mattergen-1468  (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-1484  (LiAl(SiO3)2): 0.253 eV/atom
+  mattergen-1494  (LiAl(SiO3)2): 0.151 eV/atom
+  mattergen-1495  (LiAl(SiO3)2): 0.139 eV/atom
+  mattergen-1498  (LiAl(SiO3)2): 0.064 eV/atom
+  mattergen-1500  (LiAl(SiO3)2): 0.057 eV/atom
+  mattergen-1501  (LiAl(SiO3)2): 0.248 eV/atom
+  mattergen-1512  (LiAl(SiO3)2): 0.043 eV/atom
+  mattergen-1513  (LiAl(SiO3)2): 0.185 eV/atom
+  mattergen-1532  (LiAl(SiO3)2): 0.390 eV/atom
+  mattergen-1542  (LiAl(SiO3)2): 0.026 eV/atom
+  mattergen-1547  (LiAl(SiO3)2): 0.173 eV/atom
+  mattergen-1552  (LiAl(SiO3)2): 0.181 eV/atom
+  mattergen-1569  (LiAl(SiO3)2): 0.101 eV/atom
+  mattergen-1572  (LiAl(SiO3)2): 0.178 eV/atom
+  mattergen-1580  (LiAl(SiO3)2): 0.158 eV/atom
+  mattergen-1583  (LiAl(SiO3)2): 0.130 eV/atom
+  mattergen-1587  (LiAl(SiO3)2): 0.108 eV/atom
+  mattergen-1596  (LiAl(SiO3)2): 0.088 eV/atom
+  mattergen-1599  (LiAl(SiO3)2): 0.265 eV/atom
+  mattergen-1603  (LiAl(SiO3)2): 0.320 eV/atom
+  mattergen-1612  (LiAl(SiO3)2): 0.000 eV/atom
+  mattergen-1615  (LiAl(SiO3)2): 0.067 eV/atom
+  mattergen-1616  (LiAl(SiO3)2): 0.135 eV/atom
+  mattergen-1620  (LiAl(SiO3)2): 0.171 eV/atom
+  mattergen-1624  (LiAl(SiO3)2): 0.084 eV/atom
+  mattergen-1626  (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-1648  (LiAl(SiO3)2): 0.134 eV/atom
+  mattergen-1651  (LiAl(SiO3)2): 0.161 eV/atom
+  mattergen-1661  (LiAl(SiO3)2): 0.201 eV/atom
+  mattergen-1665  (LiAl(SiO3)2): 0.197 eV/atom
+  mattergen-1667  (LiAl(SiO3)2): 0.115 eV/atom
+  mattergen-1668  (LiAl(SiO3)2): 0.109 eV/atom
+  mattergen-1683  (LiAl(SiO3)2): 0.141 eV/atom
+  mattergen-1689  (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-1706  (LiAl(SiO3)2): 0.186 eV/atom
+  mattergen-1734  (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-1736  (LiAl(SiO3)2): 0.149 eV/atom
+  mattergen-1739  (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-1741  (LiAl(SiO3)2): 0.181 eV/atom
+  mattergen-1748  (LiAl(SiO3)2): 0.039 eV/atom
+  mattergen-1778  (LiAl(SiO3)2): 0.189 eV/atom
+  mattergen-1782  (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-1786  (LiAl(SiO3)2): 0.061 eV/atom
+  mattergen-1802  (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-1814  (LiAl(SiO3)2): 0.060 eV/atom
+  mattergen-1819  (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-1824  (LiAl(SiO3)2): 0.329 eV/atom
+  mattergen-1834  (LiAl(SiO3)2): 0.110 eV/atom
+  mattergen-1837  (LiAl(SiO3)2): 0.155 eV/atom
+  mattergen-1842  (LiAl(SiO3)2): 0.154 eV/atom
+  mattergen-1848  (LiAl(SiO3)2): 0.128 eV/atom
+  mattergen-1858  (LiAl(SiO3)2): 0.038 eV/atom
+  mattergen-1867  (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-1872  (LiAl(SiO3)2): 0.216 eV/atom
+  mattergen-1895  (LiAl(SiO3)2): 0.038 eV/atom
+  mattergen-1898  (LiAl(SiO3)2): 0.114 eV/atom
+  mattergen-1906  (LiAl(SiO3)2): 0.225 eV/atom
+  mattergen-1923  (LiAl(SiO3)2): 0.172 eV/atom
+  mattergen-1929  (LiAl(SiO3)2): 0.103 eV/atom
+  mattergen-1939  (LiAl(SiO3)2): 0.094 eV/atom
+  mattergen-1944  (LiAl(SiO3)2): 0.120 eV/atom
+  mattergen-1957  (LiAl(SiO3)2): 0.112 eV/atom
+  mattergen-1972  (LiAl(SiO3)2): 0.179 eV/atom
+  mattergen-1976  (LiAl(SiO3)2): 0.107 eV/atom
+  mattergen-1986  (LiAl(SiO3)2): 0.202 eV/atom
+  mattergen-1993  (LiAl(SiO3)2): 0.223 eV/atom
+  mattergen-2011  (LiAl(SiO3)2): 0.247 eV/atom
+  mattergen-2018  (LiAl(SiO3)2): 0.040 eV/atom
+  mattergen-2022  (LiAl(SiO3)2): 0.142 eV/atom
+  mattergen-2030  (LiAl(SiO3)2): 0.152 eV/atom
+  mattergen-2039  (LiAl(SiO3)2): 0.072 eV/atom
+  mattergen-2057  (LiAl(SiO3)2): 0.191 eV/atom
+  mattergen-2111  (LiAl(SiO3)2): 0.027 eV/atom
+  mattergen-2113  (LiAl(SiO3)2): 0.124 eV/atom
+  mattergen-2117  (LiAl(SiO3)2): 0.057 eV/atom
+  mattergen-2126  (LiAl(SiO3)2): 0.194 eV/atom
+  mattergen-2147  (LiAl(SiO3)2): 0.196 eV/atom
+  mattergen-2160  (LiAl(SiO3)2): 0.040 eV/atom
+  mattergen-2162  (LiAl(SiO3)2): 0.019 eV/atom
+  mattergen-2170  (LiAl(SiO3)2): 0.113 eV/atom
+  mattergen-2179  (LiAl(SiO3)2): 0.140 eV/atom
+  mattergen-2183  (LiAl(SiO3)2): 0.307 eV/atom
+  mattergen-2184  (LiAl(SiO3)2): 0.148 eV/atom
+  mattergen-2187  (LiAl(SiO3)2): 0.093 eV/atom
+  mattergen-2188  (LiAl(SiO3)2): 0.131 eV/atom
+  mattergen-2190  (LiAl(SiO3)2): 0.079 eV/atom
+  mattergen-2193  (LiAl(SiO3)2): 0.083 eV/atom
+  mattergen-2214  (LiAl(SiO3)2): 0.214 eV/atom
+  mattergen-2215  (LiAl(SiO3)2): 0.031 eV/atom
+  mattergen-2223  (LiAl(SiO3)2): 0.099 eV/atom
+  mattergen-2224  (LiAl(SiO3)2): 0.114 eV/atom
+  mattergen-2265  (LiAl(SiO3)2): 0.072 eV/atom
+  mattergen-2269  (LiAl(SiO3)2): 0.167 eV/atom
+  mattergen-2273  (LiAl(SiO3)2): 0.118 eV/atom
+  mattergen-2274  (LiAl(SiO3)2): 0.050 eV/atom
+  mattergen-2300  (LiAl(SiO3)2): 0.033 eV/atom
+  mattergen-2323  (LiAl(SiO3)2): 0.034 eV/atom
+  mattergen-2327  (LiAl(SiO3)2): 0.323 eV/atom
+  mattergen-2335  (LiAl(SiO3)2): 0.129 eV/atom
+  mattergen-2346  (LiAl(SiO3)2): 0.123 eV/atom
+  mattergen-2349  (LiAl(SiO3)2): 0.209 eV/atom
+  mattergen-2367  (LiAl(SiO3)2): 0.157 eV/atom
+  mattergen-2368  (LiAl(SiO3)2): 0.138 eV/atom
+  mattergen-2379  (LiAl(SiO3)2): 0.244 eV/atom
+  mattergen-2382  (LiAl(SiO3)2): 0.118 eV/atom
+  mattergen-2386  (LiAl(SiO3)2): 0.244 eV/atom
+  mattergen-2405  (LiAl(SiO3)2): 0.256 eV/atom
+  mattergen-2422  (LiAl(SiO3)2): 0.129 eV/atom
+  mattergen-2426  (LiAl(SiO3)2): 0.056 eV/atom
+  mattergen-2431  (LiAl(SiO3)2): 0.122 eV/atom
+  mattergen-2433  (LiAl(SiO3)2): 0.070 eV/atom
+  mattergen-2436  (LiAl(SiO3)2): 0.194 eV/atom
+  mattergen-2438  (LiAl(SiO3)2): 0.565 eV/atom
+  mattergen-2448  (LiAl(SiO3)2): 0.251 eV/atom
+  mattergen-2457  (LiAl(SiO3)2): 0.145 eV/atom
+  mattergen-2461  (LiAl(SiO3)2): 0.200 eV/atom
+  mattergen-2462  (LiAl(SiO3)2): 0.152 eV/atom
+  mattergen-2486  (LiAl(SiO3)2): 0.198 eV/atom
+  mattergen-2493  (LiAl(SiO3)2): 0.142 eV/atom
+  mattergen-2501  (LiAl(SiO3)2): 0.059 eV/atom
+  mattergen-2504  (LiAl(SiO3)2): 0.110 eV/atom
+  mattergen-2512  (LiAl(SiO3)2): 0.195 eV/atom
+  mattergen-2518  (LiAl(SiO3)2): 0.117 eV/atom
+  mattergen-2526  (LiAl(SiO3)2): 0.132 eV/atom
+  mattergen-2535  (LiAl(SiO3)2): 0.195 eV/atom
+  mattergen-2537  (LiAl(SiO3)2): 0.157 eV/atom
+  mattergen-2557  (LiAl(SiO3)2): 0.123 eV/atom
+  mattergen-2574  (LiAl(SiO3)2): 0.090 eV/atom
+  mattergen-2593  (LiAl(SiO3)2): 0.176 eV/atom
+  mattergen-2608  (LiAl(SiO3)2): 0.206 eV/atom
+  mattergen-2620  (LiAl(SiO3)2): 0.574 eV/atom
+  mattergen-2622  (LiAl(SiO3)2): 0.283 eV/atom
+  mattergen-2624  (LiAl(SiO3)2): 0.091 eV/atom
+  mattergen-2633  (LiAl(SiO3)2): 0.354 eV/atom
+  mattergen-2653  (LiAl(SiO3)2): 0.212 eV/atom
+  mattergen-2656  (LiAl(SiO3)2): 0.379 eV/atom
+  mattergen-2661  (LiAl(SiO3)2): 0.134 eV/atom
+  mattergen-2673  (LiAl(SiO3)2): 0.127 eV/atom
+  mattergen-2675  (LiAl(SiO3)2): 0.086 eV/atom
+  mattergen-2682  (LiAl(SiO3)2): 0.160 eV/atom
+  mattergen-506   (Li4Al4SiO10): 0.075 eV/atom
+  mattergen-1856  (Li4Al4SiO10): 0.075 eV/atom
+  mattergen-591   (Li3AlSi9O): 0.182 eV/atom
+  mattergen-1941  (Li3AlSi9O): 0.182 eV/atom
+  mp-3552-GGA     (Li2Si2O5): 0.004 eV/atom
+  mp-4117-GGA     (Li2Si2O5): 0.000 eV/atom
+  mattergen-72    (Li2Si2O5): 0.106 eV/atom
+  mattergen-76    (Li2Si2O5): 0.006 eV/atom
+  mattergen-105   (Li2Si2O5): 0.146 eV/atom
+  mattergen-107   (Li2Si2O5): 0.085 eV/atom
+  mattergen-169   (Li2Si2O5): 0.146 eV/atom
+  mattergen-171   (Li2Si2O5): 0.088 eV/atom
+  mattergen-186   (Li2Si2O5): 0.078 eV/atom
+  mattergen-227   (Li2Si2O5): 0.081 eV/atom
+  mattergen-261   (Li2Si2O5): 0.123 eV/atom
+  mattergen-271   (Li2Si2O5): 0.087 eV/atom
+  mattergen-279   (Li2Si2O5): 0.092 eV/atom
+  mattergen-331   (Li2Si2O5): 0.058 eV/atom
+  mattergen-332   (Li2Si2O5): 0.145 eV/atom
+  mattergen-341   (Li2Si2O5): 0.085 eV/atom
+  mattergen-359   (Li2Si2O5): 0.085 eV/atom
+  mattergen-377   (Li2Si2O5): 0.090 eV/atom
+  mattergen-456   (Li2Si2O5): 0.057 eV/atom
+  mattergen-475   (Li2Si2O5): 0.143 eV/atom
+  mattergen-479   (Li2Si2O5): 0.332 eV/atom
+  mattergen-529   (Li2Si2O5): 0.131 eV/atom
+  mattergen-555   (Li2Si2O5): 0.322 eV/atom
+  mattergen-633   (Li2Si2O5): 0.121 eV/atom
+  mattergen-648   (Li2Si2O5): 0.099 eV/atom
+  mattergen-656   (Li2Si2O5): 0.081 eV/atom
+  mattergen-688   (Li2Si2O5): 0.137 eV/atom
+  mattergen-703   (Li2Si2O5): 0.093 eV/atom
+  mattergen-740   (Li2Si2O5): 0.215 eV/atom
+  mattergen-816   (Li2Si2O5): 0.138 eV/atom
+  mattergen-846   (Li2Si2O5): 0.076 eV/atom
+  mattergen-894   (Li2Si2O5): 0.200 eV/atom
+  mattergen-897   (Li2Si2O5): 0.215 eV/atom
+  mattergen-995   (Li2Si2O5): 0.239 eV/atom
+  mattergen-1005  (Li2Si2O5): 0.081 eV/atom
+  mattergen-1022  (Li2Si2O5): 0.203 eV/atom
+  mattergen-1045  (Li2Si2O5): 0.159 eV/atom
+  mattergen-1053  (Li2Si2O5): 0.068 eV/atom
+  mattergen-1057  (Li2Si2O5): 0.220 eV/atom
+  mattergen-1087  (Li2Si2O5): 0.097 eV/atom
+  mattergen-1106  (Li2Si2O5): 0.061 eV/atom
+  mattergen-1114  (Li2Si2O5): 0.170 eV/atom
+  mattergen-1231  (Li2Si2O5): 0.050 eV/atom
+  mattergen-1262  (Li2Si2O5): 0.082 eV/atom
+  mattergen-1275  (Li2Si2O5): 0.090 eV/atom
+  mattergen-1287  (Li2Si2O5): 0.178 eV/atom
+  mattergen-1295  (Li2Si2O5): 0.102 eV/atom
+  mattergen-1316  (Li2Si2O5): 0.029 eV/atom
+  mattergen-1319  (Li2Si2O5): 0.111 eV/atom
+  mattergen-1327  (Li2Si2O5): 0.092 eV/atom
+  mattergen-1336  (Li2Si2O5): 0.138 eV/atom
+  mattergen-1422  (Li2Si2O5): 0.106 eV/atom
+  mattergen-1426  (Li2Si2O5): 0.006 eV/atom
+  mattergen-1455  (Li2Si2O5): 0.146 eV/atom
+  mattergen-1457  (Li2Si2O5): 0.085 eV/atom
+  mattergen-1519  (Li2Si2O5): 0.146 eV/atom
+  mattergen-1521  (Li2Si2O5): 0.088 eV/atom
+  mattergen-1536  (Li2Si2O5): 0.078 eV/atom
+  mattergen-1577  (Li2Si2O5): 0.081 eV/atom
+  mattergen-1611  (Li2Si2O5): 0.123 eV/atom
+  mattergen-1621  (Li2Si2O5): 0.087 eV/atom
+  mattergen-1629  (Li2Si2O5): 0.092 eV/atom
+  mattergen-1681  (Li2Si2O5): 0.058 eV/atom
+  mattergen-1682  (Li2Si2O5): 0.145 eV/atom
+  mattergen-1691  (Li2Si2O5): 0.085 eV/atom
+  mattergen-1709  (Li2Si2O5): 0.085 eV/atom
+  mattergen-1727  (Li2Si2O5): 0.090 eV/atom
+  mattergen-1806  (Li2Si2O5): 0.057 eV/atom
+  mattergen-1825  (Li2Si2O5): 0.143 eV/atom
+  mattergen-1829  (Li2Si2O5): 0.332 eV/atom
+  mattergen-1879  (Li2Si2O5): 0.131 eV/atom
+  mattergen-1905  (Li2Si2O5): 0.322 eV/atom
+  mattergen-1983  (Li2Si2O5): 0.121 eV/atom
+  mattergen-1998  (Li2Si2O5): 0.099 eV/atom
+  mattergen-2006  (Li2Si2O5): 0.081 eV/atom
+  mattergen-2038  (Li2Si2O5): 0.137 eV/atom
+  mattergen-2053  (Li2Si2O5): 0.093 eV/atom
+  mattergen-2090  (Li2Si2O5): 0.215 eV/atom
+  mattergen-2166  (Li2Si2O5): 0.138 eV/atom
+  mattergen-2196  (Li2Si2O5): 0.076 eV/atom
+  mattergen-2244  (Li2Si2O5): 0.200 eV/atom
+  mattergen-2247  (Li2Si2O5): 0.215 eV/atom
+  mattergen-2345  (Li2Si2O5): 0.239 eV/atom
+  mattergen-2355  (Li2Si2O5): 0.081 eV/atom
+  mattergen-2372  (Li2Si2O5): 0.203 eV/atom
+  mattergen-2395  (Li2Si2O5): 0.159 eV/atom
+  mattergen-2403  (Li2Si2O5): 0.068 eV/atom
+  mattergen-2407  (Li2Si2O5): 0.220 eV/atom
+  mattergen-2437  (Li2Si2O5): 0.097 eV/atom
+  mattergen-2456  (Li2Si2O5): 0.061 eV/atom
+  mattergen-2464  (Li2Si2O5): 0.170 eV/atom
+  mattergen-2581  (Li2Si2O5): 0.050 eV/atom
+  mattergen-2612  (Li2Si2O5): 0.082 eV/atom
+  mattergen-2625  (Li2Si2O5): 0.090 eV/atom
+  mattergen-2637  (Li2Si2O5): 0.180 eV/atom
+  mattergen-2645  (Li2Si2O5): 0.102 eV/atom
+  mattergen-2666  (Li2Si2O5): 0.029 eV/atom
+  mattergen-2669  (Li2Si2O5): 0.111 eV/atom
+  mattergen-2677  (Li2Si2O5): 0.092 eV/atom
+  mattergen-2686  (Li2Si2O5): 0.138 eV/atom
+  mattergen-123   (Li3AlSi2O7): 0.078 eV/atom
+  mattergen-281   (Li3AlSi2O7): 0.117 eV/atom
+  mattergen-312   (Li3AlSi2O7): 0.040 eV/atom
+  mattergen-352   (Li3AlSi2O7): 0.190 eV/atom
+  mattergen-494   (Li3AlSi2O7): 0.039 eV/atom
+  mattergen-500   (Li3AlSi2O7): 0.170 eV/atom
+  mattergen-581   (Li3AlSi2O7): 0.079 eV/atom
+  mattergen-675   (Li3AlSi2O7): 0.114 eV/atom
+  mattergen-852   (Li3AlSi2O7): 0.037 eV/atom
+  mattergen-905   (Li3AlSi2O7): 0.112 eV/atom
+  mattergen-1202  (Li3AlSi2O7): 0.119 eV/atom
+  mattergen-1244  (Li3AlSi2O7): 0.044 eV/atom
+  mattergen-1473  (Li3AlSi2O7): 0.078 eV/atom
+  mattergen-1631  (Li3AlSi2O7): 0.117 eV/atom
+  mattergen-1662  (Li3AlSi2O7): 0.040 eV/atom
+  mattergen-1702  (Li3AlSi2O7): 0.190 eV/atom
+  mattergen-1844  (Li3AlSi2O7): 0.039 eV/atom
+  mattergen-1850  (Li3AlSi2O7): 0.170 eV/atom
+  mattergen-1931  (Li3AlSi2O7): 0.079 eV/atom
+  mattergen-2025  (Li3AlSi2O7): 0.114 eV/atom
+  mattergen-2202  (Li3AlSi2O7): 0.037 eV/atom
+  mattergen-2255  (Li3AlSi2O7): 0.112 eV/atom
+  mattergen-2552  (Li3AlSi2O7): 0.119 eV/atom
+  mattergen-2594  (Li3AlSi2O7): 0.044 eV/atom
+  mattergen-50    (Li4Al2Si2O9): 0.103 eV/atom
+  mattergen-1400  (Li4Al2Si2O9): 0.103 eV/atom
+  mp-3427-GGA     (LiAlO2  ): 0.002 eV/atom
+  mp-8001-GGA     (LiAlO2  ): 0.019 eV/atom
+  mp-34993-GGA    (LiAlO2  ): 0.080 eV/atom
+  mattergen-2     (LiAlO2  ): 0.020 eV/atom
+  mattergen-4     (LiAlO2  ): 0.225 eV/atom
+  mattergen-9     (LiAlO2  ): 0.088 eV/atom
+  mattergen-20    (LiAlO2  ): 0.049 eV/atom
+  mattergen-26    (LiAlO2  ): 0.052 eV/atom
+  mattergen-35    (LiAlO2  ): 0.023 eV/atom
+  mattergen-40    (LiAlO2  ): 0.102 eV/atom
+  mattergen-41    (LiAlO2  ): 0.051 eV/atom
+  mattergen-42    (LiAlO2  ): 0.063 eV/atom
+  mattergen-53    (LiAlO2  ): 0.263 eV/atom
+  mattergen-57    (LiAlO2  ): 0.148 eV/atom
+  mattergen-77    (LiAlO2  ): 0.185 eV/atom
+  mattergen-83    (LiAlO2  ): 0.050 eV/atom
+  mattergen-86    (LiAlO2  ): 0.251 eV/atom
+  mattergen-98    (LiAlO2  ): 0.242 eV/atom
+  mattergen-121   (LiAlO2  ): 0.043 eV/atom
+  mattergen-126   (LiAlO2  ): 0.211 eV/atom
+  mattergen-155   (LiAlO2  ): 0.211 eV/atom
+  mattergen-157   (LiAlO2  ): 0.292 eV/atom
+  mattergen-164   (LiAlO2  ): 0.119 eV/atom
+  mattergen-185   (LiAlO2  ): 0.196 eV/atom
+  mattergen-201   (LiAlO2  ): 0.169 eV/atom
+  mattergen-207   (LiAlO2  ): 0.085 eV/atom
+  mattergen-258   (LiAlO2  ): 0.114 eV/atom
+  mattergen-264   (LiAlO2  ): 0.084 eV/atom
+  mattergen-300   (LiAlO2  ): 0.068 eV/atom
+  mattergen-321   (LiAlO2  ): 0.050 eV/atom
+  mattergen-343   (LiAlO2  ): 0.078 eV/atom
+  mattergen-350   (LiAlO2  ): 0.084 eV/atom
+  mattergen-360   (LiAlO2  ): 0.043 eV/atom
+  mattergen-421   (LiAlO2  ): 0.063 eV/atom
+  mattergen-444   (LiAlO2  ): 0.178 eV/atom
+  mattergen-455   (LiAlO2  ): 0.283 eV/atom
+  mattergen-457   (LiAlO2  ): 0.051 eV/atom
+  mattergen-477   (LiAlO2  ): 0.183 eV/atom
+  mattergen-480   (LiAlO2  ): 0.016 eV/atom
+  mattergen-491   (LiAlO2  ): 0.157 eV/atom
+  mattergen-496   (LiAlO2  ): 0.121 eV/atom
+  mattergen-513   (LiAlO2  ): 0.040 eV/atom
+  mattergen-514   (LiAlO2  ): 0.137 eV/atom
+  mattergen-516   (LiAlO2  ): 0.100 eV/atom
+  mattergen-519   (LiAlO2  ): 0.114 eV/atom
+  mattergen-521   (LiAlO2  ): 0.000 eV/atom
+  mattergen-534   (LiAlO2  ): 0.202 eV/atom
+  mattergen-539   (LiAlO2  ): 0.193 eV/atom
+  mattergen-543   (LiAlO2  ): 0.056 eV/atom
+  mattergen-546   (LiAlO2  ): 0.143 eV/atom
+  mattergen-547   (LiAlO2  ): 0.143 eV/atom
+  mattergen-551   (LiAlO2  ): 0.192 eV/atom
+  mattergen-559   (LiAlO2  ): 0.137 eV/atom
+  mattergen-578   (LiAlO2  ): 0.088 eV/atom
+  mattergen-598   (LiAlO2  ): 0.002 eV/atom
+  mattergen-651   (LiAlO2  ): 0.250 eV/atom
+  mattergen-665   (LiAlO2  ): 0.110 eV/atom
+  mattergen-674   (LiAlO2  ): 0.132 eV/atom
+  mattergen-713   (LiAlO2  ): 0.255 eV/atom
+  mattergen-717   (LiAlO2  ): 0.080 eV/atom
+  mattergen-730   (LiAlO2  ): 0.185 eV/atom
+  mattergen-782   (LiAlO2  ): 0.258 eV/atom
+  mattergen-791   (LiAlO2  ): 0.084 eV/atom
+  mattergen-793   (LiAlO2  ): 0.197 eV/atom
+  mattergen-827   (LiAlO2  ): 0.311 eV/atom
+  mattergen-832   (LiAlO2  ): 0.226 eV/atom
+  mattergen-850   (LiAlO2  ): 0.281 eV/atom
+  mattergen-867   (LiAlO2  ): 0.089 eV/atom
+  mattergen-888   (LiAlO2  ): 0.125 eV/atom
+  mattergen-889   (LiAlO2  ): 0.294 eV/atom
+  mattergen-927   (LiAlO2  ): 0.175 eV/atom
+  mattergen-941   (LiAlO2  ): 0.225 eV/atom
+  mattergen-953   (LiAlO2  ): 0.225 eV/atom
+  mattergen-976   (LiAlO2  ): 0.090 eV/atom
+  mattergen-1012  (LiAlO2  ): 0.086 eV/atom
+  mattergen-1033  (LiAlO2  ): 0.051 eV/atom
+  mattergen-1058  (LiAlO2  ): 0.047 eV/atom
+  mattergen-1089  (LiAlO2  ): 0.076 eV/atom
+  mattergen-1129  (LiAlO2  ): 0.100 eV/atom
+  mattergen-1132  (LiAlO2  ): 0.060 eV/atom
+  mattergen-1138  (LiAlO2  ): 0.123 eV/atom
+  mattergen-1146  (LiAlO2  ): 0.087 eV/atom
+  mattergen-1148  (LiAlO2  ): 0.205 eV/atom
+  mattergen-1171  (LiAlO2  ): 0.105 eV/atom
+  mattergen-1173  (LiAlO2  ): 0.113 eV/atom
+  mattergen-1180  (LiAlO2  ): 0.242 eV/atom
+  mattergen-1186  (LiAlO2  ): 0.191 eV/atom
+  mattergen-1195  (LiAlO2  ): 0.200 eV/atom
+  mattergen-1209  (LiAlO2  ): 0.277 eV/atom
+  mattergen-1237  (LiAlO2  ): 0.110 eV/atom
+  mattergen-1250  (LiAlO2  ): 0.207 eV/atom
+  mattergen-1269  (LiAlO2  ): 0.293 eV/atom
+  mattergen-1278  (LiAlO2  ): 0.100 eV/atom
+  mattergen-1309  (LiAlO2  ): 0.174 eV/atom
+  mattergen-1310  (LiAlO2  ): 0.086 eV/atom
+  mattergen-1324  (LiAlO2  ): 0.245 eV/atom
+  mattergen-1340  (LiAlO2  ): 0.177 eV/atom
+  mattergen-1341  (LiAlO2  ): 0.145 eV/atom
+  mattergen-1352  (LiAlO2  ): 0.020 eV/atom
+  mattergen-1354  (LiAlO2  ): 0.225 eV/atom
+  mattergen-1359  (LiAlO2  ): 0.088 eV/atom
+  mattergen-1370  (LiAlO2  ): 0.049 eV/atom
+  mattergen-1376  (LiAlO2  ): 0.052 eV/atom
+  mattergen-1385  (LiAlO2  ): 0.023 eV/atom
+  mattergen-1390  (LiAlO2  ): 0.102 eV/atom
+  mattergen-1391  (LiAlO2  ): 0.051 eV/atom
+  mattergen-1392  (LiAlO2  ): 0.063 eV/atom
+  mattergen-1403  (LiAlO2  ): 0.263 eV/atom
+  mattergen-1407  (LiAlO2  ): 0.148 eV/atom
+  mattergen-1427  (LiAlO2  ): 0.096 eV/atom
+  mattergen-1433  (LiAlO2  ): 0.050 eV/atom
+  mattergen-1436  (LiAlO2  ): 0.251 eV/atom
+  mattergen-1448  (LiAlO2  ): 0.242 eV/atom
+  mattergen-1471  (LiAlO2  ): 0.043 eV/atom
+  mattergen-1476  (LiAlO2  ): 0.211 eV/atom
+  mattergen-1505  (LiAlO2  ): 0.211 eV/atom
+  mattergen-1507  (LiAlO2  ): 0.292 eV/atom
+  mattergen-1514  (LiAlO2  ): 0.119 eV/atom
+  mattergen-1535  (LiAlO2  ): 0.196 eV/atom
+  mattergen-1551  (LiAlO2  ): 0.169 eV/atom
+  mattergen-1557  (LiAlO2  ): 0.085 eV/atom
+  mattergen-1608  (LiAlO2  ): 0.114 eV/atom
+  mattergen-1614  (LiAlO2  ): 0.084 eV/atom
+  mattergen-1650  (LiAlO2  ): 0.068 eV/atom
+  mattergen-1671  (LiAlO2  ): 0.050 eV/atom
+  mattergen-1693  (LiAlO2  ): 0.078 eV/atom
+  mattergen-1700  (LiAlO2  ): 0.084 eV/atom
+  mattergen-1710  (LiAlO2  ): 0.043 eV/atom
+  mattergen-1771  (LiAlO2  ): 0.063 eV/atom
+  mattergen-1794  (LiAlO2  ): 0.178 eV/atom
+  mattergen-1805  (LiAlO2  ): 0.283 eV/atom
+  mattergen-1807  (LiAlO2  ): 0.051 eV/atom
+  mattergen-1827  (LiAlO2  ): 0.189 eV/atom
+  mattergen-1830  (LiAlO2  ): 0.016 eV/atom
+  mattergen-1841  (LiAlO2  ): 0.157 eV/atom
+  mattergen-1846  (LiAlO2  ): 0.121 eV/atom
+  mattergen-1863  (LiAlO2  ): 0.040 eV/atom
+  mattergen-1864  (LiAlO2  ): 0.101 eV/atom
+  mattergen-1866  (LiAlO2  ): 0.100 eV/atom
+  mattergen-1869  (LiAlO2  ): 0.114 eV/atom
+  mattergen-1871  (LiAlO2  ): 0.000 eV/atom
+  mattergen-1884  (LiAlO2  ): 0.202 eV/atom
+  mattergen-1889  (LiAlO2  ): 0.193 eV/atom
+  mattergen-1893  (LiAlO2  ): 0.056 eV/atom
+  mattergen-1896  (LiAlO2  ): 0.143 eV/atom
+  mattergen-1897  (LiAlO2  ): 0.143 eV/atom
+  mattergen-1901  (LiAlO2  ): 0.192 eV/atom
+  mattergen-1909  (LiAlO2  ): 0.137 eV/atom
+  mattergen-1928  (LiAlO2  ): 0.088 eV/atom
+  mattergen-1948  (LiAlO2  ): 0.002 eV/atom
+  mattergen-2001  (LiAlO2  ): 0.250 eV/atom
+  mattergen-2015  (LiAlO2  ): 0.110 eV/atom
+  mattergen-2024  (LiAlO2  ): 0.129 eV/atom
+  mattergen-2063  (LiAlO2  ): 0.255 eV/atom
+  mattergen-2067  (LiAlO2  ): 0.080 eV/atom
+  mattergen-2080  (LiAlO2  ): 0.185 eV/atom
+  mattergen-2132  (LiAlO2  ): 0.258 eV/atom
+  mattergen-2141  (LiAlO2  ): 0.084 eV/atom
+  mattergen-2143  (LiAlO2  ): 0.197 eV/atom
+  mattergen-2177  (LiAlO2  ): 0.311 eV/atom
+  mattergen-2182  (LiAlO2  ): 0.226 eV/atom
+  mattergen-2200  (LiAlO2  ): 0.281 eV/atom
+  mattergen-2217  (LiAlO2  ): 0.089 eV/atom
+  mattergen-2238  (LiAlO2  ): 0.125 eV/atom
+  mattergen-2239  (LiAlO2  ): 0.294 eV/atom
+  mattergen-2277  (LiAlO2  ): 0.175 eV/atom
+  mattergen-2291  (LiAlO2  ): 0.225 eV/atom
+  mattergen-2303  (LiAlO2  ): 0.225 eV/atom
+  mattergen-2326  (LiAlO2  ): 0.090 eV/atom
+  mattergen-2362  (LiAlO2  ): 0.086 eV/atom
+  mattergen-2383  (LiAlO2  ): 0.051 eV/atom
+  mattergen-2408  (LiAlO2  ): 0.047 eV/atom
+  mattergen-2439  (LiAlO2  ): 0.076 eV/atom
+  mattergen-2479  (LiAlO2  ): 0.100 eV/atom
+  mattergen-2482  (LiAlO2  ): 0.060 eV/atom
+  mattergen-2488  (LiAlO2  ): 0.123 eV/atom
+  mattergen-2496  (LiAlO2  ): 0.087 eV/atom
+  mattergen-2498  (LiAlO2  ): 0.079 eV/atom
+  mattergen-2521  (LiAlO2  ): 0.105 eV/atom
+  mattergen-2523  (LiAlO2  ): 0.113 eV/atom
+  mattergen-2530  (LiAlO2  ): 0.242 eV/atom
+  mattergen-2536  (LiAlO2  ): 0.191 eV/atom
+  mattergen-2545  (LiAlO2  ): 0.200 eV/atom
+  mattergen-2559  (LiAlO2  ): 0.277 eV/atom
+  mattergen-2587  (LiAlO2  ): 0.110 eV/atom
+  mattergen-2600  (LiAlO2  ): 0.207 eV/atom
+  mattergen-2619  (LiAlO2  ): 0.293 eV/atom
+  mattergen-2628  (LiAlO2  ): 0.100 eV/atom
+  mattergen-2659  (LiAlO2  ): 0.174 eV/atom
+  mattergen-2660  (LiAlO2  ): 0.086 eV/atom
+  mattergen-2674  (LiAlO2  ): 0.245 eV/atom
+  mattergen-2690  (LiAlO2  ): 0.177 eV/atom
+  mattergen-2691  (LiAlO2  ): 0.145 eV/atom
+  mattergen-1050  (Li3Al3(Si2O)2): 0.387 eV/atom
+  mattergen-2400  (Li3Al3(Si2O)2): 0.311 eV/atom
+  mattergen-183   (LiAlSi2 ): 0.253 eV/atom
+  mattergen-319   (LiAlSi2 ): 0.282 eV/atom
+  mattergen-696   (LiAlSi2 ): 0.189 eV/atom
+  mattergen-1321  (LiAlSi2 ): 0.171 eV/atom
+  mattergen-1533  (LiAlSi2 ): 0.253 eV/atom
+  mattergen-1669  (LiAlSi2 ): 0.282 eV/atom
+  mattergen-2046  (LiAlSi2 ): 0.189 eV/atom
+  mattergen-2671  (LiAlSi2 ): 0.171 eV/atom
+  mp-975906-GGA   (LiAl3   ): 0.014 eV/atom
+  mp-10890-GGA    (LiAl3   ): 0.008 eV/atom
+  mp-1001790-GGA  (LiO3    ): 0.089 eV/atom
+  mattergen-463   (Li2(SiO)3): 0.323 eV/atom
+  mattergen-876   (Li2(SiO)3): 0.537 eV/atom
+  mattergen-1813  (Li2(SiO)3): 0.323 eV/atom
+  mattergen-2226  (Li2(SiO)3): 0.537 eV/atom
+  mp-1185431-GGA  (LiSi3   ): 0.273 eV/atom
+  mp-975321-GGA   (LiSi3   ): 0.262 eV/atom
+  mattergen-11    (Li5AlSi3O10): 0.085 eV/atom
+  mattergen-1116  (Li5AlSi3O10): 0.117 eV/atom
+  mattergen-1165  (Li5AlSi3O10): 0.112 eV/atom
+  mattergen-1267  (Li5AlSi3O10): 0.097 eV/atom
+  mattergen-1361  (Li5AlSi3O10): 0.085 eV/atom
+  mattergen-2466  (Li5AlSi3O10): 0.117 eV/atom
+  mattergen-2515  (Li5AlSi3O10): 0.112 eV/atom
+  mattergen-2617  (Li5AlSi3O10): 0.097 eV/atom
+  mattergen-131   (Li4Si3O8): 0.210 eV/atom
+  mattergen-204   (Li4Si3O8): 0.117 eV/atom
+  mattergen-278   (Li4Si3O8): 0.091 eV/atom
+  mattergen-375   (Li4Si3O8): 0.072 eV/atom
+  mattergen-602   (Li4Si3O8): 0.097 eV/atom
+  mattergen-778   (Li4Si3O8): 0.135 eV/atom
+  mattergen-960   (Li4Si3O8): 0.098 eV/atom
+  mattergen-1002  (Li4Si3O8): 0.139 eV/atom
+  mattergen-1077  (Li4Si3O8): 0.077 eV/atom
+  mattergen-1181  (Li4Si3O8): 0.082 eV/atom
+  mattergen-1347  (Li4Si3O8): 0.088 eV/atom
+  mattergen-1481  (Li4Si3O8): 0.210 eV/atom
+  mattergen-1554  (Li4Si3O8): 0.117 eV/atom
+  mattergen-1628  (Li4Si3O8): 0.091 eV/atom
+  mattergen-1725  (Li4Si3O8): 0.072 eV/atom
+  mattergen-1952  (Li4Si3O8): 0.097 eV/atom
+  mattergen-2128  (Li4Si3O8): 0.135 eV/atom
+  mattergen-2310  (Li4Si3O8): 0.098 eV/atom
+  mattergen-2352  (Li4Si3O8): 0.139 eV/atom
+  mattergen-2427  (Li4Si3O8): 0.077 eV/atom
+  mattergen-2531  (Li4Si3O8): 0.082 eV/atom
+  mattergen-2697  (Li4Si3O8): 0.088 eV/atom
+  mattergen-1     (Li5Al3SiO9): 0.116 eV/atom
+  mattergen-159   (Li5Al3SiO9): 0.119 eV/atom
+  mattergen-177   (Li5Al3SiO9): 0.124 eV/atom
+  mattergen-180   (Li5Al3SiO9): 0.113 eV/atom
+  mattergen-520   (Li5Al3SiO9): 0.096 eV/atom
+  mattergen-580   (Li5Al3SiO9): 0.132 eV/atom
+  mattergen-916   (Li5Al3SiO9): 0.067 eV/atom
+  mattergen-931   (Li5Al3SiO9): 0.139 eV/atom
+  mattergen-955   (Li5Al3SiO9): 0.107 eV/atom
+  mattergen-1010  (Li5Al3SiO9): 0.106 eV/atom
+  mattergen-1282  (Li5Al3SiO9): 0.215 eV/atom
+  mattergen-1330  (Li5Al3SiO9): 0.158 eV/atom
+  mattergen-1351  (Li5Al3SiO9): 0.116 eV/atom
+  mattergen-1509  (Li5Al3SiO9): 0.119 eV/atom
+  mattergen-1527  (Li5Al3SiO9): 0.124 eV/atom
+  mattergen-1530  (Li5Al3SiO9): 0.113 eV/atom
+  mattergen-1870  (Li5Al3SiO9): 0.096 eV/atom
+  mattergen-1930  (Li5Al3SiO9): 0.132 eV/atom
+  mattergen-2266  (Li5Al3SiO9): 0.067 eV/atom
+  mattergen-2281  (Li5Al3SiO9): 0.139 eV/atom
+  mattergen-2305  (Li5Al3SiO9): 0.107 eV/atom
+  mattergen-2360  (Li5Al3SiO9): 0.106 eV/atom
+  mattergen-2632  (Li5Al3SiO9): 0.215 eV/atom
+  mattergen-2680  (Li5Al3SiO9): 0.158 eV/atom
+  mattergen-275   (Li4Al2SiO7): 0.142 eV/atom
+  mattergen-588   (Li4Al2SiO7): 0.048 eV/atom
+  mattergen-617   (Li4Al2SiO7): 0.121 eV/atom
+  mattergen-625   (Li4Al2SiO7): 0.144 eV/atom
+  mattergen-818   (Li4Al2SiO7): 0.214 eV/atom
+  mattergen-958   (Li4Al2SiO7): 0.048 eV/atom
+  mattergen-1085  (Li4Al2SiO7): 0.107 eV/atom
+  mattergen-1094  (Li4Al2SiO7): 0.121 eV/atom
+  mattergen-1307  (Li4Al2SiO7): 0.118 eV/atom
+  mattergen-1625  (Li4Al2SiO7): 0.142 eV/atom
+  mattergen-1938  (Li4Al2SiO7): 0.048 eV/atom
+  mattergen-1967  (Li4Al2SiO7): 0.121 eV/atom
+  mattergen-1975  (Li4Al2SiO7): 0.144 eV/atom
+  mattergen-2168  (Li4Al2SiO7): 0.214 eV/atom
+  mattergen-2308  (Li4Al2SiO7): 0.048 eV/atom
+  mattergen-2435  (Li4Al2SiO7): 0.107 eV/atom
+  mattergen-2444  (Li4Al2SiO7): 0.121 eV/atom
+  mattergen-2657  (Li4Al2SiO7): 0.118 eV/atom
+  mattergen-811   (Li2Al2SiO2): 0.402 eV/atom
+  mattergen-2161  (Li2Al2SiO2): 0.402 eV/atom
+  mattergen-218   (Li4Al2Si3O11): 0.151 eV/atom
+  mattergen-221   (Li4Al2Si3O11): 0.092 eV/atom
+  mattergen-224   (Li4Al2Si3O11): 0.084 eV/atom
+  mattergen-287   (Li4Al2Si3O11): 0.106 eV/atom
+  mattergen-390   (Li4Al2Si3O11): 0.154 eV/atom
+  mattergen-467   (Li4Al2Si3O11): 0.132 eV/atom
+  mattergen-504   (Li4Al2Si3O11): 0.135 eV/atom
+  mattergen-536   (Li4Al2Si3O11): 0.101 eV/atom
+  mattergen-568   (Li4Al2Si3O11): 0.097 eV/atom
+  mattergen-611   (Li4Al2Si3O11): 0.075 eV/atom
+  mattergen-640   (Li4Al2Si3O11): 0.078 eV/atom
+  mattergen-678   (Li4Al2Si3O11): 0.105 eV/atom
+  mattergen-698   (Li4Al2Si3O11): 0.273 eV/atom
+  mattergen-721   (Li4Al2Si3O11): 0.134 eV/atom
+  mattergen-734   (Li4Al2Si3O11): 0.120 eV/atom
+  mattergen-747   (Li4Al2Si3O11): 0.079 eV/atom
+  mattergen-749   (Li4Al2Si3O11): 0.137 eV/atom
+  mattergen-795   (Li4Al2Si3O11): 0.098 eV/atom
+  mattergen-862   (Li4Al2Si3O11): 0.128 eV/atom
+  mattergen-870   (Li4Al2Si3O11): 0.087 eV/atom
+  mattergen-929   (Li4Al2Si3O11): 0.193 eV/atom
+  mattergen-946   (Li4Al2Si3O11): 0.095 eV/atom
+  mattergen-993   (Li4Al2Si3O11): 0.122 eV/atom
+  mattergen-1004  (Li4Al2Si3O11): 0.115 eV/atom
+  mattergen-1023  (Li4Al2Si3O11): 0.101 eV/atom
+  mattergen-1041  (Li4Al2Si3O11): 0.074 eV/atom
+  mattergen-1100  (Li4Al2Si3O11): 0.099 eV/atom
+  mattergen-1104  (Li4Al2Si3O11): 0.110 eV/atom
+  mattergen-1108  (Li4Al2Si3O11): 0.140 eV/atom
+  mattergen-1163  (Li4Al2Si3O11): 0.096 eV/atom
+  mattergen-1191  (Li4Al2Si3O11): 0.176 eV/atom
+  mattergen-1197  (Li4Al2Si3O11): 0.095 eV/atom
+  mattergen-1199  (Li4Al2Si3O11): 0.074 eV/atom
+  mattergen-1205  (Li4Al2Si3O11): 0.145 eV/atom
+  mattergen-1236  (Li4Al2Si3O11): 0.077 eV/atom
+  mattergen-1273  (Li4Al2Si3O11): 0.117 eV/atom
+  mattergen-1281  (Li4Al2Si3O11): 0.212 eV/atom
+  mattergen-1568  (Li4Al2Si3O11): 0.151 eV/atom
+  mattergen-1571  (Li4Al2Si3O11): 0.092 eV/atom
+  mattergen-1574  (Li4Al2Si3O11): 0.084 eV/atom
+  mattergen-1637  (Li4Al2Si3O11): 0.106 eV/atom
+  mattergen-1740  (Li4Al2Si3O11): 0.154 eV/atom
+  mattergen-1817  (Li4Al2Si3O11): 0.132 eV/atom
+  mattergen-1854  (Li4Al2Si3O11): 0.135 eV/atom
+  mattergen-1886  (Li4Al2Si3O11): 0.101 eV/atom
+  mattergen-1918  (Li4Al2Si3O11): 0.097 eV/atom
+  mattergen-1961  (Li4Al2Si3O11): 0.075 eV/atom
+  mattergen-1990  (Li4Al2Si3O11): 0.078 eV/atom
+  mattergen-2028  (Li4Al2Si3O11): 0.105 eV/atom
+  mattergen-2048  (Li4Al2Si3O11): 0.273 eV/atom
+  mattergen-2071  (Li4Al2Si3O11): 0.134 eV/atom
+  mattergen-2084  (Li4Al2Si3O11): 0.120 eV/atom
+  mattergen-2097  (Li4Al2Si3O11): 0.079 eV/atom
+  mattergen-2099  (Li4Al2Si3O11): 0.137 eV/atom
+  mattergen-2145  (Li4Al2Si3O11): 0.098 eV/atom
+  mattergen-2212  (Li4Al2Si3O11): 0.128 eV/atom
+  mattergen-2220  (Li4Al2Si3O11): 0.087 eV/atom
+  mattergen-2279  (Li4Al2Si3O11): 0.193 eV/atom
+  mattergen-2296  (Li4Al2Si3O11): 0.095 eV/atom
+  mattergen-2343  (Li4Al2Si3O11): 0.122 eV/atom
+  mattergen-2354  (Li4Al2Si3O11): 0.115 eV/atom
+  mattergen-2373  (Li4Al2Si3O11): 0.101 eV/atom
+  mattergen-2391  (Li4Al2Si3O11): 0.074 eV/atom
+  mattergen-2450  (Li4Al2Si3O11): 0.099 eV/atom
+  mattergen-2454  (Li4Al2Si3O11): 0.110 eV/atom
+  mattergen-2458  (Li4Al2Si3O11): 0.140 eV/atom
+  mattergen-2513  (Li4Al2Si3O11): 0.096 eV/atom
+  mattergen-2541  (Li4Al2Si3O11): 0.176 eV/atom
+  mattergen-2547  (Li4Al2Si3O11): 0.095 eV/atom
+  mattergen-2549  (Li4Al2Si3O11): 0.074 eV/atom
+  mattergen-2555  (Li4Al2Si3O11): 0.145 eV/atom
+  mattergen-2586  (Li4Al2Si3O11): 0.077 eV/atom
+  mattergen-2623  (Li4Al2Si3O11): 0.117 eV/atom
+  mattergen-2631  (Li4Al2Si3O11): 0.212 eV/atom
+  mp-1185313-GGA  (LiAlO3  ): 0.529 eV/atom
+  mattergen-92    (Li3Al3SiO8): 0.076 eV/atom
+  mattergen-153   (Li3Al3SiO8): 0.076 eV/atom
+  mattergen-232   (Li3Al3SiO8): 0.115 eV/atom
+  mattergen-408   (Li3Al3SiO8): 0.121 eV/atom
+  mattergen-450   (Li3Al3SiO8): 0.037 eV/atom
+  mattergen-535   (Li3Al3SiO8): 0.106 eV/atom
+  mattergen-686   (Li3Al3SiO8): 0.065 eV/atom
+  mattergen-768   (Li3Al3SiO8): 0.148 eV/atom
+  mattergen-826   (Li3Al3SiO8): 0.121 eV/atom
+  mattergen-979   (Li3Al3SiO8): 0.200 eV/atom
+  mattergen-990   (Li3Al3SiO8): 0.098 eV/atom
+  mattergen-1118  (Li3Al3SiO8): 0.072 eV/atom
+  mattergen-1140  (Li3Al3SiO8): 0.184 eV/atom
+  mattergen-1147  (Li3Al3SiO8): 0.042 eV/atom
+  mattergen-1175  (Li3Al3SiO8): 0.034 eV/atom
+  mattergen-1210  (Li3Al3SiO8): 0.068 eV/atom
+  mattergen-1442  (Li3Al3SiO8): 0.076 eV/atom
+  mattergen-1503  (Li3Al3SiO8): 0.076 eV/atom
+  mattergen-1582  (Li3Al3SiO8): 0.115 eV/atom
+  mattergen-1758  (Li3Al3SiO8): 0.121 eV/atom
+  mattergen-1800  (Li3Al3SiO8): 0.037 eV/atom
+  mattergen-1885  (Li3Al3SiO8): 0.106 eV/atom
+  mattergen-2036  (Li3Al3SiO8): 0.065 eV/atom
+  mattergen-2118  (Li3Al3SiO8): 0.148 eV/atom
+  mattergen-2176  (Li3Al3SiO8): 0.121 eV/atom
+  mattergen-2329  (Li3Al3SiO8): 0.200 eV/atom
+  mattergen-2340  (Li3Al3SiO8): 0.098 eV/atom
+  mattergen-2468  (Li3Al3SiO8): 0.072 eV/atom
+  mattergen-2490  (Li3Al3SiO8): 0.184 eV/atom
+  mattergen-2497  (Li3Al3SiO8): 0.042 eV/atom
+  mattergen-2525  (Li3Al3SiO8): 0.034 eV/atom
+  mattergen-2560  (Li3Al3SiO8): 0.068 eV/atom
+  mattergen-68    (LiAlSi3 ): 0.321 eV/atom
+  mattergen-115   (LiAlSi3 ): 0.272 eV/atom
+  mattergen-732   (LiAlSi3 ): 0.301 eV/atom
+  mattergen-748   (LiAlSi3 ): 0.186 eV/atom
+  mattergen-787   (LiAlSi3 ): 0.220 eV/atom
+  mattergen-841   (LiAlSi3 ): 0.260 eV/atom
+  mattergen-893   (LiAlSi3 ): 0.123 eV/atom
+  mattergen-1027  (LiAlSi3 ): 0.544 eV/atom
+  mattergen-1097  (LiAlSi3 ): 0.201 eV/atom
+  mattergen-1159  (LiAlSi3 ): 0.360 eV/atom
+  mattergen-1344  (LiAlSi3 ): 0.263 eV/atom
+  mattergen-1418  (LiAlSi3 ): 0.321 eV/atom
+  mattergen-1465  (LiAlSi3 ): 0.272 eV/atom
+  mattergen-2082  (LiAlSi3 ): 0.301 eV/atom
+  mattergen-2098  (LiAlSi3 ): 0.186 eV/atom
+  mattergen-2137  (LiAlSi3 ): 0.220 eV/atom
+  mattergen-2191  (LiAlSi3 ): 0.255 eV/atom
+  mattergen-2243  (LiAlSi3 ): 0.123 eV/atom
+  mattergen-2377  (LiAlSi3 ): 0.544 eV/atom
+  mattergen-2447  (LiAlSi3 ): 0.201 eV/atom
+  mattergen-2509  (LiAlSi3 ): 0.359 eV/atom
+  mattergen-2694  (LiAlSi3 ): 0.263 eV/atom
+  mp-1185414-GGA  (LiSiO3  ): 0.412 eV/atom
+  mp-1193913-GGA  (Li4Si2O7): 0.188 eV/atom
+  mp-1222486-GGA  (Li5Al(SiO4)2): 0.011 eV/atom
+  mattergen-7     (Li5Al(SiO4)2): 0.068 eV/atom
+  mattergen-14    (Li5Al(SiO4)2): 0.008 eV/atom
+  mattergen-93    (Li5Al(SiO4)2): 0.108 eV/atom
+  mattergen-128   (Li5Al(SiO4)2): 0.096 eV/atom
+  mattergen-173   (Li5Al(SiO4)2): 0.264 eV/atom
+  mattergen-176   (Li5Al(SiO4)2): 0.072 eV/atom
+  mattergen-181   (Li5Al(SiO4)2): 0.190 eV/atom
+  mattergen-199   (Li5Al(SiO4)2): 0.068 eV/atom
+  mattergen-238   (Li5Al(SiO4)2): 0.101 eV/atom
+  mattergen-244   (Li5Al(SiO4)2): 0.125 eV/atom
+  mattergen-251   (Li5Al(SiO4)2): 0.078 eV/atom
+  mattergen-308   (Li5Al(SiO4)2): 0.053 eV/atom
+  mattergen-394   (Li5Al(SiO4)2): 0.075 eV/atom
+  mattergen-440   (Li5Al(SiO4)2): 0.136 eV/atom
+  mattergen-462   (Li5Al(SiO4)2): 0.038 eV/atom
+  mattergen-505   (Li5Al(SiO4)2): 0.097 eV/atom
+  mattergen-515   (Li5Al(SiO4)2): 0.424 eV/atom
+  mattergen-562   (Li5Al(SiO4)2): 0.085 eV/atom
+  mattergen-616   (Li5Al(SiO4)2): 0.011 eV/atom
+  mattergen-658   (Li5Al(SiO4)2): 0.118 eV/atom
+  mattergen-662   (Li5Al(SiO4)2): 0.135 eV/atom
+  mattergen-684   (Li5Al(SiO4)2): 0.090 eV/atom
+  mattergen-728   (Li5Al(SiO4)2): 0.125 eV/atom
+  mattergen-750   (Li5Al(SiO4)2): 0.148 eV/atom
+  mattergen-769   (Li5Al(SiO4)2): 0.024 eV/atom
+  mattergen-777   (Li5Al(SiO4)2): 0.018 eV/atom
+  mattergen-792   (Li5Al(SiO4)2): 0.103 eV/atom
+  mattergen-814   (Li5Al(SiO4)2): 0.083 eV/atom
+  mattergen-830   (Li5Al(SiO4)2): 0.094 eV/atom
+  mattergen-835   (Li5Al(SiO4)2): 0.084 eV/atom
+  mattergen-869   (Li5Al(SiO4)2): 0.102 eV/atom
+  mattergen-886   (Li5Al(SiO4)2): 0.029 eV/atom
+  mattergen-914   (Li5Al(SiO4)2): 0.095 eV/atom
+  mattergen-938   (Li5Al(SiO4)2): 0.105 eV/atom
+  mattergen-968   (Li5Al(SiO4)2): 0.365 eV/atom
+  mattergen-982   (Li5Al(SiO4)2): 0.185 eV/atom
+  mattergen-986   (Li5Al(SiO4)2): 0.117 eV/atom
+  mattergen-1013  (Li5Al(SiO4)2): 0.109 eV/atom
+  mattergen-1015  (Li5Al(SiO4)2): 0.296 eV/atom
+  mattergen-1079  (Li5Al(SiO4)2): 0.117 eV/atom
+  mattergen-1178  (Li5Al(SiO4)2): 0.098 eV/atom
+  mattergen-1214  (Li5Al(SiO4)2): 0.072 eV/atom
+  mattergen-1246  (Li5Al(SiO4)2): 0.047 eV/atom
+  mattergen-1251  (Li5Al(SiO4)2): 0.058 eV/atom
+  mattergen-1264  (Li5Al(SiO4)2): 0.096 eV/atom
+  mattergen-1357  (Li5Al(SiO4)2): 0.068 eV/atom
+  mattergen-1364  (Li5Al(SiO4)2): 0.008 eV/atom
+  mattergen-1443  (Li5Al(SiO4)2): 0.108 eV/atom
+  mattergen-1478  (Li5Al(SiO4)2): 0.096 eV/atom
+  mattergen-1523  (Li5Al(SiO4)2): 0.264 eV/atom
+  mattergen-1526  (Li5Al(SiO4)2): 0.072 eV/atom
+  mattergen-1531  (Li5Al(SiO4)2): 0.190 eV/atom
+  mattergen-1549  (Li5Al(SiO4)2): 0.068 eV/atom
+  mattergen-1588  (Li5Al(SiO4)2): 0.101 eV/atom
+  mattergen-1594  (Li5Al(SiO4)2): 0.125 eV/atom
+  mattergen-1601  (Li5Al(SiO4)2): 0.078 eV/atom
+  mattergen-1658  (Li5Al(SiO4)2): 0.053 eV/atom
+  mattergen-1744  (Li5Al(SiO4)2): 0.075 eV/atom
+  mattergen-1790  (Li5Al(SiO4)2): 0.136 eV/atom
+  mattergen-1812  (Li5Al(SiO4)2): 0.038 eV/atom
+  mattergen-1855  (Li5Al(SiO4)2): 0.097 eV/atom
+  mattergen-1865  (Li5Al(SiO4)2): 0.424 eV/atom
+  mattergen-1912  (Li5Al(SiO4)2): 0.085 eV/atom
+  mattergen-1966  (Li5Al(SiO4)2): 0.011 eV/atom
+  mattergen-2008  (Li5Al(SiO4)2): 0.118 eV/atom
+  mattergen-2012  (Li5Al(SiO4)2): 0.135 eV/atom
+  mattergen-2034  (Li5Al(SiO4)2): 0.090 eV/atom
+  mattergen-2078  (Li5Al(SiO4)2): 0.125 eV/atom
+  mattergen-2100  (Li5Al(SiO4)2): 0.148 eV/atom
+  mattergen-2119  (Li5Al(SiO4)2): 0.024 eV/atom
+  mattergen-2127  (Li5Al(SiO4)2): 0.018 eV/atom
+  mattergen-2142  (Li5Al(SiO4)2): 0.103 eV/atom
+  mattergen-2164  (Li5Al(SiO4)2): 0.083 eV/atom
+  mattergen-2180  (Li5Al(SiO4)2): 0.094 eV/atom
+  mattergen-2185  (Li5Al(SiO4)2): 0.084 eV/atom
+  mattergen-2219  (Li5Al(SiO4)2): 0.102 eV/atom
+  mattergen-2236  (Li5Al(SiO4)2): 0.029 eV/atom
+  mattergen-2264  (Li5Al(SiO4)2): 0.095 eV/atom
+  mattergen-2288  (Li5Al(SiO4)2): 0.105 eV/atom
+  mattergen-2318  (Li5Al(SiO4)2): 0.365 eV/atom
+  mattergen-2332  (Li5Al(SiO4)2): 0.185 eV/atom
+  mattergen-2336  (Li5Al(SiO4)2): 0.117 eV/atom
+  mattergen-2363  (Li5Al(SiO4)2): 0.109 eV/atom
+  mattergen-2365  (Li5Al(SiO4)2): 0.296 eV/atom
+  mattergen-2429  (Li5Al(SiO4)2): 0.117 eV/atom
+  mattergen-2528  (Li5Al(SiO4)2): 0.098 eV/atom
+  mattergen-2564  (Li5Al(SiO4)2): 0.072 eV/atom
+  mattergen-2596  (Li5Al(SiO4)2): 0.047 eV/atom
+  mattergen-2601  (Li5Al(SiO4)2): 0.058 eV/atom
+  mattergen-2614  (Li5Al(SiO4)2): 0.096 eV/atom
+  mattergen-1061  (Li5Al3O7): 0.074 eV/atom
+  mattergen-1127  (Li5Al3O7): 0.070 eV/atom
+  mattergen-1259  (Li5Al3O7): 0.114 eV/atom
+  mattergen-2411  (Li5Al3O7): 0.074 eV/atom
+  mattergen-2477  (Li5Al3O7): 0.070 eV/atom
+  mattergen-2609  (Li5Al3O7): 0.114 eV/atom
+  mp-3161-GGA     (LiAlSi  ): 0.000 eV/atom
+  mattergen-3     (LiAlSi  ): 0.242 eV/atom
+  mattergen-54    (LiAlSi  ): 0.074 eV/atom
+  mattergen-89    (LiAlSi  ): 0.059 eV/atom
+  mattergen-111   (LiAlSi  ): 0.045 eV/atom
+  mattergen-117   (LiAlSi  ): 0.184 eV/atom
+  mattergen-146   (LiAlSi  ): 0.074 eV/atom
+  mattergen-190   (LiAlSi  ): 0.000 eV/atom
+  mattergen-193   (LiAlSi  ): 0.098 eV/atom
+  mattergen-245   (LiAlSi  ): 0.171 eV/atom
+  mattergen-263   (LiAlSi  ): 0.134 eV/atom
+  mattergen-299   (LiAlSi  ): 0.182 eV/atom
+  mattergen-454   (LiAlSi  ): 0.125 eV/atom
+  mattergen-458   (LiAlSi  ): 0.170 eV/atom
+  mattergen-489   (LiAlSi  ): 0.143 eV/atom
+  mattergen-570   (LiAlSi  ): 0.386 eV/atom
+  mattergen-590   (LiAlSi  ): 0.195 eV/atom
+  mattergen-600   (LiAlSi  ): 0.190 eV/atom
+  mattergen-608   (LiAlSi  ): 0.127 eV/atom
+  mattergen-774   (LiAlSi  ): 0.171 eV/atom
+  mattergen-783   (LiAlSi  ): 0.094 eV/atom
+  mattergen-806   (LiAlSi  ): 0.038 eV/atom
+  mattergen-855   (LiAlSi  ): 0.216 eV/atom
+  mattergen-860   (LiAlSi  ): 0.201 eV/atom
+  mattergen-879   (LiAlSi  ): 0.284 eV/atom
+  mattergen-949   (LiAlSi  ): 0.278 eV/atom
+  mattergen-951   (LiAlSi  ): 0.058 eV/atom
+  mattergen-997   (LiAlSi  ): 0.176 eV/atom
+  mattergen-1037  (LiAlSi  ): 0.211 eV/atom
+  mattergen-1043  (LiAlSi  ): 0.045 eV/atom
+  mattergen-1156  (LiAlSi  ): 0.291 eV/atom
+  mattergen-1196  (LiAlSi  ): 0.205 eV/atom
+  mattergen-1216  (LiAlSi  ): 0.213 eV/atom
+  mattergen-1345  (LiAlSi  ): 0.156 eV/atom
+  mattergen-1348  (LiAlSi  ): 0.211 eV/atom
+  mattergen-1353  (LiAlSi  ): 0.242 eV/atom
+  mattergen-1404  (LiAlSi  ): 0.074 eV/atom
+  mattergen-1439  (LiAlSi  ): 0.059 eV/atom
+  mattergen-1461  (LiAlSi  ): 0.045 eV/atom
+  mattergen-1467  (LiAlSi  ): 0.184 eV/atom
+  mattergen-1496  (LiAlSi  ): 0.074 eV/atom
+  mattergen-1540  (LiAlSi  ): 0.000 eV/atom
+  mattergen-1543  (LiAlSi  ): 0.098 eV/atom
+  mattergen-1595  (LiAlSi  ): 0.171 eV/atom
+  mattergen-1613  (LiAlSi  ): 0.134 eV/atom
+  mattergen-1649  (LiAlSi  ): 0.182 eV/atom
+  mattergen-1804  (LiAlSi  ): 0.125 eV/atom
+  mattergen-1808  (LiAlSi  ): 0.170 eV/atom
+  mattergen-1839  (LiAlSi  ): 0.143 eV/atom
+  mattergen-1920  (LiAlSi  ): 0.386 eV/atom
+  mattergen-1940  (LiAlSi  ): 0.195 eV/atom
+  mattergen-1950  (LiAlSi  ): 0.190 eV/atom
+  mattergen-1958  (LiAlSi  ): 0.127 eV/atom
+  mattergen-2124  (LiAlSi  ): 0.171 eV/atom
+  mattergen-2133  (LiAlSi  ): 0.094 eV/atom
+  mattergen-2156  (LiAlSi  ): 0.038 eV/atom
+  mattergen-2205  (LiAlSi  ): 0.216 eV/atom
+  mattergen-2210  (LiAlSi  ): 0.201 eV/atom
+  mattergen-2229  (LiAlSi  ): 0.284 eV/atom
+  mattergen-2299  (LiAlSi  ): 0.278 eV/atom
+  mattergen-2301  (LiAlSi  ): 0.058 eV/atom
+  mattergen-2347  (LiAlSi  ): 0.176 eV/atom
+  mattergen-2387  (LiAlSi  ): 0.211 eV/atom
+  mattergen-2393  (LiAlSi  ): 0.045 eV/atom
+  mattergen-2506  (LiAlSi  ): 0.291 eV/atom
+  mattergen-2546  (LiAlSi  ): 0.205 eV/atom
+  mattergen-2566  (LiAlSi  ): 0.213 eV/atom
+  mattergen-2695  (LiAlSi  ): 0.156 eV/atom
+  mattergen-2698  (LiAlSi  ): 0.211 eV/atom
+  mp-1211134-GGA  (LiAl2   ): 0.272 eV/atom
+  mp-1018789-GGA  (LiO2    ): 0.024 eV/atom
+  mp-1094135-GGA  (LiO2    ): 0.179 eV/atom
+  mp-1094129-GGA  (LiO2    ): 0.821 eV/atom
+  mp-1097725-GGA  (LiO2    ): 0.877 eV/atom
+  mp-5012-GGA     (Li2SiO3 ): 0.000 eV/atom
+  mattergen-0     (Li2SiO3 ): 0.170 eV/atom
+  mattergen-12    (Li2SiO3 ): 0.055 eV/atom
+  mattergen-16    (Li2SiO3 ): 0.068 eV/atom
+  mattergen-21    (Li2SiO3 ): 0.094 eV/atom
+  mattergen-24    (Li2SiO3 ): 0.092 eV/atom
+  mattergen-33    (Li2SiO3 ): 0.001 eV/atom
+  mattergen-36    (Li2SiO3 ): 0.021 eV/atom
+  mattergen-37    (Li2SiO3 ): 0.145 eV/atom
+  mattergen-39    (Li2SiO3 ): 0.097 eV/atom
+  mattergen-45    (Li2SiO3 ): 0.071 eV/atom
+  mattergen-58    (Li2SiO3 ): 0.127 eV/atom
+  mattergen-88    (Li2SiO3 ): 0.065 eV/atom
+  mattergen-99    (Li2SiO3 ): 0.078 eV/atom
+  mattergen-119   (Li2SiO3 ): 0.065 eV/atom
+  mattergen-120   (Li2SiO3 ): 0.057 eV/atom
+  mattergen-136   (Li2SiO3 ): 0.361 eV/atom
+  mattergen-141   (Li2SiO3 ): 0.081 eV/atom
+  mattergen-172   (Li2SiO3 ): 0.049 eV/atom
+  mattergen-212   (Li2SiO3 ): 0.037 eV/atom
+  mattergen-257   (Li2SiO3 ): 0.080 eV/atom
+  mattergen-285   (Li2SiO3 ): 0.168 eV/atom
+  mattergen-290   (Li2SiO3 ): 0.129 eV/atom
+  mattergen-294   (Li2SiO3 ): 0.045 eV/atom
+  mattergen-296   (Li2SiO3 ): 0.288 eV/atom
+  mattergen-306   (Li2SiO3 ): 0.054 eV/atom
+  mattergen-310   (Li2SiO3 ): 0.021 eV/atom
+  mattergen-323   (Li2SiO3 ): 0.135 eV/atom
+  mattergen-335   (Li2SiO3 ): 0.143 eV/atom
+  mattergen-342   (Li2SiO3 ): 0.110 eV/atom
+  mattergen-362   (Li2SiO3 ): 0.062 eV/atom
+  mattergen-367   (Li2SiO3 ): 0.072 eV/atom
+  mattergen-370   (Li2SiO3 ): 0.077 eV/atom
+  mattergen-382   (Li2SiO3 ): 0.109 eV/atom
+  mattergen-388   (Li2SiO3 ): 0.036 eV/atom
+  mattergen-427   (Li2SiO3 ): 0.099 eV/atom
+  mattergen-431   (Li2SiO3 ): 0.145 eV/atom
+  mattergen-433   (Li2SiO3 ): 0.078 eV/atom
+  mattergen-461   (Li2SiO3 ): 0.066 eV/atom
+  mattergen-465   (Li2SiO3 ): 0.187 eV/atom
+  mattergen-473   (Li2SiO3 ): 0.042 eV/atom
+  mattergen-481   (Li2SiO3 ): 0.292 eV/atom
+  mattergen-493   (Li2SiO3 ): 0.074 eV/atom
+  mattergen-501   (Li2SiO3 ): 0.231 eV/atom
+  mattergen-503   (Li2SiO3 ): 0.095 eV/atom
+  mattergen-533   (Li2SiO3 ): 0.078 eV/atom
+  mattergen-549   (Li2SiO3 ): 0.220 eV/atom
+  mattergen-569   (Li2SiO3 ): 0.105 eV/atom
+  mattergen-596   (Li2SiO3 ): 0.122 eV/atom
+  mattergen-618   (Li2SiO3 ): 0.134 eV/atom
+  mattergen-623   (Li2SiO3 ): 0.071 eV/atom
+  mattergen-642   (Li2SiO3 ): 0.168 eV/atom
+  mattergen-654   (Li2SiO3 ): 0.266 eV/atom
+  mattergen-676   (Li2SiO3 ): 0.090 eV/atom
+  mattergen-692   (Li2SiO3 ): 0.101 eV/atom
+  mattergen-697   (Li2SiO3 ): 0.053 eV/atom
+  mattergen-702   (Li2SiO3 ): 0.148 eV/atom
+  mattergen-706   (Li2SiO3 ): 0.192 eV/atom
+  mattergen-725   (Li2SiO3 ): 0.094 eV/atom
+  mattergen-786   (Li2SiO3 ): 0.115 eV/atom
+  mattergen-801   (Li2SiO3 ): 0.094 eV/atom
+  mattergen-831   (Li2SiO3 ): 0.098 eV/atom
+  mattergen-836   (Li2SiO3 ): 0.052 eV/atom
+  mattergen-875   (Li2SiO3 ): 0.204 eV/atom
+  mattergen-881   (Li2SiO3 ): 0.178 eV/atom
+  mattergen-904   (Li2SiO3 ): 0.091 eV/atom
+  mattergen-922   (Li2SiO3 ): 0.119 eV/atom
+  mattergen-934   (Li2SiO3 ): 0.114 eV/atom
+  mattergen-988   (Li2SiO3 ): 0.060 eV/atom
+  mattergen-1008  (Li2SiO3 ): 0.101 eV/atom
+  mattergen-1026  (Li2SiO3 ): 0.511 eV/atom
+  mattergen-1035  (Li2SiO3 ): 0.077 eV/atom
+  mattergen-1059  (Li2SiO3 ): 0.088 eV/atom
+  mattergen-1123  (Li2SiO3 ): 0.129 eV/atom
+  mattergen-1134  (Li2SiO3 ): 0.091 eV/atom
+  mattergen-1157  (Li2SiO3 ): 0.174 eV/atom
+  mattergen-1164  (Li2SiO3 ): 0.063 eV/atom
+  mattergen-1166  (Li2SiO3 ): 0.085 eV/atom
+  mattergen-1189  (Li2SiO3 ): 0.068 eV/atom
+  mattergen-1198  (Li2SiO3 ): 0.101 eV/atom
+  mattergen-1203  (Li2SiO3 ): 0.087 eV/atom
+  mattergen-1206  (Li2SiO3 ): 0.313 eV/atom
+  mattergen-1215  (Li2SiO3 ): 0.080 eV/atom
+  mattergen-1223  (Li2SiO3 ): 0.285 eV/atom
+  mattergen-1228  (Li2SiO3 ): 0.088 eV/atom
+  mattergen-1248  (Li2SiO3 ): 0.131 eV/atom
+  mattergen-1249  (Li2SiO3 ): 0.091 eV/atom
+  mattergen-1263  (Li2SiO3 ): 0.633 eV/atom
+  mattergen-1268  (Li2SiO3 ): 0.215 eV/atom
+  mattergen-1288  (Li2SiO3 ): 0.300 eV/atom
+  mattergen-1299  (Li2SiO3 ): 0.108 eV/atom
+  mattergen-1350  (Li2SiO3 ): 0.170 eV/atom
+  mattergen-1362  (Li2SiO3 ): 0.055 eV/atom
+  mattergen-1366  (Li2SiO3 ): 0.068 eV/atom
+  mattergen-1371  (Li2SiO3 ): 0.094 eV/atom
+  mattergen-1374  (Li2SiO3 ): 0.092 eV/atom
+  mattergen-1383  (Li2SiO3 ): 0.001 eV/atom
+  mattergen-1386  (Li2SiO3 ): 0.021 eV/atom
+  mattergen-1387  (Li2SiO3 ): 0.145 eV/atom
+  mattergen-1389  (Li2SiO3 ): 0.097 eV/atom
+  mattergen-1395  (Li2SiO3 ): 0.071 eV/atom
+  mattergen-1408  (Li2SiO3 ): 0.127 eV/atom
+  mattergen-1438  (Li2SiO3 ): 0.065 eV/atom
+  mattergen-1449  (Li2SiO3 ): 0.078 eV/atom
+  mattergen-1469  (Li2SiO3 ): 0.065 eV/atom
+  mattergen-1470  (Li2SiO3 ): 0.057 eV/atom
+  mattergen-1486  (Li2SiO3 ): 0.361 eV/atom
+  mattergen-1491  (Li2SiO3 ): 0.081 eV/atom
+  mattergen-1522  (Li2SiO3 ): 0.049 eV/atom
+  mattergen-1562  (Li2SiO3 ): 0.037 eV/atom
+  mattergen-1607  (Li2SiO3 ): 0.080 eV/atom
+  mattergen-1635  (Li2SiO3 ): 0.168 eV/atom
+  mattergen-1640  (Li2SiO3 ): 0.129 eV/atom
+  mattergen-1644  (Li2SiO3 ): 0.045 eV/atom
+  mattergen-1646  (Li2SiO3 ): 0.288 eV/atom
+  mattergen-1656  (Li2SiO3 ): 0.054 eV/atom
+  mattergen-1660  (Li2SiO3 ): 0.021 eV/atom
+  mattergen-1673  (Li2SiO3 ): 0.135 eV/atom
+  mattergen-1685  (Li2SiO3 ): 0.143 eV/atom
+  mattergen-1692  (Li2SiO3 ): 0.110 eV/atom
+  mattergen-1712  (Li2SiO3 ): 0.062 eV/atom
+  mattergen-1717  (Li2SiO3 ): 0.072 eV/atom
+  mattergen-1720  (Li2SiO3 ): 0.077 eV/atom
+  mattergen-1732  (Li2SiO3 ): 0.109 eV/atom
+  mattergen-1738  (Li2SiO3 ): 0.036 eV/atom
+  mattergen-1777  (Li2SiO3 ): 0.099 eV/atom
+  mattergen-1781  (Li2SiO3 ): 0.145 eV/atom
+  mattergen-1783  (Li2SiO3 ): 0.078 eV/atom
+  mattergen-1811  (Li2SiO3 ): 0.066 eV/atom
+  mattergen-1815  (Li2SiO3 ): 0.187 eV/atom
+  mattergen-1823  (Li2SiO3 ): 0.042 eV/atom
+  mattergen-1831  (Li2SiO3 ): 0.292 eV/atom
+  mattergen-1843  (Li2SiO3 ): 0.074 eV/atom
+  mattergen-1851  (Li2SiO3 ): 0.231 eV/atom
+  mattergen-1853  (Li2SiO3 ): 0.095 eV/atom
+  mattergen-1883  (Li2SiO3 ): 0.078 eV/atom
+  mattergen-1899  (Li2SiO3 ): 0.220 eV/atom
+  mattergen-1919  (Li2SiO3 ): 0.105 eV/atom
+  mattergen-1946  (Li2SiO3 ): 0.122 eV/atom
+  mattergen-1968  (Li2SiO3 ): 0.134 eV/atom
+  mattergen-1973  (Li2SiO3 ): 0.071 eV/atom
+  mattergen-1992  (Li2SiO3 ): 0.168 eV/atom
+  mattergen-2004  (Li2SiO3 ): 0.266 eV/atom
+  mattergen-2026  (Li2SiO3 ): 0.090 eV/atom
+  mattergen-2042  (Li2SiO3 ): 0.105 eV/atom
+  mattergen-2047  (Li2SiO3 ): 0.053 eV/atom
+  mattergen-2052  (Li2SiO3 ): 0.148 eV/atom
+  mattergen-2056  (Li2SiO3 ): 0.192 eV/atom
+  mattergen-2075  (Li2SiO3 ): 0.094 eV/atom
+  mattergen-2136  (Li2SiO3 ): 0.115 eV/atom
+  mattergen-2151  (Li2SiO3 ): 0.094 eV/atom
+  mattergen-2181  (Li2SiO3 ): 0.098 eV/atom
+  mattergen-2186  (Li2SiO3 ): 0.052 eV/atom
+  mattergen-2225  (Li2SiO3 ): 0.204 eV/atom
+  mattergen-2231  (Li2SiO3 ): 0.178 eV/atom
+  mattergen-2254  (Li2SiO3 ): 0.091 eV/atom
+  mattergen-2272  (Li2SiO3 ): 0.119 eV/atom
+  mattergen-2284  (Li2SiO3 ): 0.114 eV/atom
+  mattergen-2338  (Li2SiO3 ): 0.060 eV/atom
+  mattergen-2358  (Li2SiO3 ): 0.101 eV/atom
+  mattergen-2376  (Li2SiO3 ): 0.511 eV/atom
+  mattergen-2385  (Li2SiO3 ): 0.077 eV/atom
+  mattergen-2409  (Li2SiO3 ): 0.088 eV/atom
+  mattergen-2473  (Li2SiO3 ): 0.129 eV/atom
+  mattergen-2484  (Li2SiO3 ): 0.091 eV/atom
+  mattergen-2507  (Li2SiO3 ): 0.174 eV/atom
+  mattergen-2514  (Li2SiO3 ): 0.063 eV/atom
+  mattergen-2516  (Li2SiO3 ): 0.085 eV/atom
+  mattergen-2539  (Li2SiO3 ): 0.068 eV/atom
+  mattergen-2548  (Li2SiO3 ): 0.101 eV/atom
+  mattergen-2553  (Li2SiO3 ): 0.087 eV/atom
+  mattergen-2556  (Li2SiO3 ): 0.312 eV/atom
+  mattergen-2565  (Li2SiO3 ): 0.080 eV/atom
+  mattergen-2573  (Li2SiO3 ): 0.285 eV/atom
+  mattergen-2578  (Li2SiO3 ): 0.088 eV/atom
+  mattergen-2598  (Li2SiO3 ): 0.131 eV/atom
+  mattergen-2599  (Li2SiO3 ): 0.091 eV/atom
+  mattergen-2613  (Li2SiO3 ): 0.637 eV/atom
+  mattergen-2618  (Li2SiO3 ): 0.215 eV/atom
+  mattergen-2638  (Li2SiO3 ): 0.300 eV/atom
+  mattergen-2649  (Li2SiO3 ): 0.108 eV/atom
+  mattergen-395   (Li4Al2O5): 0.090 eV/atom
+  mattergen-402   (Li4Al2O5): 0.100 eV/atom
+  mattergen-595   (Li4Al2O5): 0.253 eV/atom
+  mattergen-624   (Li4Al2O5): 0.182 eV/atom
+  mattergen-900   (Li4Al2O5): 0.217 eV/atom
+  mattergen-1090  (Li4Al2O5): 0.088 eV/atom
+  mattergen-1128  (Li4Al2O5): 0.260 eV/atom
+  mattergen-1745  (Li4Al2O5): 0.090 eV/atom
+  mattergen-1752  (Li4Al2O5): 0.100 eV/atom
+  mattergen-1945  (Li4Al2O5): 0.253 eV/atom
+  mattergen-1974  (Li4Al2O5): 0.182 eV/atom
+  mattergen-2250  (Li4Al2O5): 0.217 eV/atom
+  mattergen-2440  (Li4Al2O5): 0.088 eV/atom
+  mattergen-2478  (Li4Al2O5): 0.405 eV/atom
+  mattergen-309   (Li3AlSi3O): 0.269 eV/atom
+  mattergen-1659  (Li3AlSi3O): 0.269 eV/atom
+  mp-1211198-GGA  (Li3SiO4 ): 0.104 eV/atom
+  mattergen-935   (Li5AlSiO6): 0.184 eV/atom
+  mattergen-2285  (Li5AlSiO6): 0.184 eV/atom
+  mp-1020023-GGA  (Li3AlSiO5): 0.000 eV/atom
+  mattergen-30    (Li3AlSiO5): 0.080 eV/atom
+  mattergen-52    (Li3AlSiO5): 0.128 eV/atom
+  mattergen-63    (Li3AlSiO5): 0.135 eV/atom
+  mattergen-95    (Li3AlSiO5): 0.112 eV/atom
+  mattergen-130   (Li3AlSiO5): 0.098 eV/atom
+  mattergen-137   (Li3AlSiO5): 0.065 eV/atom
+  mattergen-198   (Li3AlSiO5): 0.164 eV/atom
+  mattergen-256   (Li3AlSiO5): 0.112 eV/atom
+  mattergen-280   (Li3AlSiO5): 0.091 eV/atom
+  mattergen-351   (Li3AlSiO5): 0.103 eV/atom
+  mattergen-371   (Li3AlSiO5): 0.049 eV/atom
+  mattergen-404   (Li3AlSiO5): 0.444 eV/atom
+  mattergen-409   (Li3AlSiO5): 0.078 eV/atom
+  mattergen-571   (Li3AlSiO5): 0.094 eV/atom
+  mattergen-644   (Li3AlSiO5): 0.114 eV/atom
+  mattergen-645   (Li3AlSiO5): 0.067 eV/atom
+  mattergen-690   (Li3AlSiO5): 0.208 eV/atom
+  mattergen-693   (Li3AlSiO5): 0.454 eV/atom
+  mattergen-704   (Li3AlSiO5): 0.164 eV/atom
+  mattergen-817   (Li3AlSiO5): 0.116 eV/atom
+  mattergen-901   (Li3AlSiO5): 0.648 eV/atom
+  mattergen-906   (Li3AlSiO5): 0.087 eV/atom
+  mattergen-907   (Li3AlSiO5): 0.067 eV/atom
+  mattergen-957   (Li3AlSiO5): 0.109 eV/atom
+  mattergen-1001  (Li3AlSiO5): 0.174 eV/atom
+  mattergen-1091  (Li3AlSiO5): 0.198 eV/atom
+  mattergen-1120  (Li3AlSiO5): 0.173 eV/atom
+  mattergen-1188  (Li3AlSiO5): 0.224 eV/atom
+  mattergen-1261  (Li3AlSiO5): 0.131 eV/atom
+  mattergen-1308  (Li3AlSiO5): 0.059 eV/atom
+  mattergen-1339  (Li3AlSiO5): 0.099 eV/atom
+  mattergen-1380  (Li3AlSiO5): 0.080 eV/atom
+  mattergen-1402  (Li3AlSiO5): 0.128 eV/atom
+  mattergen-1413  (Li3AlSiO5): 0.135 eV/atom
+  mattergen-1445  (Li3AlSiO5): 0.112 eV/atom
+  mattergen-1480  (Li3AlSiO5): 0.098 eV/atom
+  mattergen-1487  (Li3AlSiO5): 0.065 eV/atom
+  mattergen-1548  (Li3AlSiO5): 0.164 eV/atom
+  mattergen-1606  (Li3AlSiO5): 0.112 eV/atom
+  mattergen-1630  (Li3AlSiO5): 0.091 eV/atom
+  mattergen-1701  (Li3AlSiO5): 0.103 eV/atom
+  mattergen-1721  (Li3AlSiO5): 0.049 eV/atom
+  mattergen-1754  (Li3AlSiO5): 0.444 eV/atom
+  mattergen-1759  (Li3AlSiO5): 0.078 eV/atom
+  mattergen-1921  (Li3AlSiO5): 0.094 eV/atom
+  mattergen-1994  (Li3AlSiO5): 0.114 eV/atom
+  mattergen-1995  (Li3AlSiO5): 0.067 eV/atom
+  mattergen-2040  (Li3AlSiO5): 0.208 eV/atom
+  mattergen-2043  (Li3AlSiO5): 0.918 eV/atom
+  mattergen-2054  (Li3AlSiO5): 0.164 eV/atom
+  mattergen-2167  (Li3AlSiO5): 0.116 eV/atom
+  mattergen-2251  (Li3AlSiO5): 0.648 eV/atom
+  mattergen-2256  (Li3AlSiO5): 0.087 eV/atom
+  mattergen-2257  (Li3AlSiO5): 0.067 eV/atom
+  mattergen-2307  (Li3AlSiO5): 0.109 eV/atom
+  mattergen-2351  (Li3AlSiO5): 0.174 eV/atom
+  mattergen-2441  (Li3AlSiO5): 0.198 eV/atom
+  mattergen-2470  (Li3AlSiO5): 0.173 eV/atom
+  mattergen-2538  (Li3AlSiO5): 0.224 eV/atom
+  mattergen-2611  (Li3AlSiO5): 0.131 eV/atom
+  mattergen-2658  (Li3AlSiO5): 0.059 eV/atom
+  mattergen-2689  (Li3AlSiO5): 0.099 eV/atom
+  mattergen-754   (Li3Al3(SiO)2): 0.288 eV/atom
+  mattergen-2104  (Li3Al3(SiO)2): 0.288 eV/atom
+  mattergen-896   (Li3AlO3 ): 0.134 eV/atom
+  mattergen-2246  (Li3AlO3 ): 0.134 eV/atom
+  mattergen-208   (Li7AlSiO7): 0.084 eV/atom
+  mattergen-313   (Li7AlSiO7): 0.075 eV/atom
+  mattergen-511   (Li7AlSiO7): 0.112 eV/atom
+  mattergen-593   (Li7AlSiO7): 0.175 eV/atom
+  mattergen-1070  (Li7AlSiO7): 0.131 eV/atom
+  mattergen-1109  (Li7AlSiO7): 0.164 eV/atom
+  mattergen-1558  (Li7AlSiO7): 0.084 eV/atom
+  mattergen-1663  (Li7AlSiO7): 0.075 eV/atom
+  mattergen-1861  (Li7AlSiO7): 0.112 eV/atom
+  mattergen-1943  (Li7AlSiO7): 0.175 eV/atom
+  mattergen-2420  (Li7AlSiO7): 0.131 eV/atom
+  mattergen-2459  (Li7AlSiO7): 0.164 eV/atom
+  mattergen-1000  (Li4Al2Si2O): 0.192 eV/atom
+  mattergen-1124  (Li4Al2Si2O): 0.120 eV/atom
+  mattergen-2350  (Li4Al2Si2O): 0.192 eV/atom
+  mattergen-2474  (Li4Al2Si2O): 0.120 eV/atom
+  mp-1223129-GGA  (Li4SiO4 ): 0.002 eV/atom
+  mp-559848-GGA   (Li4SiO4 ): 0.003 eV/atom
+  mp-35822-GGA    (Li4SiO4 ): 0.031 eV/atom
+  mp-11737-GGA    (Li4SiO4 ): 0.000 eV/atom
+  mp-685863-GGA   (Li4SiO4 ): 0.039 eV/atom
+  mattergen-6     (Li4SiO4 ): 0.077 eV/atom
+  mattergen-18    (Li4SiO4 ): 0.047 eV/atom
+  mattergen-49    (Li4SiO4 ): 0.048 eV/atom
+  mattergen-87    (Li4SiO4 ): 0.102 eV/atom
+  mattergen-103   (Li4SiO4 ): 0.214 eV/atom
+  mattergen-149   (Li4SiO4 ): 0.057 eV/atom
+  mattergen-152   (Li4SiO4 ): 0.116 eV/atom
+  mattergen-226   (Li4SiO4 ): 0.164 eV/atom
+  mattergen-234   (Li4SiO4 ): 0.053 eV/atom
+  mattergen-254   (Li4SiO4 ): 0.526 eV/atom
+  mattergen-374   (Li4SiO4 ): 0.045 eV/atom
+  mattergen-423   (Li4SiO4 ): 0.051 eV/atom
+  mattergen-442   (Li4SiO4 ): 0.211 eV/atom
+  mattergen-468   (Li4SiO4 ): 0.046 eV/atom
+  mattergen-488   (Li4SiO4 ): 0.295 eV/atom
+  mattergen-495   (Li4SiO4 ): 0.241 eV/atom
+  mattergen-620   (Li4SiO4 ): 0.104 eV/atom
+  mattergen-641   (Li4SiO4 ): 0.107 eV/atom
+  mattergen-701   (Li4SiO4 ): 0.000 eV/atom
+  mattergen-813   (Li4SiO4 ): 0.037 eV/atom
+  mattergen-858   (Li4SiO4 ): 0.051 eV/atom
+  mattergen-945   (Li4SiO4 ): 0.004 eV/atom
+  mattergen-1103  (Li4SiO4 ): 0.064 eV/atom
+  mattergen-1174  (Li4SiO4 ): 0.047 eV/atom
+  mattergen-1211  (Li4SiO4 ): 0.057 eV/atom
+  mattergen-1222  (Li4SiO4 ): 0.029 eV/atom
+  mattergen-1229  (Li4SiO4 ): 0.058 eV/atom
+  mattergen-1301  (Li4SiO4 ): 0.166 eV/atom
+  mattergen-1312  (Li4SiO4 ): 0.144 eV/atom
+  mattergen-1356  (Li4SiO4 ): 0.077 eV/atom
+  mattergen-1368  (Li4SiO4 ): 0.047 eV/atom
+  mattergen-1399  (Li4SiO4 ): 0.048 eV/atom
+  mattergen-1437  (Li4SiO4 ): 0.102 eV/atom
+  mattergen-1453  (Li4SiO4 ): 0.214 eV/atom
+  mattergen-1499  (Li4SiO4 ): 0.057 eV/atom
+  mattergen-1502  (Li4SiO4 ): 0.116 eV/atom
+  mattergen-1576  (Li4SiO4 ): 0.164 eV/atom
+  mattergen-1584  (Li4SiO4 ): 0.053 eV/atom
+  mattergen-1604  (Li4SiO4 ): 0.526 eV/atom
+  mattergen-1724  (Li4SiO4 ): 0.045 eV/atom
+  mattergen-1773  (Li4SiO4 ): 0.051 eV/atom
+  mattergen-1792  (Li4SiO4 ): 0.211 eV/atom
+  mattergen-1818  (Li4SiO4 ): 0.046 eV/atom
+  mattergen-1838  (Li4SiO4 ): 0.295 eV/atom
+  mattergen-1845  (Li4SiO4 ): 0.241 eV/atom
+  mattergen-1970  (Li4SiO4 ): 0.104 eV/atom
+  mattergen-1991  (Li4SiO4 ): 0.107 eV/atom
+  mattergen-2051  (Li4SiO4 ): 0.000 eV/atom
+  mattergen-2163  (Li4SiO4 ): 0.037 eV/atom
+  mattergen-2208  (Li4SiO4 ): 0.051 eV/atom
+  mattergen-2295  (Li4SiO4 ): 0.004 eV/atom
+  mattergen-2453  (Li4SiO4 ): 0.064 eV/atom
+  mattergen-2524  (Li4SiO4 ): 0.047 eV/atom
+  mattergen-2561  (Li4SiO4 ): 0.057 eV/atom
+  mattergen-2572  (Li4SiO4 ): 0.029 eV/atom
+  mattergen-2579  (Li4SiO4 ): 0.058 eV/atom
+  mattergen-2651  (Li4SiO4 ): 0.166 eV/atom
+  mattergen-2662  (Li4SiO4 ): 0.144 eV/atom
+  mattergen-561   (Li8Al2SiO9): 0.089 eV/atom
+  mattergen-1911  (Li8Al2SiO9): 0.089 eV/atom
+  mp-27767-GGA    (Li6Si2O7): 0.019 eV/atom
+  mattergen-65    (Li6Si2O7): 0.164 eV/atom
+  mattergen-80    (Li6Si2O7): 0.020 eV/atom
+  mattergen-156   (Li6Si2O7): 0.195 eV/atom
+  mattergen-167   (Li6Si2O7): 0.057 eV/atom
+  mattergen-878   (Li6Si2O7): 0.049 eV/atom
+  mattergen-887   (Li6Si2O7): 0.050 eV/atom
+  mattergen-932   (Li6Si2O7): 0.032 eV/atom
+  mattergen-1016  (Li6Si2O7): 0.046 eV/atom
+  mattergen-1161  (Li6Si2O7): 0.054 eV/atom
+  mattergen-1204  (Li6Si2O7): 0.031 eV/atom
+  mattergen-1298  (Li6Si2O7): 0.036 eV/atom
+  mattergen-1415  (Li6Si2O7): 0.164 eV/atom
+  mattergen-1430  (Li6Si2O7): 0.020 eV/atom
+  mattergen-1506  (Li6Si2O7): 0.195 eV/atom
+  mattergen-1517  (Li6Si2O7): 0.057 eV/atom
+  mattergen-2228  (Li6Si2O7): 0.049 eV/atom
+  mattergen-2237  (Li6Si2O7): 0.050 eV/atom
+  mattergen-2282  (Li6Si2O7): 0.032 eV/atom
+  mattergen-2366  (Li6Si2O7): 0.046 eV/atom
+  mattergen-2511  (Li6Si2O7): 0.054 eV/atom
+  mattergen-2554  (Li6Si2O7): 0.031 eV/atom
+  mattergen-2648  (Li6Si2O7): 0.036 eV/atom
+  mp-28549-GGA    (Li8SiO6 ): 0.000 eV/atom
+  mp-1212183-GGA  (Li7Al6  ): 1.395 eV/atom
+  mattergen-114   (Li5AlSiO2): 0.414 eV/atom
+  mattergen-1464  (Li5AlSiO2): 0.414 eV/atom
+  mattergen-794   (Li5AlSi3): 0.076 eV/atom
+  mattergen-2144  (Li5AlSi3): 0.076 eV/atom
+  mattergen-1225  (Li4Si3  ): 0.199 eV/atom
+  mattergen-2575  (Li4Si3  ): 0.199 eV/atom
+  mattergen-140   (Li3AlSiO): 0.173 eV/atom
+  mattergen-247   (Li3AlSiO): 0.378 eV/atom
+  mattergen-711   (Li3AlSiO): 0.171 eV/atom
+  mattergen-1006  (Li3AlSiO): 0.203 eV/atom
+  mattergen-1019  (Li3AlSiO): 0.312 eV/atom
+  mattergen-1490  (Li3AlSiO): 0.173 eV/atom
+  mattergen-1597  (Li3AlSiO): 0.378 eV/atom
+  mattergen-2061  (Li3AlSiO): 0.171 eV/atom
+  mattergen-2356  (Li3AlSiO): 0.203 eV/atom
+  mattergen-2369  (Li3AlSiO): 0.250 eV/atom
+  mp-30134-GGA    (Li8Al3Si5): 0.166 eV/atom
+  mp-15960-GGA    (Li5AlO4 ): 0.000 eV/atom
+  mp-7535-GGA     (Li5AlO4 ): 0.003 eV/atom
+  mattergen-59    (Li5AlO4 ): 0.120 eV/atom
+  mattergen-304   (Li5AlO4 ): 0.446 eV/atom
+  mattergen-430   (Li5AlO4 ): 0.084 eV/atom
+  mattergen-1060  (Li5AlO4 ): 0.202 eV/atom
+  mattergen-1069  (Li5AlO4 ): 0.059 eV/atom
+  mattergen-1294  (Li5AlO4 ): 0.169 eV/atom
+  mattergen-1409  (Li5AlO4 ): 0.120 eV/atom
+  mattergen-1654  (Li5AlO4 ): 0.165 eV/atom
+  mattergen-1780  (Li5AlO4 ): 0.084 eV/atom
+  mattergen-2410  (Li5AlO4 ): 0.202 eV/atom
+  mattergen-2419  (Li5AlO4 ): 0.059 eV/atom
+  mattergen-2644  (Li5AlO4 ): 0.318 eV/atom
+  mattergen-175   (Li5AlSi4): 0.144 eV/atom
+  mattergen-1525  (Li5AlSi4): 0.144 eV/atom
+  mp-1210755-GGA  (Li2AlSi ): 0.070 eV/atom
+  mp-1191737-GGA  (LiAl    ): 0.150 eV/atom
+  mp-1067-GGA     (LiAl    ): 0.000 eV/atom
+  mp-1079240-GGA  (LiAl    ): 0.107 eV/atom
+  mp-1097030-GGA  (Li2O2   ): 0.446 eV/atom
+  mp-558312-GGA   (Li2O2   ): 0.130 eV/atom
+  mp-841-GGA      (Li2O2   ): 0.000 eV/atom
+  mp-1180619-GGA  (Li2O2   ): 0.423 eV/atom
+  mattergen-599   (Li6SiO5 ): 0.074 eV/atom
+  mattergen-682   (Li6SiO5 ): 0.075 eV/atom
+  mattergen-1137  (Li6SiO5 ): 0.145 eV/atom
+  mattergen-1160  (Li6SiO5 ): 0.167 eV/atom
+  mattergen-1949  (Li6SiO5 ): 0.074 eV/atom
+  mattergen-2032  (Li6SiO5 ): 0.075 eV/atom
+  mattergen-2487  (Li6SiO5 ): 0.145 eV/atom
+  mattergen-2510  (Li6SiO5 ): 0.167 eV/atom
+  mp-795-GGA      (LiSi    ): 0.012 eV/atom
+  mp-570363-GGA   (LiSi    ): 0.233 eV/atom
+  mp-1222271-GGA  (LiSi    ): 0.165 eV/atom
+  mattergen-216   (Li5AlSi2): 0.107 eV/atom
+  mattergen-453   (Li5AlSi2): 0.080 eV/atom
+  mattergen-753   (Li5AlSi2): 0.000 eV/atom
+  mattergen-975   (Li5AlSi2): 0.075 eV/atom
+  mattergen-1566  (Li5AlSi2): 0.107 eV/atom
+  mattergen-1803  (Li5AlSi2): 0.080 eV/atom
+  mattergen-2103  (Li5AlSi2): 0.000 eV/atom
+  mattergen-2325  (Li5AlSi2): 0.075 eV/atom
+  mattergen-839   (Li10(SiO)3): 0.155 eV/atom
+  mattergen-2189  (Li10(SiO)3): 0.155 eV/atom
+  mp-14378-GGA    (Li12Al3Si4): 0.068 eV/atom
+  mp-1314-GGA     (Li12Si7 ): 0.039 eV/atom
+  mp-1210792-GGA  (Li2Al   ): 0.268 eV/atom
+  mp-1210753-GGA  (Li2Al   ): 0.000 eV/atom
+  mp-1245303-GGA  (Li2O    ): 0.133 eV/atom
+  mp-1960-GGA     (Li2O    ): 0.000 eV/atom
+  mp-1245092-GGA  (Li2O    ): 0.148 eV/atom
+  mp-755894-GGA   (Li2O    ): 0.095 eV/atom
+  mp-1245224-GGA  (Li2O    ): 0.124 eV/atom
+  mp-1245009-GGA  (Li2O    ): 0.148 eV/atom
+  mattergen-168   (Li2O    ): 0.000 eV/atom
+  mattergen-446   (Li2O    ): 0.278 eV/atom
+  mattergen-671   (Li2O    ): 0.108 eV/atom
+  mattergen-1518  (Li2O    ): 0.000 eV/atom
+  mattergen-1796  (Li2O    ): 0.278 eV/atom
+  mattergen-2021  (Li2O    ): 0.108 eV/atom
+  mp-27705-GGA    (Li2Si   ): 0.050 eV/atom
+  mattergen-1265  (Li2Si   ): 0.052 eV/atom
+  mattergen-2615  (Li2Si   ): 0.052 eV/atom
+  mp-568404-GGA   (Li9Al4  ): 0.000 eV/atom
+  mp-16506-GGA    (Li3Al2  ): 0.000 eV/atom
+  mattergen-585   (Li6Si3O ): 0.108 eV/atom
+  mattergen-1935  (Li6Si3O ): 0.109 eV/atom
+  mp-975868-GGA   (Li3Al   ): 0.049 eV/atom
+  mattergen-320   (Li6SiO  ): 0.075 eV/atom
+  mattergen-880   (Li6SiO  ): 0.074 eV/atom
+  mattergen-1670  (Li6SiO  ): 0.075 eV/atom
+  mattergen-2230  (Li6SiO  ): 0.074 eV/atom
+  mp-672287-GGA   (Li13Si4 ): 0.006 eV/atom
+  mp-27930-GGA    (Li7Si2  ): 0.046 eV/atom
+  mp-569849-GGA   (Li15Si4 ): 0.000 eV/atom
+  mp-1201871-GGA  (Li7Si3  ): 0.000 eV/atom
+  mp-29720-GGA    (Li21Si5 ): 0.000 eV/atom
+  mp-542598-GGA   (Li22Si5 ): 0.016 eV/atom
+  mp-1018134-GGA  (Li      ): 0.005 eV/atom
+  mp-10173-GGA    (Li      ): 0.005 eV/atom
+  mp-1063005-GGA  (Li      ): 0.011 eV/atom
+  mp-976411-GGA   (Li      ): 0.005 eV/atom
+  mp-135-GGA      (Li      ): 0.000 eV/atom
+  mp-51-GGA       (Li      ): 0.004 eV/atom
+  mp-567337-GGA   (Li      ): 0.000 eV/atom
+  mp-604313-GGA   (Li      ): 0.273 eV/atom
+  mp-1103107-GGA  (Li      ): 0.050 eV/atom
+  mp-1102442-GGA  (O2      ): 0.795 eV/atom
+  mp-610917-GGA   (O2      ): 0.032 eV/atom
+  mp-734188-GGA   (O2      ): 0.447 eV/atom
+  mp-1180008-GGA  (O2      ): 0.443 eV/atom
+  mp-1056059-GGA  (O2      ): 1.611 eV/atom
+  mp-611836-GGA   (O2      ): 0.031 eV/atom
+  mp-1065697-GGA  (O2      ): 1.566 eV/atom
+  mp-1056831-GGA  (O2      ): 1.379 eV/atom
+  mp-560602-GGA   (O2      ): 0.442 eV/atom
+  mp-1180064-GGA  (O2      ): 0.298 eV/atom
+  mp-1058623-GGA  (O2      ): 1.525 eV/atom
+  mp-1066100-GGA  (O2      ): 0.116 eV/atom
+  mp-12957-GGA    (O2      ): 0.000 eV/atom
+  mp-607540-GGA   (O2      ): 0.133 eV/atom
+  mp-1180050-GGA  (O2      ): 0.187 eV/atom
+  mp-1180036-GGA  (O2      ): 0.052 eV/atom
+  mp-1087546-GGA  (O2      ): 0.035 eV/atom
+  mp-723285-GGA   (O2      ): 0.022 eV/atom
+  mp-1057818-GGA  (O2      ): 1.948 eV/atom
+  mp-1009490-GGA  (O2      ): 0.024 eV/atom
+  mp-1023923-GGA  (O2      ): 0.989 eV/atom
+  mp-2421172-GGA  (O2      ): 0.926 eV/atom
+  mp-1219421-GGA  (Si3O8   ): 0.328 eV/atom
+  mp-862998-GGA   (Si2O5   ): 0.304 eV/atom
+  mp-1391176-GGA  (SiO4    ): 0.658 eV/atom
+  mp-936187-GGA   (SiO4    ): 0.462 eV/atom
+  mp-685105-GGA   (SiO4    ): 0.656 eV/atom
+  mp-1179275-GGA  (Si4O9   ): 0.309 eV/atom
+  mp-1221354-GGA  (Si48O107): 0.201 eV/atom
+  mp-1194828-GGA  (Si17O37 ): 0.189 eV/atom
+  mp-1173536-GGA  (Si6O13  ): 0.484 eV/atom
+  mp-731864-GGA   (Si6O13  ): 0.216 eV/atom
+  mp-673849-GGA   (Si6O13  ): 0.481 eV/atom
+  mp-530027-GGA   (Si6O13  ): 0.014 eV/atom
+  mp-555394-GGA   (SiO2    ): 0.195 eV/atom
+  mp-1021503-GGA  (SiO2    ): 0.390 eV/atom
+  mp-17279-GGA    (SiO2    ): 0.011 eV/atom
+  mp-572283-GGA   (SiO2    ): 0.146 eV/atom
+  mp-1249969-GGA  (SiO2    ): 0.014 eV/atom
+  mp-553945-GGA   (SiO2    ): 0.010 eV/atom
+  mp-7029-GGA     (SiO2    ): 0.002 eV/atom
+  mp-560973-GGA   (SiO2    ): 0.025 eV/atom
+  mp-556068-GGA   (SiO2    ): 0.138 eV/atom
+  mp-557211-GGA   (SiO2    ): 0.008 eV/atom
+  mp-554151-GGA   (SiO2    ): 0.004 eV/atom
+  mp-600085-GGA   (SiO2    ): 0.014 eV/atom
+  mp-600055-GGA   (SiO2    ): 0.010 eV/atom
+  mp-556994-GGA   (SiO2    ): 0.079 eV/atom
+  mp-559872-GGA   (SiO2    ): 0.008 eV/atom
+  mp-556812-GGA   (SiO2    ): 0.288 eV/atom
+  mp-667448-GGA   (SiO2    ): 0.237 eV/atom
+  mp-555411-GGA   (SiO2    ): 0.537 eV/atom
+  mp-557024-GGA   (SiO2    ): 0.051 eV/atom
+  mp-554258-GGA   (SiO2    ): 0.009 eV/atom
+  mp-1195265-GGA  (SiO2    ): 0.007 eV/atom
+  mp-558569-GGA   (SiO2    ): 0.066 eV/atom
+  mp-558733-GGA   (SiO2    ): 0.251 eV/atom
+  mp-556963-GGA   (SiO2    ): 0.135 eV/atom
+  mp-556319-GGA   (SiO2    ): 0.115 eV/atom
+  mp-560809-GGA   (SiO2    ): 0.011 eV/atom
+  mp-553881-GGA   (SiO2    ): 0.346 eV/atom
+  mp-556564-GGA   (SiO2    ): 1.060 eV/atom
+  mp-600045-GGA   (SiO2    ): 0.015 eV/atom
+  mp-600015-GGA   (SiO2    ): 0.009 eV/atom
+  mp-1204026-GGA  (SiO2    ): 0.297 eV/atom
+  mp-600028-GGA   (SiO2    ): 0.010 eV/atom
+  mp-556027-GGA   (SiO2    ): 0.518 eV/atom
+  mp-600052-GGA   (SiO2    ): 0.009 eV/atom
+  mp-560155-GGA   (SiO2    ): 0.018 eV/atom
+  mp-1201738-GGA  (SiO2    ): 0.034 eV/atom
+  mp-683970-GGA   (SiO2    ): 0.123 eV/atom
+  mp-557930-GGA   (SiO2    ): 0.024 eV/atom
+  mp-600000-GGA   (SiO2    ): 0.013 eV/atom
+  mp-639748-GGA   (SiO2    ): 0.028 eV/atom
+  mp-680222-GGA   (SiO2    ): 0.027 eV/atom
+  mp-683947-GGA   (SiO2    ): 0.117 eV/atom
+  mp-554243-GGA   (SiO2    ): 0.013 eV/atom
+  mp-560527-GGA   (SiO2    ): 0.012 eV/atom
+  mp-653763-GGA   (SiO2    ): 0.014 eV/atom
+  mp-18280-GGA    (SiO2    ): 0.007 eV/atom
+  mp-560836-GGA   (SiO2    ): 0.213 eV/atom
+  mp-530546-GGA   (SiO2    ): 0.009 eV/atom
+  mp-600006-GGA   (SiO2    ): 0.025 eV/atom
+  mp-640556-GGA   (SiO2    ): 0.002 eV/atom
+  mp-600053-GGA   (SiO2    ): 0.015 eV/atom
+  mp-557134-GGA   (SiO2    ): 0.081 eV/atom
+  mp-600031-GGA   (SiO2    ): 0.011 eV/atom
+  mp-559347-GGA   (SiO2    ): 0.019 eV/atom
+  mp-562490-GGA   (SiO2    ): 0.010 eV/atom
+  mp-733790-GGA   (SiO2    ): 0.002 eV/atom
+  mp-600032-GGA   (SiO2    ): 0.010 eV/atom
+  mp-639512-GGA   (SiO2    ): 0.012 eV/atom
+  mp-555791-GGA   (SiO2    ): 0.037 eV/atom
+  mp-600026-GGA   (SiO2    ): 0.044 eV/atom
+  mp-557465-GGA   (SiO2    ): 0.017 eV/atom
+  mp-555497-GGA   (SiO2    ): 0.243 eV/atom
+  mp-662706-GGA   (SiO2    ): 0.008 eV/atom
+  mp-557591-GGA   (SiO2    ): 0.058 eV/atom
+  mp-6947-GGA     (SiO2    ): 0.195 eV/atom
+  mp-683952-GGA   (SiO2    ): 0.682 eV/atom
+  mp-639478-GGA   (SiO2    ): 0.013 eV/atom
+  mp-554946-GGA   (SiO2    ): 0.008 eV/atom
+  mp-639724-GGA   (SiO2    ): 0.009 eV/atom
+  mp-1258196-GGA  (SiO2    ): 0.007 eV/atom
+  mp-1200685-GGA  (SiO2    ): 0.097 eV/atom
+  mp-558203-GGA   (SiO2    ): 0.082 eV/atom
+  mp-560708-GGA   (SiO2    ): 0.008 eV/atom
+  mp-1249090-GGA  (SiO2    ): 0.014 eV/atom
+  mp-600084-GGA   (SiO2    ): 0.010 eV/atom
+  mp-1199998-GGA  (SiO2    ): 0.015 eV/atom
+  mp-557723-GGA   (SiO2    ): 0.270 eV/atom
+  mp-600038-GGA   (SiO2    ): 0.024 eV/atom
+  mp-667368-GGA   (SiO2    ): 0.010 eV/atom
+  mp-560754-GGA   (SiO2    ): 0.508 eV/atom
+  mp-554498-GGA   (SiO2    ): 0.862 eV/atom
+  mp-600050-GGA   (SiO2    ): 0.060 eV/atom
+  mp-1250639-GGA  (SiO2    ): 0.008 eV/atom
+  mp-663422-GGA   (SiO2    ): 0.158 eV/atom
+  mp-558301-GGA   (SiO2    ): 0.206 eV/atom
+  mp-558931-GGA   (SiO2    ): 0.253 eV/atom
+  mp-556537-GGA   (SiO2    ): 0.239 eV/atom
+  mp-556469-GGA   (SiO2    ): 0.009 eV/atom
+  mp-557264-GGA   (SiO2    ): 0.005 eV/atom
+  mp-638038-GGA   (SiO2    ): 1.212 eV/atom
+  mp-680204-GGA   (SiO2    ): 0.010 eV/atom
+  mp-600039-GGA   (SiO2    ): 0.035 eV/atom
+  mp-646895-GGA   (SiO2    ): 0.009 eV/atom
+  mp-1256614-GGA  (SiO2    ): 0.010 eV/atom
+  mp-555355-GGA   (SiO2    ): 0.774 eV/atom
+  mp-554543-GGA   (SiO2    ): 0.015 eV/atom
+  mp-561301-GGA   (SiO2    ): 0.472 eV/atom
+  mp-683953-GGA   (SiO2    ): 0.114 eV/atom
+  mp-557873-GGA   (SiO2    ): 0.052 eV/atom
+  mp-542814-GGA   (SiO2    ): 0.004 eV/atom
+  mp-532105-GGA   (SiO2    ): 0.010 eV/atom
+  mp-600059-GGA   (SiO2    ): 0.007 eV/atom
+  mp-556662-GGA   (SiO2    ): 0.067 eV/atom
+  mp-559829-GGA   (SiO2    ): 0.138 eV/atom
+  mp-600041-GGA   (SiO2    ): 0.014 eV/atom
+  mp-560064-GGA   (SiO2    ): 0.011 eV/atom
+  mp-554397-GGA   (SiO2    ): 0.650 eV/atom
+  mp-16964-GGA    (SiO2    ): 0.005 eV/atom
+  mp-600067-GGA   (SiO2    ): 0.019 eV/atom
+  mp-557837-GGA   (SiO2    ): 0.004 eV/atom
+  mp-559962-GGA   (SiO2    ): 0.025 eV/atom
+  mp-600083-GGA   (SiO2    ): 0.009 eV/atom
+  mp-556257-GGA   (SiO2    ): 0.407 eV/atom
+  mp-1204057-GGA  (SiO2    ): 0.013 eV/atom
+  mp-559740-GGA   (SiO2    ): 0.041 eV/atom
+  mp-556985-GGA   (SiO2    ): 0.038 eV/atom
+  mp-7648-GGA     (SiO2    ): 0.009 eV/atom
+  mp-558366-GGA   (SiO2    ): 0.775 eV/atom
+  mp-651707-GGA   (SiO2    ): 0.006 eV/atom
+  mp-600070-GGA   (SiO2    ): 0.014 eV/atom
+  mp-638033-GGA   (SiO2    ): 0.518 eV/atom
+  mp-639734-GGA   (SiO2    ): 0.013 eV/atom
+  mp-555521-GGA   (SiO2    ): 0.010 eV/atom
+  mp-557881-GGA   (SiO2    ): 0.011 eV/atom
+  mp-600024-GGA   (SiO2    ): 0.014 eV/atom
+  mp-600054-GGA   (SiO2    ): 0.011 eV/atom
+  mp-546546-GGA   (SiO2    ): 0.027 eV/atom
+  mp-560998-GGA   (SiO2    ): 0.008 eV/atom
+  mp-561291-GGA   (SiO2    ): 0.146 eV/atom
+  mp-1244945-GGA  (SiO2    ): 0.109 eV/atom
+  mp-639480-GGA   (SiO2    ): 0.022 eV/atom
+  mp-559273-GGA   (SiO2    ): 0.208 eV/atom
+  mp-6945-GGA     (SiO2    ): 0.002 eV/atom
+  mp-555676-GGA   (SiO2    ): 0.248 eV/atom
+  mp-556088-GGA   (SiO2    ): 0.097 eV/atom
+  mp-640917-GGA   (SiO2    ): 2.404 eV/atom
+  mp-557814-GGA   (SiO2    ): 0.680 eV/atom
+  mp-667373-GGA   (SiO2    ): 0.008 eV/atom
+  mp-639506-GGA   (SiO2    ): 0.013 eV/atom
+  mp-600029-GGA   (SiO2    ): 0.012 eV/atom
+  mp-558025-GGA   (SiO2    ): 0.009 eV/atom
+  mp-10064-GGA    (SiO2    ): 1.260 eV/atom
+  mp-559928-GGA   (SiO2    ): 0.026 eV/atom
+  mp-600003-GGA   (SiO2    ): 0.008 eV/atom
+  mp-600033-GGA   (SiO2    ): 0.010 eV/atom
+  mp-556132-GGA   (SiO2    ): 0.180 eV/atom
+  mp-1244965-GGA  (SiO2    ): 0.120 eV/atom
+  mp-615993-GGA   (SiO2    ): 0.011 eV/atom
+  mp-600098-GGA   (SiO2    ): 0.010 eV/atom
+  mp-673168-GGA   (SiO2    ): 0.682 eV/atom
+  mp-600060-GGA   (SiO2    ): 0.009 eV/atom
+  mp-559360-GGA   (SiO2    ): 0.008 eV/atom
+  mp-667377-GGA   (SiO2    ): 0.008 eV/atom
+  mp-559091-GGA   (SiO2    ): 0.005 eV/atom
+  mp-600001-GGA   (SiO2    ): 0.024 eV/atom
+  mp-600004-GGA   (SiO2    ): 0.013 eV/atom
+  mp-639682-GGA   (SiO2    ): 0.028 eV/atom
+  mp-8602-GGA     (SiO2    ): 0.014 eV/atom
+  mp-556788-GGA   (SiO2    ): 0.234 eV/atom
+  mp-1201887-GGA  (SiO2    ): 0.011 eV/atom
+  mp-554755-GGA   (SiO2    ): 0.014 eV/atom
+  mp-600023-GGA   (SiO2    ): 0.013 eV/atom
+  mp-8352-GGA     (SiO2    ): 0.018 eV/atom
+  mp-554175-GGA   (SiO2    ): 0.093 eV/atom
+  mp-555165-GGA   (SiO2    ): 0.022 eV/atom
+  mp-1257168-GGA  (SiO2    ): 0.019 eV/atom
+  mp-10948-GGA    (SiO2    ): 0.247 eV/atom
+  mp-600007-GGA   (SiO2    ): 0.011 eV/atom
+  mp-600016-GGA   (SiO2    ): 0.010 eV/atom
+  mp-561351-GGA   (SiO2    ): 0.011 eV/atom
+  mp-600027-GGA   (SiO2    ): 0.010 eV/atom
+  mp-553993-GGA   (SiO2    ): 0.037 eV/atom
+  mp-6922-GGA     (SiO2    ): 0.008 eV/atom
+  mp-556262-GGA   (SiO2    ): 0.012 eV/atom
+  mp-600061-GGA   (SiO2    ): 0.012 eV/atom
+  mp-638049-GGA   (SiO2    ): 1.720 eV/atom
+  mp-555147-GGA   (SiO2    ): 0.086 eV/atom
+  mp-1250551-GGA  (SiO2    ): 0.010 eV/atom
+  mp-558598-GGA   (SiO2    ): 1.764 eV/atom
+  mp-1249332-GGA  (SiO2    ): 0.010 eV/atom
+  mp-32667-GGA    (SiO2    ): 0.236 eV/atom
+  mp-557076-GGA   (SiO2    ): 0.279 eV/atom
+  mp-556882-GGA   (SiO2    ): 0.016 eV/atom
+  mp-561090-GGA   (SiO2    ): 0.019 eV/atom
+  mp-557118-GGA   (SiO2    ): 0.013 eV/atom
+  mp-555823-GGA   (SiO2    ): 0.771 eV/atom
+  mp-600065-GGA   (SiO2    ): 0.020 eV/atom
+  mp-556044-GGA   (SiO2    ): 1.399 eV/atom
+  mp-558374-GGA   (SiO2    ): 0.024 eV/atom
+  mp-556588-GGA   (SiO2    ): 0.292 eV/atom
+  mp-1268079-GGA  (SiO2    ): 0.013 eV/atom
+  mp-554089-GGA   (SiO2    ): 0.001 eV/atom
+  mp-556553-GGA   (SiO2    ): 0.091 eV/atom
+  mp-639705-GGA   (SiO2    ): 0.025 eV/atom
+  mp-1353259-GGA  (SiO2    ): 0.166 eV/atom
+  mp-7087-GGA     (SiO2    ): 0.017 eV/atom
+  mp-1179454-GGA  (SiO2    ): 0.015 eV/atom
+  mp-639511-GGA   (SiO2    ): 0.009 eV/atom
+  mp-1205213-GGA  (SiO2    ): 0.062 eV/atom
+  mp-556454-GGA   (SiO2    ): 0.007 eV/atom
+  mp-600002-GGA   (SiO2    ): 0.014 eV/atom
+  mp-554682-GGA   (SiO2    ): 0.007 eV/atom
+  mp-560920-GGA   (SiO2    ): 0.011 eV/atom
+  mp-560941-GGA   (SiO2    ): 0.009 eV/atom
+  mp-560131-GGA   (SiO2    ): 0.088 eV/atom
+  mp-10851-GGA    (SiO2    ): 0.008 eV/atom
+  mp-1179447-GGA  (SiO2    ): 0.015 eV/atom
+  mp-600014-GGA   (SiO2    ): 0.006 eV/atom
+  mp-545719-GGA   (SiO2    ): 0.149 eV/atom
+  mp-1179529-GGA  (SiO2    ): 0.166 eV/atom
+  mp-2374583-GGA  (SiO2    ): 0.146 eV/atom
+  mp-555251-GGA   (SiO2    ): 0.010 eV/atom
+  mp-638035-GGA   (SiO2    ): 1.783 eV/atom
+  mp-560954-GGA   (SiO2    ): 0.169 eV/atom
+  mp-556376-GGA   (SiO2    ): 0.404 eV/atom
+  mp-554573-GGA   (SiO2    ): 0.001 eV/atom
+  mp-556961-GGA   (SiO2    ): 0.006 eV/atom
+  mp-558200-GGA   (SiO2    ): 0.065 eV/atom
+  mp-1188220-GGA  (SiO2    ): 0.009 eV/atom
+  mp-557894-GGA   (SiO2    ): 0.013 eV/atom
+  mp-600080-GGA   (SiO2    ): 0.017 eV/atom
+  mp-639463-GGA   (SiO2    ): 0.011 eV/atom
+  mp-639741-GGA   (SiO2    ): 0.009 eV/atom
+  mp-559860-GGA   (SiO2    ): 0.160 eV/atom
+  mp-560203-GGA   (SiO2    ): 0.036 eV/atom
+  mp-555235-GGA   (SiO2    ): 0.003 eV/atom
+  mp-1249637-GGA  (SiO2    ): 0.011 eV/atom
+  mp-1203655-GGA  (SiO2    ): 0.021 eV/atom
+  mp-600037-GGA   (SiO2    ): 0.016 eV/atom
+  mp-34150-GGA    (SiO2    ): 0.349 eV/atom
+  mp-556591-GGA   (SiO2    ): 0.013 eV/atom
+  mp-560826-GGA   (SiO2    ): 0.011 eV/atom
+  mp-600111-GGA   (SiO2    ): 0.014 eV/atom
+  mp-600068-GGA   (SiO2    ): 0.031 eV/atom
+  mp-600005-GGA   (SiO2    ): 0.016 eV/atom
+  mp-555891-GGA   (SiO2    ): 0.009 eV/atom
+  mp-15078-GGA    (SiO2    ): 0.009 eV/atom
+  mp-557017-GGA   (SiO2    ): 0.501 eV/atom
+  mp-555740-GGA   (SiO2    ): 0.027 eV/atom
+  mp-1256499-GGA  (SiO2    ): 0.048 eV/atom
+  mp-667376-GGA   (SiO2    ): 0.007 eV/atom
+  mp-600096-GGA   (SiO2    ): 0.139 eV/atom
+  mp-1071820-GGA  (SiO2    ): 0.444 eV/atom
+  mp-556654-GGA   (SiO2    ): 0.006 eV/atom
+  mp-557771-GGA   (SiO2    ): 0.614 eV/atom
+  mp-561488-GGA   (SiO2    ): 0.481 eV/atom
+  mp-557933-GGA   (SiO2    ): 0.006 eV/atom
+  mp-559550-GGA   (SiO2    ): 0.006 eV/atom
+  mp-545488-GGA   (SiO2    ): 0.676 eV/atom
+  mp-556464-GGA   (SiO2    ): 0.231 eV/atom
+  mp-9258-GGA     (SiO2    ): 0.565 eV/atom
+  mp-639695-GGA   (SiO2    ): 0.013 eV/atom
+  mp-1245026-GGA  (SiO2    ): 0.148 eV/atom
+  mp-600022-GGA   (SiO2    ): 0.013 eV/atom
+  mp-1265115-GGA  (SiO2    ): 0.116 eV/atom
+  mp-1244968-GGA  (SiO2    ): 0.241 eV/atom
+  mp-1250261-GGA  (SiO2    ): 0.011 eV/atom
+  mp-7905-GGA     (SiO2    ): 0.417 eV/atom
+  mp-685184-GGA   (SiO2    ): 0.314 eV/atom
+  mp-1398433-GGA  (SiO2    ): 0.063 eV/atom
+  mp-644923-GGA   (SiO2    ): 0.008 eV/atom
+  mp-12350-GGA    (SiO2    ): 0.139 eV/atom
+  mp-604717-GGA   (SiO2    ): 0.174 eV/atom
+  mp-600072-GGA   (SiO2    ): 0.011 eV/atom
+  mp-554665-GGA   (SiO2    ): 0.189 eV/atom
+  mp-556218-GGA   (SiO2    ): 0.005 eV/atom
+  mp-972808-GGA   (SiO2    ): 0.005 eV/atom
+  mp-600109-GGA   (SiO2    ): 0.021 eV/atom
+  mp-8059-GGA     (SiO2    ): 0.004 eV/atom
+  mp-600091-GGA   (SiO2    ): 0.008 eV/atom
+  mp-557244-GGA   (SiO2    ): 0.168 eV/atom
+  mp-558351-GGA   (SiO2    ): 0.011 eV/atom
+  mp-559389-GGA   (SiO2    ): 0.247 eV/atom
+  mp-560152-GGA   (SiO2    ): 0.092 eV/atom
+  mp-985590-GGA   (SiO2    ): 0.004 eV/atom
+  mp-600071-GGA   (SiO2    ): 0.012 eV/atom
+  mp-1365799-GGA  (SiO2    ): 0.195 eV/atom
+  mp-559313-GGA   (SiO2    ): 0.013 eV/atom
+  mp-11684-GGA    (SiO2    ): 0.033 eV/atom
+  mp-6930-GGA     (SiO2    ): 0.006 eV/atom
+  mp-639733-GGA   (SiO2    ): 0.015 eV/atom
+  mp-600051-GGA   (SiO2    ): 0.013 eV/atom
+  mp-600076-GGA   (SiO2    ): 0.022 eV/atom
+  mp-1200292-GGA  (SiO2    ): 0.007 eV/atom
+  mp-600078-GGA   (SiO2    ): 0.023 eV/atom
+  mp-546794-GGA   (SiO2    ): 0.000 eV/atom
+  mp-556880-GGA   (SiO2    ): 0.143 eV/atom
+  mp-560336-GGA   (SiO2    ): 0.012 eV/atom
+  mp-561181-GGA   (SiO2    ): 0.012 eV/atom
+  mp-558947-GGA   (SiO2    ): 0.008 eV/atom
+  mp-667383-GGA   (SiO2    ): 0.008 eV/atom
+  mp-17909-GGA    (SiO2    ): 0.010 eV/atom
+  mp-558564-GGA   (SiO2    ): 0.058 eV/atom
+  mp-600057-GGA   (SiO2    ): 0.014 eV/atom
+  mp-600018-GGA   (SiO2    ): 0.013 eV/atom
+  mp-555700-GGA   (SiO2    ): 0.010 eV/atom
+  mp-559605-GGA   (SiO2    ): 0.229 eV/atom
+  mp-32895-GGA    (SiO2    ): 0.012 eV/atom
+  mp-667371-GGA   (SiO2    ): 0.008 eV/atom
+  mp-555483-GGA   (SiO2    ): 0.015 eV/atom
+  mp-1204070-GGA  (SiO2    ): 0.288 eV/atom
+  mp-558326-GGA   (SiO2    ): 0.008 eV/atom
+  mp-12787-GGA    (SiO2    ): 0.006 eV/atom
+  mp-557004-GGA   (SiO2    ): 0.011 eV/atom
+  mp-639558-GGA   (SiO2    ): 0.012 eV/atom
+  mp-555544-GGA   (SiO2    ): 0.168 eV/atom
+  mp-600049-GGA   (SiO2    ): 0.027 eV/atom
+  mp-554267-GGA   (SiO2    ): 0.014 eV/atom
+  mp-555960-GGA   (SiO2    ): 0.251 eV/atom
+  mp-1179488-GGA  (SiO2    ): 0.400 eV/atom
+  mp-600063-GGA   (SiO2    ): 0.009 eV/atom
+  mp-557194-GGA   (SiO2    ): 1.200 eV/atom
+  mp-555556-GGA   (SiO2    ): 0.008 eV/atom
+  mp-985570-GGA   (SiO2    ): 0.008 eV/atom
+  mp-558115-GGA   (SiO2    ): 0.008 eV/atom
+  mp-669426-GGA   (SiO2    ): 0.003 eV/atom
+  mp-558891-GGA   (SiO2    ): 0.007 eV/atom
+  mp-555211-GGA   (SiO2    ): 0.009 eV/atom
+  mp-7000-GGA     (SiO2    ): 0.006 eV/atom
+  mp-1248957-GGA  (SiO2    ): 0.013 eV/atom
+  mp-557653-GGA   (SiO2    ): 0.286 eV/atom
+  mattergen-48    (SiO2    ): 0.006 eV/atom
+  mattergen-73    (SiO2    ): 0.162 eV/atom
+  mattergen-91    (SiO2    ): 0.009 eV/atom
+  mattergen-97    (SiO2    ): 0.000 eV/atom
+  mattergen-104   (SiO2    ): 0.090 eV/atom
+  mattergen-124   (SiO2    ): 0.026 eV/atom
+  mattergen-191   (SiO2    ): 0.011 eV/atom
+  mattergen-225   (SiO2    ): 0.222 eV/atom
+  mattergen-260   (SiO2    ): 0.432 eV/atom
+  mattergen-284   (SiO2    ): 0.013 eV/atom
+  mattergen-305   (SiO2    ): 0.000 eV/atom
+  mattergen-325   (SiO2    ): 0.063 eV/atom
+  mattergen-348   (SiO2    ): 0.006 eV/atom
+  mattergen-373   (SiO2    ): 0.494 eV/atom
+  mattergen-385   (SiO2    ): 0.014 eV/atom
+  mattergen-414   (SiO2    ): 0.127 eV/atom
+  mattergen-422   (SiO2    ): 0.047 eV/atom
+  mattergen-426   (SiO2    ): 0.002 eV/atom
+  mattergen-434   (SiO2    ): 0.359 eV/atom
+  mattergen-460   (SiO2    ): 0.345 eV/atom
+  mattergen-497   (SiO2    ): 0.029 eV/atom
+  mattergen-523   (SiO2    ): 0.250 eV/atom
+  mattergen-526   (SiO2    ): 0.236 eV/atom
+  mattergen-560   (SiO2    ): 0.235 eV/atom
+  mattergen-582   (SiO2    ): 0.345 eV/atom
+  mattergen-583   (SiO2    ): 0.080 eV/atom
+  mattergen-681   (SiO2    ): 0.025 eV/atom
+  mattergen-691   (SiO2    ): 0.004 eV/atom
+  mattergen-723   (SiO2    ): 0.080 eV/atom
+  mattergen-743   (SiO2    ): 0.125 eV/atom
+  mattergen-755   (SiO2    ): 0.232 eV/atom
+  mattergen-758   (SiO2    ): 0.238 eV/atom
+  mattergen-952   (SiO2    ): 0.236 eV/atom
+  mattergen-980   (SiO2    ): 0.665 eV/atom
+  mattergen-1042  (SiO2    ): 0.114 eV/atom
+  mattergen-1078  (SiO2    ): 0.885 eV/atom
+  mattergen-1170  (SiO2    ): 0.028 eV/atom
+  mattergen-1218  (SiO2    ): 0.004 eV/atom
+  mattergen-1277  (SiO2    ): 0.015 eV/atom
+  mattergen-1279  (SiO2    ): 0.123 eV/atom
+  mattergen-1398  (SiO2    ): 0.005 eV/atom
+  mattergen-1423  (SiO2    ): 0.162 eV/atom
+  mattergen-1441  (SiO2    ): 0.009 eV/atom
+  mattergen-1447  (SiO2    ): 0.000 eV/atom
+  mattergen-1454  (SiO2    ): 0.090 eV/atom
+  mattergen-1474  (SiO2    ): 0.026 eV/atom
+  mattergen-1541  (SiO2    ): 0.011 eV/atom
+  mattergen-1575  (SiO2    ): 0.222 eV/atom
+  mattergen-1610  (SiO2    ): 0.432 eV/atom
+  mattergen-1634  (SiO2    ): 0.013 eV/atom
+  mattergen-1655  (SiO2    ): 0.000 eV/atom
+  mattergen-1675  (SiO2    ): 0.063 eV/atom
+  mattergen-1698  (SiO2    ): 0.006 eV/atom
+  mattergen-1723  (SiO2    ): 0.494 eV/atom
+  mattergen-1735  (SiO2    ): 0.014 eV/atom
+  mattergen-1764  (SiO2    ): 0.127 eV/atom
+  mattergen-1772  (SiO2    ): 0.047 eV/atom
+  mattergen-1776  (SiO2    ): 0.002 eV/atom
+  mattergen-1784  (SiO2    ): 0.359 eV/atom
+  mattergen-1810  (SiO2    ): 0.345 eV/atom
+  mattergen-1847  (SiO2    ): 0.029 eV/atom
+  mattergen-1873  (SiO2    ): 0.250 eV/atom
+  mattergen-1876  (SiO2    ): 0.236 eV/atom
+  mattergen-1910  (SiO2    ): 0.235 eV/atom
+  mattergen-1932  (SiO2    ): 0.345 eV/atom
+  mattergen-1933  (SiO2    ): 0.080 eV/atom
+  mattergen-2031  (SiO2    ): 0.025 eV/atom
+  mattergen-2041  (SiO2    ): 0.004 eV/atom
+  mattergen-2073  (SiO2    ): 0.080 eV/atom
+  mattergen-2093  (SiO2    ): 0.125 eV/atom
+  mattergen-2105  (SiO2    ): 0.232 eV/atom
+  mattergen-2108  (SiO2    ): 0.238 eV/atom
+  mattergen-2302  (SiO2    ): 0.236 eV/atom
+  mattergen-2330  (SiO2    ): 0.665 eV/atom
+  mattergen-2392  (SiO2    ): 0.114 eV/atom
+  mattergen-2428  (SiO2    ): 1.092 eV/atom
+  mattergen-2520  (SiO2    ): 0.028 eV/atom
+  mattergen-2568  (SiO2    ): 0.004 eV/atom
+  mattergen-2627  (SiO2    ): 0.015 eV/atom
+  mattergen-2629  (SiO2    ): 0.123 eV/atom
+  mp-1199711-GGA  (Si18O29 ): 0.195 eV/atom
+  mp-1179651-GGA  (Si5O8   ): 0.322 eV/atom
+  mp-638900-GGA   (Si3O7   ): 0.956 eV/atom
+  mp-1250755-GGA  (Si3O7   ): 0.291 eV/atom
+  mp-1179195-GGA  (Si2O3   ): 0.549 eV/atom
+  mp-32761-GGA    (SiO     ): 0.462 eV/atom
+  mp-1063118-GGA  (Si2O    ): 0.713 eV/atom
+  mp-1208867-GGA  (Si2O    ): 2.106 eV/atom
+  mp-32881-GGA    (Si3O    ): 0.465 eV/atom
+  mp-32566-GGA    (Si3O    ): 0.465 eV/atom
+  mp-34-GGA       (Si      ): 0.286 eV/atom
+  mp-1001113-GGA  (Si      ): 0.432 eV/atom
+  mp-1201492-GGA  (Si      ): 0.109 eV/atom
+  mp-92-GGA       (Si      ): 0.278 eV/atom
+  mp-1204627-GGA  (Si      ): 0.086 eV/atom
+  mp-1202745-GGA  (Si      ): 0.135 eV/atom
+  mp-1244933-GGA  (Si      ): 0.290 eV/atom
+  mp-999200-GGA   (Si      ): 0.102 eV/atom
+  mp-16220-GGA    (Si      ): 0.336 eV/atom
+  mp-1014212-GGA  (Si      ): 0.506 eV/atom
+  mp-109-GGA      (Si      ): 0.288 eV/atom
+  mp-1196961-GGA  (Si      ): 0.069 eV/atom
+  mp-644693-GGA   (Si      ): 0.408 eV/atom
+  mp-1094057-GGA  (Si      ): 0.496 eV/atom
+  mp-10649-GGA    (Si      ): 0.504 eV/atom
+  mp-1403870-GGA  (Si      ): 0.401 eV/atom
+  mp-1079649-GGA  (Si      ): 0.412 eV/atom
+  mp-571520-GGA   (Si      ): 0.204 eV/atom
+  mp-1079297-GGA  (Si      ): 0.099 eV/atom
+  mp-1204046-GGA  (Si      ): 0.160 eV/atom
+  mp-1244990-GGA  (Si      ): 0.297 eV/atom
+  mp-1268191-GGA  (Si      ): 0.341 eV/atom
+  mp-1199894-GGA  (Si      ): 0.119 eV/atom
+  mp-168-GGA      (Si      ): 0.164 eV/atom
+  mp-149-GGA      (Si      ): 0.000 eV/atom
+  mp-1200830-GGA  (Si      ): 0.117 eV/atom
+  mp-1203790-GGA  (Si      ): 0.047 eV/atom
+  mp-1120747-GGA  (Si      ): 0.444 eV/atom
+  mp-27-GGA       (Si      ): 0.484 eV/atom
+  mp-165-GGA      (Si      ): 0.006 eV/atom
+  mp-1245242-GGA  (Si      ): 0.282 eV/atom
+  mp-988210-GGA   (Si      ): 0.288 eV/atom
+  mp-971662-GGA   (Si      ): 0.059 eV/atom
+  mp-971661-GGA   (Si      ): 0.113 eV/atom
+  mp-1056579-GGA  (Si      ): 0.457 eV/atom
+  mp-1120447-GGA  (Si      ): 0.427 eV/atom
+  mp-676011-GGA   (Si      ): 0.418 eV/atom
+  mp-1095269-GGA  (Si      ): 0.139 eV/atom
+  mp-1245041-GGA  (Si      ): 0.266 eV/atom
+  mp-2351841-GGA  (Si      ): 0.396 eV/atom
+  mp-1072544-GGA  (Si      ): 0.208 eV/atom
+  mp-1244971-GGA  (Si      ): 0.265 eV/atom
+
+Displaying phase diagram plot. Close the plot window to exit.
+Analysis complete.

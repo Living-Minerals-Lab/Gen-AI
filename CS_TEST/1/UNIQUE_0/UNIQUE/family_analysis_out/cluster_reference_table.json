@@ -1,0 +1,100 @@
+{
+  "references": [
+    "alpha",
+    "beta"
+  ],
+  "rows": [
+    {
+      "cluster": -1,
+      "refs_inside": [
+        "alpha"
+      ],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-10",
+            "gen_id": "gen_908.cif",
+            "rank": 18
+          }
+        ],
+        "beta": []
+      }
+    },
+    {
+      "cluster": 0,
+      "refs_inside": [
+        "beta"
+      ],
+      "columns": {
+        "alpha": [],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-476",
+            "gen_id": "gen_5620.cif",
+            "rank": 1
+          },
+          {
+            "mattergen_id": "mattergen-549",
+            "gen_id": "gen_4396.cif",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-686",
+            "gen_id": "gen_7754.cif",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-124",
+            "gen_id": "gen_6994.cif",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-520",
+            "gen_id": "gen_776.cif",
+            "rank": 5
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 1,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851.cif",
+            "rank": 5
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802.cif",
+            "rank": 7
+          },
+          {
+            "mattergen_id": "mattergen-710",
+            "gen_id": "gen_3721.cif",
+            "rank": 10
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-1298",
+            "gen_id": "gen_5851.cif",
+            "rank": 6
+          },
+          {
+            "mattergen_id": "mattergen-668",
+            "gen_id": "gen_2802.cif",
+            "rank": 10
+          },
+          {
+            "mattergen_id": "mattergen-710",
+            "gen_id": "gen_3721.cif",
+            "rank": 12
+          }
+        ]
+      }
+    }
+  ]
+}

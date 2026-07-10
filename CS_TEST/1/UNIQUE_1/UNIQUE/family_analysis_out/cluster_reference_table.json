@@ -1,0 +1,120 @@
+{
+  "references": [
+    "alpha",
+    "beta"
+  ],
+  "rows": [
+    {
+      "cluster": -1,
+      "refs_inside": [
+        "alpha"
+      ],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-680",
+            "gen_id": "gen_100.cif",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-975",
+            "gen_id": "gen_1516.cif",
+            "rank": 6
+          },
+          {
+            "mattergen_id": "mattergen-1223",
+            "gen_id": "gen_339.cif",
+            "rank": 8
+          },
+          {
+            "mattergen_id": "mattergen-320",
+            "gen_id": "gen_4402.cif",
+            "rank": 11
+          },
+          {
+            "mattergen_id": "mattergen-658",
+            "gen_id": "gen_3560.cif",
+            "rank": 13
+          }
+        ],
+        "beta": []
+      }
+    },
+    {
+      "cluster": 0,
+      "refs_inside": [
+        "beta"
+      ],
+      "columns": {
+        "alpha": [],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-774",
+            "gen_id": "gen_3.cif",
+            "rank": 2
+          },
+          {
+            "mattergen_id": "mattergen-802",
+            "gen_id": "gen_2698.cif",
+            "rank": 3
+          },
+          {
+            "mattergen_id": "mattergen-503",
+            "gen_id": "gen_6077.cif",
+            "rank": 4
+          },
+          {
+            "mattergen_id": "mattergen-948",
+            "gen_id": "gen_9359.cif",
+            "rank": 5
+          },
+          {
+            "mattergen_id": "mattergen-1087",
+            "gen_id": "gen_7598.cif",
+            "rank": 6
+          }
+        ]
+      }
+    },
+    {
+      "cluster": 1,
+      "refs_inside": [],
+      "columns": {
+        "alpha": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173.cif",
+            "rank": 12
+          },
+          {
+            "mattergen_id": "mattergen-787",
+            "gen_id": "gen_3137.cif",
+            "rank": 14
+          },
+          {
+            "mattergen_id": "mattergen-440",
+            "gen_id": "gen_5086.cif",
+            "rank": 15
+          }
+        ],
+        "beta": [
+          {
+            "mattergen_id": "mattergen-918",
+            "gen_id": "gen_173.cif",
+            "rank": 9
+          },
+          {
+            "mattergen_id": "mattergen-787",
+            "gen_id": "gen_3137.cif",
+            "rank": 12
+          },
+          {
+            "mattergen_id": "mattergen-440",
+            "gen_id": "gen_5086.cif",
+            "rank": 15
+          }
+        ]
+      }
+    }
+  ]
+}

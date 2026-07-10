@@ -1,0 +1,26 @@
+pair,rmsd,max_displacement
+EntryWithCollCode194285.cif vs EntryWithCollCode194289.cif,,
+EntryWithCollCode194285.cif vs gen_1595.cif,0.29585602427862334,1.010102289280292
+EntryWithCollCode194285.cif vs gen_1871.cif,,
+EntryWithCollCode194285.cif vs gen_2050.cif,0.5590846337762809,0.8867152055837245
+EntryWithCollCode194285.cif vs gen_2390.cif,,
+EntryWithCollCode194285.cif vs gen_3451.cif,,
+EntryWithCollCode194285.cif vs gen_3621.cif,,
+EntryWithCollCode194285.cif vs gen_3819.cif,,
+EntryWithCollCode194285.cif vs gen_4122.cif,0.5291261643316766,1.1094492185715739
+EntryWithCollCode194285.cif vs gen_6844.cif,0.5251510623797523,0.9316022252581359
+EntryWithCollCode194285.cif vs gen_7562.cif,0.505632764972217,0.997085127636681
+EntryWithCollCode194285.cif vs gen_8462.cif,,
+EntryWithCollCode194285.cif vs gen_8932.cif,0.5724770653640897,1.3508887622645183
+EntryWithCollCode194289.cif vs gen_1595.cif,,
+EntryWithCollCode194289.cif vs gen_1871.cif,,
+EntryWithCollCode194289.cif vs gen_2050.cif,,
+EntryWithCollCode194289.cif vs gen_2390.cif,,
+EntryWithCollCode194289.cif vs gen_3451.cif,,
+EntryWithCollCode194289.cif vs gen_3621.cif,,
+EntryWithCollCode194289.cif vs gen_3819.cif,,
+EntryWithCollCode194289.cif vs gen_4122.cif,,
+EntryWithCollCode194289.cif vs gen_6844.cif,,
+EntryWithCollCode194289.cif vs gen_7562.cif,,
+EntryWithCollCode194289.cif vs gen_8462.cif,,
+EntryWithCollCode194289.cif vs gen_8932.cif,,

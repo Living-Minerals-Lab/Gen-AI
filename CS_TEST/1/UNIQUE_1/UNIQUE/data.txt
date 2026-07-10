@@ -1,0 +1,25 @@
+
+Results for LiAl(Si2O5)2 (Sorted by Energy Above Hull):
+------------------------------------------------------------
+Mattergen ID         | Gen ID          | Energy (eV/atom)
+------------------------------------------------------------
+mp-1202325-GGA       | N/A             | 0.000
+mp-6442-GGA          | N/A             | 0.000
+mattergen-680        | gen_100.cif     | 0.011
+mattergen-774        | gen_3.cif       | 0.041
+mattergen-667        | gen_8370.cif    | 0.061
+mattergen-1087       | gen_7598.cif    | 0.080
+mattergen-320        | gen_4402.cif    | 0.084
+mattergen-1146       | gen_2563.cif    | 0.089
+mattergen-975        | gen_1516.cif    | 0.093
+mattergen-503        | gen_6077.cif    | 0.096
+mattergen-787        | gen_3137.cif    | 0.110
+mattergen-948        | gen_9359.cif    | 0.112
+mattergen-1223       | gen_339.cif     | 0.113
+mattergen-636        | gen_3093.cif    | 0.115
+mattergen-658        | gen_3560.cif    | 0.127
+mattergen-802        | gen_2698.cif    | 0.134
+mattergen-440        | gen_5086.cif    | 0.149
+mattergen-976        | gen_3857.cif    | 0.214
+mattergen-1304       | gen_6681.cif    | 0.276
+mattergen-918        | gen_173.cif     | 0.281
