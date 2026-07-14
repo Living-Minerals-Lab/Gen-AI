@@ -81,28 +81,44 @@ def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 
 
     # 3. Build the optimized, framework-only graph.
     framework_graph = nx.Graph()
-    
+
     # Identify indices of framework (Al, Si) and bridging (O) atoms.
     framework_indices = {i for i, site in enumerate(structure) if site.species_string in {'Al', 'Si'}}
     oxygen_indices = [i for i, site in enumerate(structure) if site.species_string == 'O']
-    
+
     # Add only framework atoms as nodes to the new graph.
     framework_graph.add_nodes_from(framework_indices)
-    
+
+    # Per undirected edge (atom1, atom2) with atom1 < atom2, keep every bridging
+    # oxygen's periodic-image delta (jimage2 - jimage1). A bond that crosses a
+    # periodic cell boundary lands on the *same atom index* as an ordinary
+    # same-cell bond (every periodic copy of an atom shares one index), so a
+    # cycle can look closed in this graph while actually spiraling off through
+    # periodic images in real 3D space. Recording these deltas lets us verify,
+    # after cycle-finding, which candidate cycles actually close (deltas sum to
+    # (0, 0, 0)) versus which are periodicity artifacts.
+    edge_deltas = collections.defaultdict(list)
+
     # For each oxygen, find its framework neighbors. Add edges between these
     # neighbors in our new framework_graph.
     for o_idx in oxygen_indices:
         neighbors = full_structure_graph.get_connected_sites(o_idx)
-        
+
         # Filter neighbors to keep only Al/Si atoms
-        framework_neighbors = [n.index for n in neighbors if n.index in framework_indices]
-        
+        framework_neighbors = [n for n in neighbors if n.index in framework_indices]
+
         # Since CrystalNN is chemically intelligent, it should correctly identify
         # bridging oxygens as having only 2 framework neighbors. We can still
         # enforce this for maximum robustness.
         if len(framework_neighbors) == 2:
-            atom1, atom2 = framework_neighbors
+            n1, n2 = framework_neighbors
+            atom1, atom2 = n1.index, n2.index
             framework_graph.add_edge(atom1, atom2)
+
+            key = (atom1, atom2) if atom1 < atom2 else (atom2, atom1)
+            jimage1, jimage2 = (n1.jimage, n2.jimage) if atom1 < atom2 else (n2.jimage, n1.jimage)
+            delta = tuple(j2 - j1 for j1, j2 in zip(jimage1, jimage2))
+            edge_deltas[key].append(delta)
 
     # 4. (Optional) Visualize the graph before finding cycles.
     if visualize:
@@ -113,19 +129,45 @@ def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 
     # The length_bound now corresponds directly to the framework ring size.
     all_rings = list(nx.simple_cycles(framework_graph, length_bound=max_framework_ring_size))
 
-    # 6. Count the rings found. No complex filtering is needed anymore.
+    # 6. Count only the rings that actually close in 3D. For each candidate
+    # cycle, walk its edges and check whether any combination of bridging
+    # oxygens (an edge can have more than one) sums to a net translation of
+    # (0, 0, 0). If none does, the cycle never returns to its real starting
+    # atom and is a periodicity artifact, not a genuine ring.
     framework_ring_counts = collections.Counter()
+    artifact_count = 0
     for ring_path in all_rings:
-        # The length of the path in this graph IS the ring size.
-        framework_ring_counts[len(ring_path)] += 1
-            
+        cycle_edges = list(zip(ring_path, ring_path[1:] + ring_path[:1]))
+
+        per_edge_options = []
+        for a, b in cycle_edges:
+            key = (a, b) if a < b else (b, a)
+            sign = 1 if a == key[0] else -1
+            deltas = edge_deltas.get(key, [(0, 0, 0)])
+            per_edge_options.append([tuple(sign * d for d in delta) for delta in deltas])
+
+        is_real = any(
+            all(sum(axis) == 0 for axis in zip(*combo))
+            for combo in itertools.product(*per_edge_options)
+        )
+
+        if is_real:
+            # The length of the path in this graph IS the ring size.
+            framework_ring_counts[len(ring_path)] += 1
+        else:
+            artifact_count += 1
+
+    if artifact_count:
+        print(f"Filtered out {artifact_count} periodic-boundary artifact cycle(s) "
+              f"(closed in index-space but not in real 3D space).")
+
     if not framework_ring_counts:
         print("No valid framework rings found.")
     else:
         print("Found framework ring counts:")
         for size, count in sorted(framework_ring_counts.items()):
             print(f"  - {size}-membered rings: {count}")
-            
+
     return framework_ring_counts
 
 
