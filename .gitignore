@@ -28,3 +28,34 @@ CS_TEST/phonon_si_example/phonon_EntryWithCollCode64962/band.yaml
 CS_TEST/phonon_si_example/phonon_POSCAR-prim-ref_5M/band.yaml
 CS_TEST/phonon_si_example/phonon_POSCAR-prim_5M/band.yaml
 CS_TEST/phonon_si_example/phonon_gen_1595_5M/band.yaml
+
+# eucryptite POSCAR files
+CS_TEST/euc_cifs/POSCAR_1442.vasp
+CS_TEST/euc_cifs/POSCAR_2140.vasp
+CS_TEST/euc_cifs/POSCAR_2348.vasp
+CS_TEST/euc_cifs/POSCAR_3490.vasp
+CS_TEST/euc_cifs/POSCAR_435.vasp
+CS_TEST/euc_cifs/POSCAR_5507.vasp
+CS_TEST/euc_cifs/POSCAR_6302.vasp
+CS_TEST/euc_cifs/POSCAR_643.vasp
+CS_TEST/euc_cifs/POSCAR_alpha.vasp
+CS_TEST/euc_cifs/POSCAR_beta.vasp
+CS_TEST/euc_cifs/POSCAR_gamma.vasp
+
+# eucryptite family analysis outputs
+CS_TEST/family_analysis_out_euc/family_analysis_out_euc_total/filtered_euc.csv
+CS_TEST/family_analysis_out_euc/family_analysis_out_euc_total/umap_by_cluster_original.png
+CS_TEST/family_analysis_out_euc/label_umap_clusters.py
+
+# additional similarity score CSVs
+CS_TEST/similarity_score/filtered_euc_removed_log.csv
+CS_TEST/similarity_score/filtered_euc_similarity_scores.csv
+CS_TEST/similarity_score/gen_643_mattergen-1428_vs_euc_references_similarity_scores.csv
+CS_TEST/similarity_score/__pycache__/dedup_filtered_euc.cpython-313.pyc
+
+# only track python and csv files (plus whatever the rules above already excluded)
+*.yaml
+*.yml
+*.cif
+*.vasp
+*.poscar
