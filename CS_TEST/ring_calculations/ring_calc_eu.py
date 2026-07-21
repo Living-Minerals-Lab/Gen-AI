@@ -113,6 +113,14 @@ def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 
         if len(framework_neighbors) == 2:
             n1, n2 = framework_neighbors
             atom1, atom2 = n1.index, n2.index
+
+            # An oxygen bridging two periodic copies of the *same* framework
+            # atom (atom1 == atom2) can't be part of any real 4- or
+            # 6-membered ring (a ring never revisits an atom); skip it so it
+            # never becomes a self-loop edge in framework_graph.
+            if atom1 == atom2:
+                continue
+
             framework_graph.add_edge(atom1, atom2)
 
             key = (atom1, atom2) if atom1 < atom2 else (atom2, atom1)
@@ -134,8 +142,22 @@ def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 
     # oxygens (an edge can have more than one) sums to a net translation of
     # (0, 0, 0). If none does, the cycle never returns to its real starting
     # atom and is a periodicity artifact, not a genuine ring.
+    #
+    # A cycle that passes the index-space check is then independently
+    # confirmed in real space: its atoms are reconstructed to actual
+    # Cartesian coordinates using the winning image combination, and every
+    # consecutive framework-atom pair must sit at a physically plausible
+    # T...T distance. This uses real lattice geometry rather than integer
+    # image bookkeeping, so it would catch any residual reference-frame bug
+    # (or CrystalNN mis-bonding) that the index-space check alone could miss.
+    MAX_TT_DISTANCE = 4.0  # Angstrom; corner-sharing AlO4/SiO4 T...T is ~3.0-3.3 A
+
+    def _distance(p1, p2):
+        return sum((c1 - c2) ** 2 for c1, c2 in zip(p1, p2)) ** 0.5
+
     framework_ring_counts = collections.Counter()
     artifact_count = 0
+    geometry_artifact_count = 0
     for ring_path in all_rings:
         cycle_edges = list(zip(ring_path, ring_path[1:] + ring_path[:1]))
 
@@ -146,20 +168,42 @@ def analyze_framework_rings(structure_file: str, max_framework_ring_size: int = 
             deltas = edge_deltas.get(key, [(0, 0, 0)])
             per_edge_options.append([tuple(sign * d for d in delta) for delta in deltas])
 
-        is_real = any(
-            all(sum(axis) == 0 for axis in zip(*combo))
-            for combo in itertools.product(*per_edge_options)
+        winning_combo = next(
+            (combo for combo in itertools.product(*per_edge_options)
+             if all(sum(axis) == 0 for axis in zip(*combo))),
+            None,
         )
 
-        if is_real:
-            # The length of the path in this graph IS the ring size.
-            framework_ring_counts[len(ring_path)] += 1
-        else:
+        if winning_combo is None:
             artifact_count += 1
+            continue
+
+        cumulative_image = (0, 0, 0)
+        cart_positions = [structure.lattice.get_cartesian_coords(structure[ring_path[0]].frac_coords)]
+        for (a, b), delta in zip(cycle_edges, winning_combo):
+            cumulative_image = tuple(c + d for c, d in zip(cumulative_image, delta))
+            b_frac = structure[b].frac_coords + cumulative_image
+            cart_positions.append(structure.lattice.get_cartesian_coords(b_frac))
+
+        max_tt_dist = max(
+            _distance(cart_positions[i], cart_positions[i + 1])
+            for i in range(len(cart_positions) - 1)
+        )
+
+        if max_tt_dist > MAX_TT_DISTANCE:
+            geometry_artifact_count += 1
+            continue
+
+        # The length of the path in this graph IS the ring size.
+        framework_ring_counts[len(ring_path)] += 1
 
     if artifact_count:
         print(f"Filtered out {artifact_count} periodic-boundary artifact cycle(s) "
               f"(closed in index-space but not in real 3D space).")
+    if geometry_artifact_count:
+        print(f"Filtered out {geometry_artifact_count} additional cycle(s) that closed "
+              f"in index-space but reconstructed to an unphysical T...T distance "
+              f"(> {MAX_TT_DISTANCE} A) in real 3D space.")
 
     if not framework_ring_counts:
         print("No valid framework rings found.")
