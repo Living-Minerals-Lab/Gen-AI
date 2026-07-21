@@ -1,108 +1,98 @@
-import json
-import argparse
-from typing import List
+from pathlib import Path
 
-from pymatgen.core.structure import Structure
-from pymatgen.entries.computed_entries import ComputedEntry
-from pymatgen.analysis.phase_diagram import PhaseDiagram, PDPlotter
+import pandas as pd
+import plotly.graph_objects as go
 
-def load_and_filter_entries(cache_file: str, chemical_system: str) -> List[ComputedEntry]:
-    """
-    Loads all results from a JSON cache file and filters them for a specific chemical system.
+SCRIPT_DIR = Path(__file__).resolve().parent
+SUMMARY_CSV = SCRIPT_DIR / "summaries" / "make_unique_summary_euc.csv"
+OUTPUT_HTML = SCRIPT_DIR / "phase_diagram_euc.html"
 
-    Args:
-        cache_file (str): Path to the JSON file containing relaxation results.
-        chemical_system (str): The chemical system to filter for (e.g., 'H-O').
+# Eucryptite (LiAlSiO4) is the balanced 1:1 combination of the two end-member
+# oxides: LiAlO2 + SiO2 -> LiAlSiO4. Every generated candidate in the summary
+# CSV shares that same stoichiometry, so they all sit at the same composition.
+X_LIALO2 = 0.0
+X_EUCRYPTITE = 0.5
+X_SIO2 = 1.0
 
-    Returns:
-        List[ComputedEntry]: A list of pymatgen ComputedEntry objects for the specified system.
-    """
-    print(f"Loading results from '{cache_file}'...")
-    
-    # Define the set of elements we are interested in
-    target_elements = set(chemical_system.split('-'))
-    
-    try:
-        with open(cache_file, 'r') as f:
-            all_data = json.load(f)
-    except FileNotFoundError:
-        print(f"Error: Cache file not found at '{cache_file}'")
-        return []
-    except json.JSONDecodeError:
-        print(f"Error: Could not decode JSON from '{cache_file}'. It may be corrupted.")
-        return []
+# Real formation energies (eV/atom, relative to the elements), from Materials
+# Project. These are the actual endpoints/hull anchor of the LiAlO2-SiO2
+# pseudo-binary join -- LiAlO2 and SiO2 are compounds, not pure elements, so
+# unlike a Li-O diagram they do NOT sit at y=0.
+EF_LIALO2 = -3.091            # mp-3427, gamma-LiAlO2, tetragonal P4_1 2_1 2, Ehull=0.000 (ground state)
+EF_SIO2 = -3.268              # mp-6930, alpha-quartz, trigonal P3_2 21 (standard SiO2 reference form)
+EF_EUCRYPTITE_ALPHA = -3.219  # mp-18220, LiAlSiO4, trigonal R3 (#146), Ehull=0.000 (matches
+                               # this project's established true ordered alpha-eucryptite structure)
 
-    print(f"Filtering for chemical system: {chemical_system}")
-    filtered_entries = []
-    for entry_id, result in all_data.items():
-        # --- FIX: Use the correct key 'structure' instead of 'final_structure' ---
-        structure = Structure.from_dict(result['final_structure'])
-        
-        # Get the set of elements present in the current structure
-        structure_elements = set(el.symbol for el in structure.composition.elements)
-        
-        # Check if the structure's elements are a subset of our target system
-        if structure_elements.issubset(target_elements):
-            entry = ComputedEntry(
-                composition=structure.composition.element_composition,
-                # --- FIX: Use the correct key 'energy' instead of 'final_energy' ---
-                energy=result['final_energy'],
-                entry_id=entry_id
-            )
-            filtered_entries.append(entry)
-            
-    print(f"Found {len(filtered_entries)} entries matching the '{chemical_system}' system.")
-    return filtered_entries
+df = pd.read_csv(SUMMARY_CSV)
+e_hull = df["Energy Above Hull (eV/atom)"]
 
-def analyze_and_plot_hull(entries: List[ComputedEntry], system_name: str):
-    """
-    Constructs, analyzes, and plots the convex energy hull for a given set of entries.
-    """
-    if not entries:
-        print("No entries to analyze. Exiting.")
-        return
-        
-    print("\nConstructing phase diagram and analyzing stability...")
-    
-    phase_diagram = PhaseDiagram(entries)
-    
-    print("\n--- Stability Analysis (Energy Above Hull) ---")
-    # Sort entries by composition for clear, ordered output
-    sorted_entries = sorted(entries, key=lambda e: e.composition.fractional_composition.to_pretty_string())
-    for entry in sorted_entries:
-        stability = phase_diagram.get_e_above_hull(entry)
-        formula = entry.composition.reduced_formula
-        print(f"  {entry.entry_id:<15} ({formula:<8}): {stability:.3f} eV/atom")
+# Every candidate's absolute formation energy, recovered from its Energy Above
+# Hull relative to the alpha-eucryptite hull point above.
+df["formation_energy"] = EF_EUCRYPTITE_ALPHA + e_hull
 
-    plotter = PDPlotter(phase_diagram, show_unstable=True)
-    plot = plotter.get_plot()
-    
-    print("\nDisplaying phase diagram plot. Close the plot window to exit.")
-    plot.show()
-    print("Analysis complete.")
+fig = go.Figure()
 
-def main():
-    """
-    Main function to parse arguments and run the analysis.
-    """
-    parser = argparse.ArgumentParser(
-        description="Generate and plot a convex energy hull from a pre-computed JSON cache."
-    )
-    parser.add_argument(
-        "json_file", 
-        type=str, 
-        help="Path to the relaxation_results.json cache file."
-    )
-    parser.add_argument(
-        "chemical_system", 
-        type=str, 
-        help="Chemical system to analyze, formatted as 'El1-El2-...' (e.g., 'H-O')."
-    )
-    args = parser.parse_args()
+# Hull line: bends through the eucryptite point, since alpha-eucryptite (a
+# genuine MP ground state, Ehull=0.000) sits below the straight LiAlO2-SiO2
+# tie-line -- i.e. it's stable against decomposing into LiAlO2 + SiO2.
+fig.add_trace(go.Scatter(
+    x=[X_LIALO2, X_EUCRYPTITE, X_SIO2],
+    y=[EF_LIALO2, EF_EUCRYPTITE_ALPHA, EF_SIO2],
+    mode="lines",
+    line=dict(color="#c3c2b7", width=2),
+    name="Hull",
+    hoverinfo="skip",
+))
 
-    # Run the workflow
-    computed_entries = load_and_filter_entries(args.json_file, args.chemical_system)
-    analyze_and_plot_hull(computed_entries, args.chemical_system)
+# Generated eucryptite candidates, plotted at the exact eucryptite
+# composition -- no jitter, so structures that share a formation energy
+# genuinely overlap/stack rather than being spread apart.
+fig.add_trace(go.Scatter(
+    x=[X_EUCRYPTITE] * len(df),
+    y=df["formation_energy"],
+    mode="markers",
+    marker=dict(color="#2a78d6", size=8, opacity=0.5, line=dict(width=0)),
+    name="Generated candidates",
+    customdata=df[["Gen ID", "Mattergen ID", "Energy Above Hull (eV/atom)"]],
+    hovertemplate=(
+        "Gen ID: %{customdata[0]}<br>"
+        "Mattergen ID: %{customdata[1]}<br>"
+        "Formation energy: %{y:.3f} eV/atom<br>"
+        "E above hull: %{customdata[2]:.3f} eV/atom"
+        "<extra></extra>"
+    ),
+))
 
-if __name__ == "__main__":
-    main()
+# Reference anchors, styled distinctly from the candidate data so they read
+# as known compounds rather than generated structures.
+fig.add_trace(go.Scatter(
+    x=[X_LIALO2, X_EUCRYPTITE, X_SIO2],
+    y=[EF_LIALO2, EF_EUCRYPTITE_ALPHA, EF_SIO2],
+    mode="markers+text",
+    marker=dict(color="#0b0b0b", size=14, symbol="diamond"),
+    text=["LiAlO2", "Eucryptite (α, R3, on hull)", "SiO2"],
+    textposition=["middle left", "top center", "middle right"],
+    textfont=dict(color="#0b0b0b", size=13),
+    name="Reference compounds (stable)",
+    hovertemplate="%{text}<br>Formation energy: %{y:.3f} eV/atom<extra></extra>",
+))
+
+fig.update_layout(
+    title="Eucryptite Pseudo-Binary Phase Diagram (LiAlO2 ↔ SiO2)",
+    xaxis=dict(
+        title="Composition (Si / (Al + Si))",
+        tickmode="array",
+        tickvals=[X_LIALO2, X_EUCRYPTITE, X_SIO2],
+        ticktext=["LiAlO2", "LiAlSiO4 (Eucryptite)", "SiO2"],
+        range=[-0.1, 1.1],
+    ),
+    yaxis=dict(title="Formation Energy (eV/atom)"),
+    plot_bgcolor="#fcfcfb",
+    paper_bgcolor="#fcfcfb",
+    font=dict(color="#0b0b0b"),
+    legend=dict(bordercolor="#e1e0d9", borderwidth=1),
+    hovermode="closest",
+)
+
+fig.write_html(OUTPUT_HTML)
+print(f"Wrote {len(df)} candidates to {OUTPUT_HTML}")
