@@ -6,15 +6,18 @@ import plotly.graph_objects as go
 SCRIPT_DIR = Path(__file__).resolve().parent
 EUC_CSV = SCRIPT_DIR / "summaries" / "make_unique_summary_euc.csv"
 PETALITE_CSV = SCRIPT_DIR / "summaries" / "all_unique_summary_petalite.csv"
+SPODUMENE_CSV = SCRIPT_DIR / "summaries" / "all_unique_summary_spodumene.csv"
 OUTPUT_HTML = SCRIPT_DIR / "phase_diagram_euc.html"
 
 # Composition axis: x = Si / (Al + Si), the atomic tetrahedral-site fraction
 # that goes from pure Al (LiAlO2) to pure Si (SiO2). Eucryptite (LiAlSiO4) is
-# LiAlO2 + SiO2 (1 Al + 1 Si) -> x=0.5. Petalite (LiAlSi4O10) is
-# LiAlO2 + 4 SiO2 (1 Al + 4 Si) -> x=4/(1+4)=0.8. Every generated candidate for
-# a given phase shares that phase's composition, so they all sit at one x.
+# LiAlO2 + SiO2 (1 Al + 1 Si) -> x=0.5. Spodumene (LiAlSi2O6) is LiAlO2 + 2
+# SiO2 (1 Al + 2 Si) -> x=2/3. Petalite (LiAlSi4O10) is LiAlO2 + 4 SiO2
+# (1 Al + 4 Si) -> x=4/(1+4)=0.8. Every generated candidate for a given phase
+# shares that phase's composition, so they all sit at one x.
 X_LIALO2 = 0.0
 X_EUCRYPTITE = 0.5
+X_SPODUMENE = 2 / 3
 X_PETALITE = 0.8
 X_SIO2 = 1.0
 
@@ -27,6 +30,18 @@ EF_SIO2 = -3.268              # mp-6930, alpha-quartz, trigonal P3_2 21 (standar
 EF_EUCRYPTITE_ALPHA = -3.219  # mp-18220, LiAlSiO4, trigonal R3 (#146), Ehull=0.000 (matches
                                # this project's established true ordered alpha-eucryptite structure)
 EF_PETALITE = -3.254          # mp-6442, LiAlSi4O10, monoclinic P2/c, Ehull=0.000 (ground state)
+
+# Spodumene (LiAlSi2O6) is different from the three references above: NO
+# known Materials Project entry at this composition sits at Ehull=0.000 (the
+# lowest is mp-558808, triclinic P1, Ef=-3.214, Ehull=0.024 -- even the real
+# natural mineral polymorph mp-6340, C2/c, is metastable at Ehull=0.034). So
+# there's no single compound whose own Ef IS the local hull value here. This
+# repo's own out.txt files independently confirm mp-558808's Ehull (~0.023,
+# consistent across multiple directories checked) against the same local
+# Li-Al-Si-O phase diagram used to score every generated candidate -- so the
+# true hull value at this composition is derived self-consistently from that,
+# not assumed:
+EF_HULL_AT_SPODUMENE = -3.214 - 0.023  # = -3.237 eV/atom (mp-558808 Ef minus its own local Ehull)
 
 # Atoms per formula unit -- needed because LiAlO2 (4 atoms/f.u.) and SiO2 (3
 # atoms/f.u.) differ, so the per-atom energy of a mechanical LiAlO2+SiO2
@@ -46,13 +61,15 @@ def tie_line(x):
 
 
 TIE_AT_EUCRYPTITE = tie_line(X_EUCRYPTITE)  # -3.1669 eV/atom
+TIE_AT_SPODUMENE = tie_line(X_SPODUMENE)    # -3.1972 eV/atom
 TIE_AT_PETALITE = tie_line(X_PETALITE)      # -3.2238 eV/atom
 
 # Re-referenced to the LiAlO2+SiO2 tie-line instead of the elements, so both
 # endpoints sit at exactly y=0 and each phase's position directly shows how
 # much more stable it is than phase-separating into LiAlO2 + SiO2.
-EUCRYPTITE_RELATIVE = EF_EUCRYPTITE_ALPHA - TIE_AT_EUCRYPTITE  # -0.0521 eV/atom
-PETALITE_RELATIVE = EF_PETALITE - TIE_AT_PETALITE              # -0.0303 eV/atom
+EUCRYPTITE_RELATIVE = EF_EUCRYPTITE_ALPHA - TIE_AT_EUCRYPTITE      # -0.0521 eV/atom
+SPODUMENE_RELATIVE = EF_HULL_AT_SPODUMENE - TIE_AT_SPODUMENE       # -0.0398 eV/atom
+PETALITE_RELATIVE = EF_PETALITE - TIE_AT_PETALITE                  # -0.0303 eV/atom
 
 
 def load_candidates(csv_path, ef_reference, tie_at_x):
@@ -66,17 +83,18 @@ def load_candidates(csv_path, ef_reference, tie_at_x):
 
 
 df_euc = load_candidates(EUC_CSV, EF_EUCRYPTITE_ALPHA, TIE_AT_EUCRYPTITE)
+df_spod = load_candidates(SPODUMENE_CSV, EF_HULL_AT_SPODUMENE, TIE_AT_SPODUMENE)
 df_pet = load_candidates(PETALITE_CSV, EF_PETALITE, TIE_AT_PETALITE)
 
 fig = go.Figure()
 
-# Hull line: bends through the eucryptite and petalite points, since both are
-# genuine MP ground states (Ehull=0.000) that sit below the straight
-# LiAlO2-SiO2 tie-line -- i.e. both are stable against decomposing into
-# LiAlO2 + SiO2.
+# Hull line: bends through the eucryptite, spodumene, and petalite points,
+# all of which sit below the straight LiAlO2-SiO2 tie-line -- i.e. all three
+# are stable against decomposing into LiAlO2 + SiO2 (spodumene's vertex uses
+# the derived near-hull value above, not a genuine Ehull=0.000 compound).
 fig.add_trace(go.Scatter(
-    x=[X_LIALO2, X_EUCRYPTITE, X_PETALITE, X_SIO2],
-    y=[0, EUCRYPTITE_RELATIVE, PETALITE_RELATIVE, 0],
+    x=[X_LIALO2, X_EUCRYPTITE, X_SPODUMENE, X_PETALITE, X_SIO2],
+    y=[0, EUCRYPTITE_RELATIVE, SPODUMENE_RELATIVE, PETALITE_RELATIVE, 0],
     mode="lines",
     line=dict(color="#c3c2b7", width=2),
     name="Hull",
@@ -105,31 +123,40 @@ def add_candidate_trace(df, x_pos, name, color):
 
 # Generated candidates, plotted at each phase's exact composition -- no
 # jitter, so structures that share a relative energy genuinely overlap/stack
-# rather than being spread apart. Fixed categorical colors (blue, orange).
+# rather than being spread apart. Fixed categorical colors (blue, orange, aqua).
 add_candidate_trace(df_euc, X_EUCRYPTITE, "Generated candidates (Eucryptite)", "#2a78d6")
+add_candidate_trace(df_spod, X_SPODUMENE, "Generated candidates (Spodumene)", "#1baf7a")
 add_candidate_trace(df_pet, X_PETALITE, "Generated candidates (Petalite)", "#eb6834")
 
 # Reference anchors, styled distinctly from the candidate data so they read
-# as known compounds rather than generated structures.
+# as known compounds rather than generated structures. Spodumene's label is
+# explicit that it's a derived near-hull estimate, not a confirmed Ehull=0.000
+# compound like the other three.
 fig.add_trace(go.Scatter(
-    x=[X_LIALO2, X_EUCRYPTITE, X_PETALITE, X_SIO2],
-    y=[0, EUCRYPTITE_RELATIVE, PETALITE_RELATIVE, 0],
+    x=[X_LIALO2, X_EUCRYPTITE, X_SPODUMENE, X_PETALITE, X_SIO2],
+    y=[0, EUCRYPTITE_RELATIVE, SPODUMENE_RELATIVE, PETALITE_RELATIVE, 0],
     mode="markers+text",
     marker=dict(color="#0b0b0b", size=14, symbol="diamond"),
-    text=["LiAlO2", "Eucryptite (α, R3, on hull)", "Petalite (on hull)", "SiO2"],
-    textposition=["middle left", "top center", "top center", "middle right"],
+    text=[
+        "LiAlO2",
+        "Eucryptite (α, R3, on hull)",
+        "Spodumene (mp-558808 basis, Ehull≈0.02, not exactly on hull)",
+        "Petalite (on hull)",
+        "SiO2",
+    ],
+    textposition=["middle left", "top center", "bottom center", "top center", "middle right"],
     textfont=dict(color="#0b0b0b", size=13),
-    name="Reference compounds (stable)",
+    name="Reference compounds",
     hovertemplate="%{text}<br>Energy rel. to LiAlO2+SiO2: %{y:.3f} eV/atom<extra></extra>",
 ))
 
 fig.update_layout(
-    title="LiAlO2–SiO2 Pseudo-Binary Phase Diagram (Eucryptite & Petalite)",
+    title="LiAlO2–SiO2 Pseudo-Binary Phase Diagram (Eucryptite, Spodumene & Petalite)",
     xaxis=dict(
         title="Composition (Si / (Al + Si))",
         tickmode="array",
-        tickvals=[X_LIALO2, X_EUCRYPTITE, X_PETALITE, X_SIO2],
-        ticktext=["LiAlO2", "LiAlSiO4 (Eucryptite)", "LiAlSi4O10 (Petalite)", "SiO2"],
+        tickvals=[X_LIALO2, X_EUCRYPTITE, X_SPODUMENE, X_PETALITE, X_SIO2],
+        ticktext=["LiAlO2", "LiAlSiO4 (Eucryptite)", "LiAlSi2O6 (Spodumene)", "LiAlSi4O10 (Petalite)", "SiO2"],
         range=[-0.1, 1.1],
     ),
     yaxis=dict(title="Energy Relative to LiAlO2 + SiO2 (eV/atom)"),
@@ -141,4 +168,7 @@ fig.update_layout(
 )
 
 fig.write_html(OUTPUT_HTML)
-print(f"Wrote {len(df_euc)} eucryptite + {len(df_pet)} petalite candidates to {OUTPUT_HTML}")
+print(
+    f"Wrote {len(df_euc)} eucryptite + {len(df_spod)} spodumene + "
+    f"{len(df_pet)} petalite candidates to {OUTPUT_HTML}"
+)
